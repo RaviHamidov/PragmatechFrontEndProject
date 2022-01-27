@@ -6,7 +6,7 @@
         01) Basic Git Commands
             > git init => Create an empty Git repository or reinitialize an existing one
 
-            > git status => Show the working tree status
+            > git status => Show the working tree status 
 
             > git add . => Add file contents to the index
 
