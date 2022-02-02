@@ -10,6 +10,8 @@ body {
   background-color: var(--dark_background-color);
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .navbar {
@@ -113,11 +115,15 @@ section {
   position: relative;
 }
 
-.strategy-top {
+section.section-strategy {
+  color: var(--light_text-color);
+}
+
+section.section-strategy .strategy-top {
   text-align: center;
 }
 
-.strategy-top h2 {
+section.section-strategy .strategy-top h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -125,10 +131,10 @@ section {
   line-height: 3.563rem;
   text-align: center;
   letter-spacing: 0.013rem;
-  color: var(--light_text-color);
+  margin: 10px 0px;
 }
 
-.strategy-top p {
+section.section-strategy .strategy-top p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -136,6 +142,61 @@ section {
   line-height: 1.25rem;
   text-align: center;
   letter-spacing: 0.013rem;
-  color: var(--light_text-color);
+  margin: 10px 0px;
+}
+
+section.section-strategy .strategy-bottom {
+  margin-top: 5rem;
+}
+
+section.section-strategy .strategy-bottom ul.bottom-items {
+  margin: 0;
+  padding-left: .1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+
+section.section-strategy .strategy-bottom ul.bottom-items li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+section.section-strategy .strategy-bottom ul.bottom-items li img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+section.section-strategy .strategy-bottom ul.bottom-items li .items-text {
+  padding-left: 1.3rem;
+}
+
+section.section-strategy .strategy-bottom ul.bottom-items li .items-text h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin: 5px 0px;
+}
+
+section.section-strategy .strategy-bottom ul.bottom-items li .items-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 5px 0px;
 }
 /*# sourceMappingURL=main.css.map */

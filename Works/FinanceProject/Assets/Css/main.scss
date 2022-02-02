@@ -11,6 +11,7 @@ body {
     background-color: var(--dark_background-color);
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -115,28 +116,79 @@ section {
     position: relative;
 }
 
-.strategy-top {
-    text-align: center;
+section.section-strategy {
+    color: var(--light_text-color);
 
-    h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 2.5rem;
-        line-height: 3.563rem;
+    .strategy-top {
         text-align: center;
-        letter-spacing: 0.013rem;
-        color: var(--light_text-color);
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2.5rem;
+            line-height: 3.563rem;
+            text-align: center;
+            letter-spacing: 0.013rem;
+            margin: 10px 0px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            text-align: center;
+            letter-spacing: 0.013rem;
+            margin: 10px 0px;
+        }
     }
 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        text-align: center;
-        letter-spacing: 0.013rem;
-        color: var(--light_text-color);
+    .strategy-bottom {
+        margin-top: 5rem;
+
+        ul.bottom-items {
+            margin: 0;
+            padding-left: .1em;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 2rem;
+
+                img {
+                    width: 3.5rem;
+                    height: 3.5rem;
+                }
+
+                .items-text {
+                    padding-left: 1.3rem;
+
+                    h5 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        margin: 5px 0px;
+                    }
+
+                    p {
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        margin: 5px 0px;
+                    }
+                }
+            }
+        }
     }
 }
