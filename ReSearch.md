@@ -14,7 +14,7 @@
 
             > git branch -M main => List, create, or delete branches
 
-            > git log => Show commit logs
+            > git log => Show commit logs 
 
             > git remote => Manage set of tracked repositories
 
