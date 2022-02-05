@@ -1,23 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --light_text-color: #ffffff;
-    --black-color: #000;
-    --dark_background-color: #252b42;
-    --primary-color: #23a6f0;
-    --testimonials_text-color: #737373;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
 body {
-    background-color: var(--dark_background-color);
-    color: var(--light_text-color);
-    margin: 0;
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: var(--Ebony_Clay);
+    color: var(--White);
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
 a {
-    color: var(--black-color);
+    color: var(--Black);
+    text-decoration: none;
 }
 
 ul {
@@ -30,22 +158,31 @@ section {
     padding: 5em 2em;
 }
 
+:root {
+    --White: #ffffff;
+    --Black: #000;
+    --Ebony_Clay: #252b42;
+    --Persian_Rose: #23a6f0;
+    --Manhattan: #8EC2F2;
+    --Sonic_Silver: #737373;
+}
+
 // header section start
 .header {
 
     // navbar section start
     .navbar {
-        background: var(--white-color);
+        background: var(--White);
         padding: 1em;
 
         .navbar-logo {
             text-decoration: none;
             font-weight: bold;
-            color: var(--light_text-color);
+            color: var(--White);
             font-size: 1.2em;
 
             a {
-                color: var(--white-color);
+                color: var(--White);
             }
         }
 
@@ -93,8 +230,8 @@ section {
             }
 
             .primary-cta {
-                background: var(--primary-color);
-                color: var(--light_text-color);
+                background: var(--Persian_Rose);
+                color: var(--White);
                 text-decoration: none;
                 padding: .6em 1.3em;
                 font-size: 1.4em;
@@ -104,7 +241,7 @@ section {
             }
 
             .learn-more-cta {
-                color: var(--light_text-color);
+                color: var(--White);
                 text-decoration: none;
                 padding: .6em 1.3em;
                 font-size: 1.4em;
@@ -114,7 +251,7 @@ section {
                 text-align: center;
                 letter-spacing: 0.013rem;
                 margin: 0.625rem 1rem;
-                border: 2px solid var(--light_text-color);
+                border: 2px solid var(--White);
             }
         }
 
@@ -274,11 +411,11 @@ main {
                 }
 
                 p {
-                    color: var(--testimonials_text-color);
+                    color: var(--Sonic_Silver);
                 }
 
                 h3 {
-                    color: var(--dark_background-color);
+                    color: var(--Ebony_Clay);
                     font-style: normal;
                     font-weight: bold;
                     font-size: 1.5rem;
@@ -294,7 +431,7 @@ main {
                     line-height: 1.5rem;
                     letter-spacing: 0.013rem;
                     margin: 0rem;
-                    color: var(--testimonials_text-color);
+                    color: var(--Sonic_Silver);
                 }
             }
         }
@@ -356,8 +493,8 @@ main {
                     box-sizing: border-box;
                     border-radius: 9.53881px;
                     border: 1.90776rem solid #FFFFFF;
-                    color: var(--dark_background-color);
-                    background: var(--light_text-color);
+                    color: var(--Ebony_Clay);
+                    background: var(--White);
 
                     img {
                         width: 3.5rem;
@@ -395,6 +532,249 @@ main {
     }
 
     // product section end
+
+    // pricing section start
+    .section-pricing {
+
+        // pricing-top section start
+        .pricing-top {
+            text-align: center;
+
+            h2 {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2.5rem;
+                line-height: 3.563rem;
+                text-align: center;
+                letter-spacing: 0.013rem;
+                margin: 0.625rem 0rem;
+            }
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                text-align: center;
+                letter-spacing: 0.013rem;
+                margin: 0.625rem 0rem;
+            }
+        }
+
+        // pricing-top section end
+
+        // pricing-bottom section start
+        .pricing-bottom {
+            margin-top: 3.75rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+            grid-row-gap: 1.313rem;
+            grid-column-gap: 1.313rem;
+
+            .bottom-cards {
+                padding: 3.125rem;
+                background: #FFFFFF;
+                border: 1px solid var(--Persian_Rose);
+                box-sizing: border-box;
+                border-radius: 0.625rem;
+
+                .card-primary {
+
+                    h3 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        line-height: 2rem;
+                        letter-spacing: 0.006rem;
+                        color: var(--Persian_Rose);
+                    }
+
+                    p {
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 0.875rem;
+                        line-height: 1.5rem;
+                        letter-spacing: 0.013rem;
+                        color: var(--Sonic_Silver);
+                    }
+                }
+
+                .card-second {
+
+                    .second-cost {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        padding-bottom: 1.875rem;
+
+                        .cost-num {
+                            font-family: 'Montserrat', sans-serif;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 2.5rem;
+                            line-height: 3.563rem;
+                            letter-spacing: 0.013rem;
+                            padding-right: 1rem;
+                            color: var(--Persian_Rose);
+                        }
+
+                        .cost-info {
+                            .info-logo {
+                                font-family: 'Montserrat', sans-serif;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 1rem;
+                                line-height: 1.5rem;
+                                letter-spacing: 0.006rem;
+                                color: var(--Persian_Rose);
+                                margin: 0rem;
+                            }
+
+                            .info-time {
+                                font-family: 'Montserrat', sans-serif;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 24px;
+                                letter-spacing: 0.2px;
+                                color: var(--Manhattan);
+                                margin: 0rem;
+                            }
+                        }
+
+                    }
+
+                    .second-card-cta {
+                        background: var(--Persian_Rose);
+                        color: var(--White);
+                        text-decoration: none;
+                        padding: .6rem 1.3rem;
+                        font-size: 1.4rem;
+                        border-radius: 0.313rem;
+                        font-weight: bold;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        // pricing-bottom section end
+    }
+
+    // pricing section end
+
+    // world section start
+    .section-world {
+        padding: 5em 2em 3em;
+
+        .world-primary {
+            h2 {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2.5rem;
+                line-height: 3.563rem;
+                letter-spacing: 0.013rem;
+                color: var(--White);
+            }
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                letter-spacing: 0.013rem;
+                color: var(--White);
+            }
+        }
+
+        .world-secondary {
+            height: 15rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    // world section end
+
+    // appointment section start
+
+    .section-appointment {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15.625rem;
+        background: var(--White);
+        margin-top: 8.813rem;
+        margin-bottom: 5rem;
+    }
+
+    .appointment-items {
+        display: flex;
+        align-items: center;
+
+        .appointment-top {
+            h1 {
+                font-weight: bold;
+                font-size: 2.5rem;
+                line-height: 3.563rem;
+                letter-spacing: 0.013rem;
+                color: var(--Ebony_Clay);
+            }
+
+            p {
+                width: 439px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: var(--Ebony_Clay);
+            }
+        }
+
+        .appointment-bottom {
+            display: flex;
+            align-items: center;
+
+            form {
+                .search-form {
+                    display: flex;
+
+                    .search-field {
+                        width: 100%;
+                        border-right: 0;
+                        background: var(--Ebony_Clay);
+                        border: 1px solid var(--White);
+                        box-sizing: border-box;
+                        border-radius: 5px 0px 0px 5px;
+                        padding-left: 20px;
+                        outline: none;
+                    }
+
+                    button {
+                        padding: 10px 22.5px;
+                        background: var(--White);
+                        border: 1px solid var(--Ebony_Clay);
+                        box-sizing: border-box;
+                        border-radius: 0px 5px 5px 0px;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 28px;
+                        letter-spacing: 0.2px;
+                        color: var(--Ebony_Clay);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    // appointment section end
 
 }
 
