@@ -142,8 +142,12 @@ body {
           box-sizing: border-box;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 a {
-  color: var(--Black);
   text-decoration: none;
 }
 
@@ -151,10 +155,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-section {
-  padding: 5em 2em;
 }
 
 :root {
@@ -167,8 +167,7 @@ section {
 }
 
 .header .navbar {
-  background: var(--White);
-  padding: 1em;
+  padding: 2rem 1rem;
 }
 
 .header .navbar .navbar-logo {
@@ -180,6 +179,20 @@ section {
 
 .header .navbar .navbar-logo a {
   color: var(--White);
+}
+
+.header .navbar .mobile-navbar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .navbar .mobile-navbar-content img {
+  width: 24px;
+  padding: 0 12px;
 }
 
 .header .navbar nav {
@@ -204,51 +217,122 @@ section {
 .header .section-home .home-left h1 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 800;
-  font-size: 2.5rem;
-  line-height: 3.563rem;
-  letter-spacing: 0.013rem;
-  margin: 2.188rem 0rem;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  /* or 142% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* light-text-color */
+  color: var(--White);
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 35px 0px;
 }
 
 .header .section-home .home-left h4 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  letter-spacing: 0.013rem;
-  margin: 2.188rem 0rem;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* light-text-color */
+  color: var(--White);
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 35px 0px;
 }
 
 .header .section-home .home-left .primary-cta {
   background: var(--Persian_Rose);
   color: var(--White);
   text-decoration: none;
-  padding: .6em 1.3em;
-  font-size: 1.4em;
-  border-radius: 5em;
+  padding: 10px 36px;
+  font-size: 14px;
+  border-radius: 37px;
   font-weight: bold;
   display: inline-block;
+  font-style: normal;
+  line-height: 22px;
+  letter-spacing: 0.2px;
 }
 
 .header .section-home .home-left .learn-more-cta {
   color: var(--White);
   text-decoration: none;
-  padding: .6em 1.3em;
-  font-size: 1.4em;
-  border-radius: 5em;
+  padding: 10px 36px;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 37px;
   font-weight: bold;
   display: inline-block;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 1rem;
+  letter-spacing: 0.2px;
+  margin: 10px 0px;
   border: 2px solid var(--White);
+  -webkit-border-radius: 37px;
+  -moz-border-radius: 37px;
+  -ms-border-radius: 37px;
+  -o-border-radius: 37px;
+}
+
+.header .section-home .home-left img {
+  position: absolute;
+  left: -5px;
+  top: calc(50% - 310px/2 - 116.34px);
+  transform: rotate(-0.28deg);
+  -webkit-transform: rotate(-0.28deg);
+  -moz-transform: rotate(-0.28deg);
+  -ms-transform: rotate(-0.28deg);
+  -o-transform: rotate(-0.28deg);
 }
 
 .header .section-home .home-right {
-  margin-top: 2rem;
   position: relative;
+}
+
+.header .section-home .home-right .right-blue-buble {
+  position: absolute;
+  width: 390.5px;
+  height: 404.53px;
+  left: -3.94px;
+  top: calc(50% - 404.53px/2 + 3.96px);
+  mix-blend-mode: normal;
+  -webkit-transform: rotate(-1.13deg);
+          transform: rotate(-1.13deg);
+  z-index: -1;
+}
+
+.header .section-home .home-right .right-light-buble {
+  position: absolute;
+  width: 390.5px;
+  height: 404.53px;
+  right: 3.94px;
+  top: calc(50% - 404.53px/2 - 20.43px);
+  -webkit-transform: rotate(65.37deg);
+          transform: rotate(65.37deg);
+  z-index: -1;
+}
+
+main .section-strategy {
+  padding: 65px 0px;
 }
 
 main .section-strategy .strategy-top {
@@ -259,31 +343,32 @@ main .section-strategy .strategy-top h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
-  line-height: 3.563rem;
+  font-size: 40px;
+  line-height: 57px;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  letter-spacing: 0.2px;
+  margin: 10px 0px;
 }
 
 main .section-strategy .strategy-top p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  letter-spacing: 0.2px;
+  margin: 10px 0px;
+  padding: 0 2rem;
 }
 
 main .section-strategy .strategy-bottom {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 main .section-strategy .strategy-bottom ul.bottom-items {
   margin: 0;
-  padding-left: .1em;
+  padding-left: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
@@ -300,36 +385,41 @@ main .section-strategy .strategy-bottom ul.bottom-items li.items-card {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem;
+  padding: 35px 20px;
+  border-radius: 2px;
 }
 
 main .section-strategy .strategy-bottom ul.bottom-items li.items-card img {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 44px;
+  height: 44px;
 }
 
 main .section-strategy .strategy-bottom ul.bottom-items li.items-card .card-text {
-  padding-left: 1.3rem;
+  padding-left: 22px;
 }
 
 main .section-strategy .strategy-bottom ul.bottom-items li.items-card .card-text h5 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.013rem;
-  margin: 0.313rem 0rem;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin: 5px 0px;
 }
 
 main .section-strategy .strategy-bottom ul.bottom-items li.items-card .card-text p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  letter-spacing: 0.013rem;
-  margin: 0.313rem 0rem;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 5px 0px;
+}
+
+main .section-testimonials {
+  padding: 55px 50px;
 }
 
 main .section-testimonials .testimonials-top {
@@ -340,22 +430,21 @@ main .section-testimonials .testimonials-top h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
-  line-height: 3.563rem;
+  font-size: 40px;
+  line-height: 57px;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  letter-spacing: 0.2px;
+  margin: 10px 0px;
 }
 
 main .section-testimonials .testimonials-top p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 5px 0px;
 }
 
 main .section-testimonials .testimonials-bottom {
@@ -363,22 +452,33 @@ main .section-testimonials .testimonials-bottom {
 }
 
 main .section-testimonials .testimonials-bottom .bottom-card {
-  background: #FFFFFF;
-  border: 0.063rem solid #DEDEDE;
+  background: var(--White);
+  border: 1px solid #DEDEDE;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 0.313rem;
-  margin: 1.875rem 0rem;
+  border-radius: 5px;
+  margin: 30px 0px;
   text-align: center;
-  padding: 2.5rem 3.031rem;
+  padding: 40px 35px;
 }
 
 main .section-testimonials .testimonials-bottom .bottom-card img {
   border-radius: 50%;
 }
 
+main .section-testimonials .testimonials-bottom .bottom-card .card-stars img {
+  border-radius: 0;
+}
+
 main .section-testimonials .testimonials-bottom .bottom-card p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
   color: var(--Sonic_Silver);
+  margin: 15px 0px;
 }
 
 main .section-testimonials .testimonials-bottom .bottom-card h3 {
@@ -392,13 +492,15 @@ main .section-testimonials .testimonials-bottom .bottom-card h3 {
 }
 
 main .section-testimonials .testimonials-bottom .bottom-card h6 {
-  font-style: normal;
   font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.013rem;
-  margin: 0rem;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
   color: var(--Sonic_Silver);
+}
+
+main .section-product {
+  padding: 55px 50px;
 }
 
 main .section-product .product-top {
@@ -409,22 +511,21 @@ main .section-product .product-top h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
-  line-height: 3.563rem;
+  font-size: 40px;
+  line-height: 57px;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  letter-spacing: 0.2px;
 }
 
 main .section-product .product-top p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  letter-spacing: 0.2px;
+  margin: 30px 0px;
 }
 
 main .section-product .product-bottom {
@@ -446,28 +547,24 @@ main .section-product .product-bottom ul.bottom-items li.items-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.625rem 1.063rem;
+  background: #FFFFFF;
+  border: 1.90776px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 9.53881px;
-  border: 1.90776rem solid #FFFFFF;
+  margin: 21px 0px;
+  padding: 1rem 2.3rem;
+}
+
+main .section-product .product-bottom ul.bottom-items li.items-card i {
   color: var(--Ebony_Clay);
-  background: var(--White);
-}
-
-main .section-product .product-bottom ul.bottom-items li.items-card img {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-
-main .section-product .product-bottom ul.bottom-items li.items-card .card-text {
-  padding-left: 5rem;
+  font-size: 3.2rem;
 }
 
 main .section-product .product-bottom ul.bottom-items li.items-card .card-text h5 {
@@ -478,6 +575,7 @@ main .section-product .product-bottom ul.bottom-items li.items-card .card-text h
   line-height: 1.5rem;
   letter-spacing: 0.013rem;
   margin: 0.313rem 0rem;
+  color: var(--Ebony_Clay);
 }
 
 main .section-product .product-bottom ul.bottom-items li.items-card .card-text p {
@@ -488,6 +586,11 @@ main .section-product .product-bottom ul.bottom-items li.items-card .card-text p
   line-height: 1.25rem;
   letter-spacing: 0.013rem;
   margin: 0.313rem 0rem;
+  color: var(--Ebony_Clay);
+}
+
+main .section-pricing {
+  padding: 55px 50px;
 }
 
 main .section-pricing .pricing-top {
@@ -498,22 +601,21 @@ main .section-pricing .pricing-top h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
-  line-height: 3.563rem;
+  font-size: 40px;
+  line-height: 57px;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  letter-spacing: 0.2px;
 }
 
 main .section-pricing .pricing-top p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
-  letter-spacing: 0.013rem;
-  margin: 0.625rem 0rem;
+  letter-spacing: 0.2px;
+  margin: 30px 0px;
 }
 
 main .section-pricing .pricing-bottom {
@@ -731,4 +833,4 @@ main .appointment-items .appointment-bottom form .search-form button {
   color: var(--Ebony_Clay);
   cursor: pointer;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */

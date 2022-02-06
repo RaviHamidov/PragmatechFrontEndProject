@@ -143,8 +143,12 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 a {
-    color: var(--Black);
     text-decoration: none;
 }
 
@@ -154,9 +158,9 @@ ul {
     padding: 0;
 }
 
-section {
-    padding: 5em 2em;
-}
+// section {
+//     padding: 5em 2em;
+// }
 
 :root {
     --White: #ffffff;
@@ -172,8 +176,7 @@ section {
 
     // navbar section start
     .navbar {
-        background: var(--White);
-        padding: 1em;
+        padding: 2rem 1rem;
 
         .navbar-logo {
             text-decoration: none;
@@ -183,6 +186,16 @@ section {
 
             a {
                 color: var(--White);
+            }
+        }
+
+        .mobile-navbar-content {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 24px;
+                padding: 0 12px;
             }
         }
 
@@ -212,55 +225,110 @@ section {
             h1 {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
-                font-weight: 800;
-                font-size: 2.5rem;
-                line-height: 3.563rem;
-                letter-spacing: 0.013rem;
-                margin: 2.188rem 0rem;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 57px;
+                /* or 142% */
+                text-align: center;
+                letter-spacing: 0.2px;
+                /* light-text-color */
+                color: var(--White);
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 35px 0px;
             }
 
             h4 {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 1.25rem;
-                line-height: 1.875rem;
-                letter-spacing: 0.013rem;
-                margin: 2.188rem 0rem;
+                font-size: 20px;
+                line-height: 30px;
+                /* or 150% */
+                text-align: center;
+                letter-spacing: 0.2px;
+                /* light-text-color */
+                color: var(--White);
+                /* Inside auto layout */
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin: 35px 0px;
             }
 
             .primary-cta {
                 background: var(--Persian_Rose);
                 color: var(--White);
                 text-decoration: none;
-                padding: .6em 1.3em;
-                font-size: 1.4em;
-                border-radius: 5em;
+                padding: 10px 36px;
+                font-size: 14px;
+                border-radius: 37px;
                 font-weight: bold;
                 display: inline-block;
+                font-style: normal;
+                line-height: 22px;
+                letter-spacing: 0.2px;
             }
 
             .learn-more-cta {
                 color: var(--White);
                 text-decoration: none;
-                padding: .6em 1.3em;
-                font-size: 1.4em;
-                border-radius: 5em;
+                padding: 10px 36px;
+                font-size: 14px;
+                line-height: 22px;
+                border-radius: 37px;
                 font-weight: bold;
                 display: inline-block;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 1rem;
+                letter-spacing: 0.2px;
+                margin: 10px 0px;
                 border: 2px solid var(--White);
+                -webkit-border-radius: 37px;
+                -moz-border-radius: 37px;
+                -ms-border-radius: 37px;
+                -o-border-radius: 37px;
             }
+        }
+
+        .home-left img {
+            position: absolute;
+            left: -5px;
+            top: calc(50% - 310px/2 - 116.34px);
+            transform: rotate(-0.28deg);
+            -webkit-transform: rotate(-0.28deg);
+            -moz-transform: rotate(-0.28deg);
+            -ms-transform: rotate(-0.28deg);
+            -o-transform: rotate(-0.28deg);
         }
 
         // home-left section end
 
         // home-right section start
         .home-right {
-            margin-top: 2rem;
             position: relative;
+
+            .right-blue-buble {
+                position: absolute;
+                width: 390.5px;
+                height: 404.53px;
+                left: -3.94px;
+                top: calc(50% - 404.53px/2 + 3.96px);
+                mix-blend-mode: normal;
+                transform: rotate(-1.13deg);
+                z-index: -1;
+            }
+
+            .right-light-buble {
+                position: absolute;
+                width: 390.5px;
+                height: 404.53px;
+                right: 3.94px;
+                top: calc(50% - 404.53px/2 - 20.43px);
+                transform: rotate(65.37deg);
+                z-index: -1;
+            }
         }
 
         // home-right section end
@@ -278,6 +346,7 @@ main {
 
     // strategy section start
     .section-strategy {
+        padding: 65px 0px;
 
         // strategy-top section start
         .strategy-top {
@@ -287,22 +356,23 @@ main {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 2.5rem;
-                line-height: 3.563rem;
+                font-size: 40px;
+                line-height: 57px;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                letter-spacing: 0.2px;
+                margin: 10px 0px;
             }
 
             p {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 0.875rem;
-                line-height: 1.25rem;
+                font-size: 14px;
+                line-height: 20px;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                letter-spacing: 0.2px;
+                margin: 10px 0px;
+                padding: 0 2rem;
             }
         }
 
@@ -310,11 +380,11 @@ main {
 
         // strategy-bottom section start
         .strategy-bottom {
-            margin-top: 5rem;
+            margin-top: 3rem;
 
             ul.bottom-items {
                 margin: 0;
-                padding-left: .1em;
+                padding-left: 1rem;
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 
@@ -322,34 +392,35 @@ main {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    padding: 2rem;
+                    padding: 35px 20px;
+                    border-radius: 2px;
 
                     img {
-                        width: 3.5rem;
-                        height: 3.5rem;
+                        width: 44px;
+                        height: 44px;
                     }
 
                     .card-text {
-                        padding-left: 1.3rem;
+                        padding-left: 22px;
 
                         h5 {
                             font-family: 'Montserrat', sans-serif;
                             font-style: normal;
                             font-weight: bold;
-                            font-size: 1rem;
-                            line-height: 1.5rem;
-                            letter-spacing: 0.013rem;
-                            margin: 0.313rem 0rem;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            margin: 5px 0px;
                         }
 
                         p {
                             font-family: 'Montserrat', sans-serif;
                             font-style: normal;
                             font-weight: 500;
-                            font-size: 0.875rem;
-                            line-height: 1.25rem;
-                            letter-spacing: 0.013rem;
-                            margin: 0.313rem 0rem;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: 0.2px;
+                            margin: 5px 0px;
                         }
                     }
                 }
@@ -363,6 +434,7 @@ main {
 
     // testimonials section start
     .section-testimonials {
+        padding: 55px 50px;
 
         // testimonials-top section start
         .testimonials-top {
@@ -372,22 +444,21 @@ main {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 2.5rem;
-                line-height: 3.563rem;
+                font-size: 40px;
+                line-height: 57px;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                letter-spacing: 0.2px;
+                margin: 10px 0px;
             }
 
             p {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 0.875rem;
-                line-height: 1.25rem;
-                text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                margin: 5px 0px;
             }
         }
 
@@ -398,20 +469,33 @@ main {
             margin-top: 3.75rem;
 
             .bottom-card {
-                background: #FFFFFF;
-                border: 0.063rem solid #DEDEDE;
+                background: var(--White);
+                border: 1px solid #DEDEDE;
                 box-sizing: border-box;
-                border-radius: 0.313rem;
-                margin: 1.875rem 0rem;
+                border-radius: 5px;
+                margin: 30px 0px;
                 text-align: center;
-                padding: 2.5rem 3.031rem;
+                padding: 40px 35px;
 
                 img {
                     border-radius: 50%;
                 }
 
+                .card-stars {
+                    img {
+                        border-radius: 0;
+                    }
+                }
+
                 p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    letter-spacing: 0.1px;
                     color: var(--Sonic_Silver);
+                    margin: 15px 0px;
                 }
 
                 h3 {
@@ -425,12 +509,10 @@ main {
                 }
 
                 h6 {
-                    font-style: normal;
                     font-weight: 600;
-                    font-size: 0.875rem;
-                    line-height: 1.5rem;
-                    letter-spacing: 0.013rem;
-                    margin: 0rem;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
                     color: var(--Sonic_Silver);
                 }
             }
@@ -443,6 +525,7 @@ main {
 
     // product section start
     .section-product {
+        padding: 55px 50px;
 
         // product-top section start
         .product-top {
@@ -452,22 +535,21 @@ main {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 2.5rem;
-                line-height: 3.563rem;
+                font-size: 40px;
+                line-height: 57px;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                letter-spacing: 0.2px;
             }
 
             p {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 0.875rem;
-                line-height: 1.25rem;
+                font-size: 14px;
+                line-height: 20px;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                letter-spacing: 0.2px;
+                margin: 30px 0px;
             }
         }
 
@@ -487,22 +569,21 @@ main {
 
                 li.items-card {
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-between;
                     align-items: center;
-                    padding: 1.625rem 1.063rem;
+                    background: #FFFFFF;
+                    border: 1.90776px solid #FFFFFF;
                     box-sizing: border-box;
                     border-radius: 9.53881px;
-                    border: 1.90776rem solid #FFFFFF;
-                    color: var(--Ebony_Clay);
-                    background: var(--White);
+                    margin: 21px 0px;
+                    padding: 1rem 2.3rem;
 
-                    img {
-                        width: 3.5rem;
-                        height: 3.5rem;
+                    i {
+                        color: var(--Ebony_Clay);
+                        font-size: 3.2rem;
                     }
 
                     .card-text {
-                        padding-left: 5rem;
 
                         h5 {
                             font-family: 'Montserrat', sans-serif;
@@ -512,6 +593,7 @@ main {
                             line-height: 1.5rem;
                             letter-spacing: 0.013rem;
                             margin: 0.313rem 0rem;
+                            color: var(--Ebony_Clay);
                         }
 
                         p {
@@ -522,6 +604,7 @@ main {
                             line-height: 1.25rem;
                             letter-spacing: 0.013rem;
                             margin: 0.313rem 0rem;
+                            color: var(--Ebony_Clay);
                         }
                     }
                 }
@@ -535,6 +618,7 @@ main {
 
     // pricing section start
     .section-pricing {
+        padding: 55px 50px;
 
         // pricing-top section start
         .pricing-top {
@@ -544,22 +628,21 @@ main {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 2.5rem;
-                line-height: 3.563rem;
+                font-size: 40px;
+                line-height: 57px;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                letter-spacing: 0.2px;
             }
 
             p {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 0.875rem;
-                line-height: 1.25rem;
+                font-size: 14px;
+                line-height: 20px;
                 text-align: center;
-                letter-spacing: 0.013rem;
-                margin: 0.625rem 0rem;
+                letter-spacing: 0.2px;
+                margin: 30px 0px;
             }
         }
 
