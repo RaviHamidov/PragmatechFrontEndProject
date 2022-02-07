@@ -91,21 +91,6 @@ body {
   color: var(--white);
 }
 
-.header .navbar .mobile-navbar-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header .navbar .mobile-navbar-content img {
-  width: 24px !important;
-  height: 24px !important;
-  padding: 0 12px;
-}
-
 .header .navbar nav {
   display: none;
 }
@@ -377,8 +362,16 @@ main .section-testimonials .testimonials-header p {
   padding: 0 2rem;
 }
 
-main .section-testimonials .testimonials-card {
+main .section-testimonials .testimonials-cards {
   margin-top: 3.75rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+
+main .section-testimonials .testimonials-card {
+  padding: 0 10px;
 }
 
 main .section-testimonials .testimonials-card .card-content {
@@ -387,7 +380,7 @@ main .section-testimonials .testimonials-card .card-content {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
-  margin: 30px 0px;
+  margin: 10px 0px;
   text-align: center;
   padding: 40px 35px;
 }
@@ -565,6 +558,14 @@ main .section-pricing .pricing-bottom .bottom-cards {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 0.625rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+main .section-pricing .pricing-bottom .bottom-cards .card-primary {
+  margin-right: 2rem;
 }
 
 main .section-pricing .pricing-bottom .bottom-cards .card-primary h3 {
@@ -585,6 +586,7 @@ main .section-pricing .pricing-bottom .bottom-cards .card-primary p {
   line-height: 1.5rem;
   letter-spacing: 0.013rem;
   color: var(--sonic-silver);
+  margin-top: 10px;
 }
 
 main .section-pricing .pricing-bottom .bottom-cards .card-second .second-cost {
@@ -714,7 +716,7 @@ main .appointment-items {
           flex-direction: column;
 }
 
-main .appointment-items .appointment-bottom {
+main .appointment-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -724,7 +726,7 @@ main .appointment-items .appointment-bottom {
           flex-direction: column;
 }
 
-main .appointment-items .appointment-bottom h2 {
+main .appointment-bottom .card-content h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -736,7 +738,7 @@ main .appointment-items .appointment-bottom h2 {
   padding: 40px 50px;
 }
 
-main .appointment-items .appointment-bottom form {
+main .appointment-bottom .card-content form {
   padding: 0 50px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -750,7 +752,7 @@ main .appointment-items .appointment-bottom form {
           box-sizing: border-box;
 }
 
-main .appointment-items .appointment-bottom form .name {
+main .appointment-bottom .card-content form .name {
   height: 30px;
   width: 311px;
   font-style: normal;
@@ -763,7 +765,7 @@ main .appointment-items .appointment-bottom form .name {
   margin: 10px 0px;
 }
 
-main .appointment-items .appointment-bottom form .email {
+main .appointment-bottom .card-content form .email {
   height: 30px;
   width: 311px;
   font-style: normal;
@@ -776,7 +778,7 @@ main .appointment-items .appointment-bottom form .email {
   margin: 10px 0px;
 }
 
-main .appointment-items .appointment-bottom form .department {
+main .appointment-bottom .card-content form .department {
   height: 30px;
   width: 320px;
   font-style: normal;
@@ -791,7 +793,7 @@ main .appointment-items .appointment-bottom form .department {
   margin: 10px 0px;
 }
 
-main .appointment-items .appointment-bottom form .time {
+main .appointment-bottom .card-content form .time {
   height: 30px;
   width: 320px;
   font-style: normal;
@@ -806,7 +808,7 @@ main .appointment-items .appointment-bottom form .time {
   margin: 10px 0px;
 }
 
-main .appointment-items .appointment-bottom form .submit {
+main .appointment-bottom .card-content form .submit {
   padding: 15px 40px;
   position: static;
   width: 320px;
@@ -1025,10 +1027,6 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu,
-  .mobile-menu-exit {
-    display: none;
-  }
   .navbar .container {
     display: -ms-grid;
     display: grid;
@@ -1112,6 +1110,46 @@ nav li a:hover {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: row !important;
             flex-direction: row !important;
+  }
+  .home-right {
+    position: relative;
+    margin-top: 39px;
+  }
+  .home-right .right-blue-buble {
+    position: absolute;
+    width: 390.5px;
+    height: 404.53px;
+    left: 205.94px !important;
+    top: calc(50% - 404.53px/2 + 3.96px);
+    mix-blEnd-mode: normal;
+    -webkit-transform: rotate(-1.13deg);
+            transform: rotate(-1.13deg);
+    z-index: -1;
+    padding-left: 15px;
+  }
+  .home-right .right-blue-buble img {
+    width: 390.5px !important;
+    height: 404.53px !important;
+  }
+  .home-right .right-light-buble {
+    position: absolute;
+    width: 390.5px;
+    height: 404.53px;
+    right: 181px !important;
+    top: calc(50% - 404.53px/2 - 1.57px);
+    -webkit-transform: rotate(5.37deg);
+            transform: rotate(5.37deg);
+    z-index: -1;
+  }
+  .home-right .right-light-buble img {
+    width: 390.5px !important;
+    height: 404.53px !important;
+  }
+  .home-right .right-phone img {
+    width: 370px;
+    height: 457.98px;
+    margin-left: 218.25px !important;
+    top: -1px;
   }
 }
 /*# sourceMappingURL=style.css.map */

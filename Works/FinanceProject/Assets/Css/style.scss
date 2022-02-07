@@ -20,17 +20,6 @@
             }
         }
 
-        .mobile-navbar-content {
-            display: flex;
-            align-items: center;
-
-            img {
-                width: 24px !important;
-                height: 24px !important;
-                padding: 0 12px;
-            }
-        }
-
         nav {
             display: none;
         }
@@ -316,15 +305,21 @@ main {
         // testimonials-top section End
 
         // testimonials-bottom section start
-        .testimonials-card {
+        .testimonials-cards {
             margin-top: 3.75rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+        }
+
+        .testimonials-card {
+            padding: 0 10px;
 
             .card-content {
                 background: var(--white);
                 border: 1px solid var(--white);
                 box-sizing: border-box;
                 border-radius: 5px;
-                margin: 30px 0px;
+                margin: 10px 0px;
                 text-align: center;
                 padding: 40px 35px;
 
@@ -513,8 +508,11 @@ main {
                 border: 1px solid var(--persian-rose);
                 box-sizing: border-box;
                 border-radius: 0.625rem;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 
                 .card-primary {
+                    margin-right: 2rem;
 
                     h3 {
                         font-family: 'Montserrat', sans-serif;
@@ -534,6 +532,7 @@ main {
                         line-height: 1.5rem;
                         letter-spacing: 0.013rem;
                         color: var(--sonic-silver);
+                        margin-top: 10px;
                     }
                 }
 
@@ -660,11 +659,13 @@ main {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
 
-        .appointment-bottom {
-            display: flex;
-            flex-direction: column;
+    .appointment-bottom {
+        display: flex;
+        flex-direction: column;
 
+        .card-content {
             h2 {
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
@@ -676,7 +677,7 @@ main {
                 color: var(--ebony-clay);
                 padding: 40px 50px;
             }
-
+    
             form {
                 padding: 0 50px;
                 font-family: 'Montserrat', sans-serif;
@@ -688,7 +689,7 @@ main {
                 letter-spacing: 0.2px;
                 color: var(--ebony-clay);
                 box-sizing: border-box;
-
+    
                 .name {
                     height: 30px;
                     width: 311px;
@@ -701,7 +702,7 @@ main {
                     color: #737373;
                     margin: 10px 0px;
                 }
-
+    
                 .email {
                     height: 30px;
                     width: 311px;
@@ -714,7 +715,7 @@ main {
                     color: #737373;
                     margin: 10px 0px;
                 }
-
+    
                 .department {
                     height: 30px;
                     width: 320px;
@@ -728,7 +729,7 @@ main {
                     box-sizing: border-box;
                     margin: 10px 0px;
                 }
-
+    
                 .time {
                     height: 30px;
                     width: 320px;
@@ -742,7 +743,7 @@ main {
                     box-sizing: border-box;
                     margin: 10px 0px;
                 }
-
+    
                 .submit {
                     padding: 15px 40px;
                     position: static;
@@ -763,14 +764,14 @@ main {
                     letter-spacing: 0.2px;
                     color: var(--white);
                 }
+        }
 
-            }
         }
     }
-
-    // appointment section End
-
 }
+
+// appointment section End
+
 
 // main section End
 
@@ -999,10 +1000,10 @@ nav {
 
 @media only screen and (min-width: 768px) {
 
-    .mobile-menu,
-    .mobile-menu-exit {
-        display: none;
-    }
+    // .mobile-menu,
+    // .mobile-menu-exit {
+    //     display: none;
+    // }
 
     .navbar .container {
         display: grid;
@@ -1067,5 +1068,49 @@ nav {
     .home-left-cta {
         display: flex;
         flex-direction: row !important;
+    }
+
+    .home-right {
+        position: relative;
+        margin-top: 39px;
+
+        .right-blue-buble {
+            position: absolute;
+            width: 390.5px;
+            height: 404.53px;
+            left: 205.94px !important;
+            top: calc(50% - 404.53px/2 + 3.96px);
+            mix-blEnd-mode: normal;
+            transform: rotate(-1.13deg);
+            z-index: -1;
+            padding-left: 15px;
+
+            img {
+                width: 390.5px !important;
+                height: 404.53px !important;
+            }
+        }
+
+        .right-light-buble {
+            position: absolute;
+            width: 390.5px;
+            height: 404.53px;
+            right: 181px !important;
+            top: calc(50% - 404.53px/2 - 1.57px);
+            transform: rotate(5.37deg);
+            z-index: -1;
+
+            img {
+                width: 390.5px !important;
+                height: 404.53px !important;
+            }
+        }
+
+        .right-phone img {
+            width: 370px;
+            height: 457.98px;
+            margin-left: 218.25px !important;
+            top: -1px;
+        }
     }
 }
