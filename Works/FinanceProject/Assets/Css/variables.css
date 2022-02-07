@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=variables.css.map */
+:root {
+  --font: 'Montserrat', sans-serif;
+  --white: #ffffff;
+  --black: #000;
+  --ebony-clay: #252b42;
+  --persian-rose: #23a6f0;
+  --manhattan: #8EC2F2;
+  --sonic-silver: #737373;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--ebony-clay);
+  color: var(--white);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=variables.css.map */
