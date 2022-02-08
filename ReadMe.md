@@ -17,12 +17,12 @@
             > git push -u origin main/master
     ```
     - [Documentation]()
-    - [Code]()
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day01-day02--8-9-january-2022)
     ```
-        01) GitHub da "PragmatechFrontEndProject" adli Repo yaradin
-        02) Interden hazir dizayn goturub onun uzerinde isleyin, FirstWebPage adli foldere yerlesdirin
+        01) Create a Repo named "PragmatechFrontEndProject" on GitHub
+
+        02) Get a ready-made design from the Internet and work on it, place it in a folder called "FirstWebPage"
     ```
     - [Solution]()
 
