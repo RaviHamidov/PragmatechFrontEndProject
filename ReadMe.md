@@ -55,7 +55,7 @@
 
         02) The task must be uploaded to a repo called NamingConventionAction
     ```
-    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)
+    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works) 
 
 ## Lesson-04 [22/01/2022] & Lesson-05 [23/01/2022] 
 
@@ -81,11 +81,11 @@
     - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 
 - Task
-    - [Content](https://github.com/PragmatechEducation/FrontEnd03#day04-05--122-23-january-2022-figma)
+    - [Content](https://github.com/PragmatechEducation/FrontEnd03#day04-05--122-23-january-2022-figma) 
     ```
         01) Verilen Figma dizayna baxaraq bacardiginiz qeder eynisini hazirlamaga calisin
     ```
-    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)
+    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)   
 
 ## Lesson-06 [29/01/2022] & Lesson-07 [30/01/2022] 
 
