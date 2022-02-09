@@ -24,7 +24,7 @@
 
         02) Get a ready-made design from the Internet and work on it, place it in a folder called "FirstWebPage"
     ```
-    - - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)
+    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)
 
 ## Lesson-03 [15/01/2022] 
 
