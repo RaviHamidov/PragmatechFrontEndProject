@@ -24,7 +24,7 @@
 
         02) Get a ready-made design from the Internet and work on it, place it in a folder called "FirstWebPage"
     ```
-    - [Solution]()
+    - - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)
 
 ## Lesson-03 [15/01/2022] 
 
@@ -42,7 +42,6 @@
             > Css Position
     ```
     - [Documentation]()
-    - [Code]()
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day03--15-january-2022-namingconventioninaction)
     ```
@@ -77,7 +76,6 @@
             > Grid
     ```
     - [Documentation]()
-    - [Code]()
 
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day04-05--122-23-january-2022-figma)
