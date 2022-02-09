@@ -31,7 +31,7 @@
     <br>
     <br>
     <br>
-    <img style="margin:0 5rem" src="../Storage/Screenshot_1.png"> 
+    <img style="margin: 0 20%" src="../Storage/Screenshot_1.png"> 
     <img src="../Storage/Screenshot_2.png"> 
     <img src="../Storage/Screenshot_3.png">
     <img src="../Storage/Screenshot_4.png">
