@@ -16,7 +16,7 @@
             > git remote v
             > git push -u origin main/master
     ```
-    - [Documentation]()
+    - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day01-day02--8-9-january-2022)
     ```
@@ -43,7 +43,7 @@
             > Css FlexBox
             > Css Position
     ```
-    - [Documentation]()
+    - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day03--15-january-2022-namingconventioninaction)
     ```
@@ -55,7 +55,7 @@
 
         02) The task must be uploaded to a repo called NamingConventionAction
     ```
-    - [Solution]()
+    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)
 
 ## Lesson-04 [22/01/2022] & Lesson-05 [23/01/2022] 
 
@@ -78,14 +78,14 @@
             > FlexBox
             > Grid
     ```
-    - [Documentation]()
+    - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day04-05--122-23-january-2022-figma)
     ```
         01) Verilen Figma dizayna baxaraq bacardiginiz qeder eynisini hazirlamaga calisin
     ```
-    - [Solution]()
+    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)
 
 ## Lesson-06 [29/01/2022] & Lesson-07 [30/01/2022] 
 
@@ -105,8 +105,7 @@
             > padding
             > button
     ```
-    - [Documentation]()
-    - [Code]()
+    - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day06-07--29-30-january-2022)
