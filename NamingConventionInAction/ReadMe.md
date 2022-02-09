@@ -31,7 +31,7 @@
     <br>
     <br>
     <br>
-    <div style="display: flex; justify-content:center; flex-direction:column">
+    <div style="margin:0 5rem">
     <img src="../Storage/Screenshot_1.png"> 
     <img src="../Storage/Screenshot_2.png"> 
     <img src="../Storage/Screenshot_3.png">
