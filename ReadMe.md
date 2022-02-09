@@ -35,7 +35,9 @@
             > Camel Case
             > Pascal Case
             > Kebab Case
+
         02) BEM
+
         03) Css
             > Css Grid
             > Css FlexBox
@@ -45,12 +47,13 @@
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day03--15-january-2022-namingconventioninaction)
     ```
-        01) Bir template secin asagidaki prosesleri ardicilliqla yerine yetirin
-            > LightShot la WireFrame ni hazirlayin
-            > Html strukturunu ve adlandirmani edin
-            > Hansi adlandirma usulundan ve niye istifade etdiyinizi qeyd edin
-            > Layihenin Css ni yazin
-        02) Task NamingConventionAction adli folder formatinda repoya yuklenmelidir
+        01) Select a template and perform the following processes in sequence
+                 > Prepare WireFrame with LightShot
+                 > Follow the html structure and naming
+                 > Indicate which naming method and why you use it
+                 > Write the Css of the project
+
+        02) The task must be uploaded to a repo called NamingConventionAction
     ```
     - [Solution]()
 
