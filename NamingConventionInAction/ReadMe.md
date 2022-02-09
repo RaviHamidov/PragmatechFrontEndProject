@@ -31,10 +31,12 @@
     <br>
     <br>
     <br>
+    <div style="display: flex; justify-content:center; flex-direction:column">
     <img src="../Storage/Screenshot_1.png"> 
     <img src="../Storage/Screenshot_2.png"> 
     <img src="../Storage/Screenshot_3.png">
     <img src="../Storage/Screenshot_4.png">
     <img src="../Storage/Screenshot_5.png">
     <img src="../Storage/Screenshot_6.png">
-    <img src="../Storage/Screenshot_7.png">
+    <img src="../Storage/Screenshot_7.png">    
+    </div>
