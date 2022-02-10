@@ -5,7 +5,7 @@
     .btn-primary {
         color: $color_primary;
         background: $color_primary-bg;
-        // transition: background-color 0.2s;
+        transition: background-color 0.2s;
         border-radius: 0.3rem;
     }
 
@@ -16,7 +16,7 @@
     .btn-secondary {
         color: $color_secondary;
         background: $color_secondary-bg;
-        // transition: background-color 0.2s;
+        transition: background-color 0.2s;
         border-radius: 0.3rem;
     }
 
@@ -27,7 +27,7 @@
     .btn-succes {
         color: $color_succes;
         background: $color_succes-bg;
-        // transition: background-color 0.2s;
+        transition: background-color 0.2s;
         border-radius: 0.3rem;
     }
 
@@ -38,7 +38,7 @@
     .btn-danger {
         color: $color_danger;
         background: $color_danger-bg;
-        // transition: background-color 0.2s;
+        transition: background-color 0.2s;
         border-radius: 0.3rem;
     }
 

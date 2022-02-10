@@ -6,6 +6,8 @@
 .btn-color .btn-primary {
   color: #ffffff;
   background: #5e2572;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
   border-radius: 0.3rem;
 }
 
@@ -16,6 +18,8 @@
 .btn-color .btn-secondary {
   color: #212529;
   background: #d9dbdc;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
   border-radius: 0.3rem;
 }
 
@@ -26,6 +30,8 @@
 .btn-color .btn-succes {
   color: #ffffff;
   background: #00c689;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
   border-radius: 0.3rem;
 }
 
@@ -36,5 +42,11 @@
 .btn-color .btn-danger {
   color: #ffffff;
   background: #fc7242;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
   border-radius: 0.3rem;
+}
+
+.btn-color .btn-danger:hover {
+  background: #e85e2e;
 }
