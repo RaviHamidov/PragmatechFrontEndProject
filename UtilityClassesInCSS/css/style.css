@@ -5,5 +5,11 @@
 
 .btn-color .btn-primary {
   color: #ffffff;
-  background-color: #5e2572;
+  background: #5e2572;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.btn-color .btn-primary:hover {
+  background: #4a115e;
 }
