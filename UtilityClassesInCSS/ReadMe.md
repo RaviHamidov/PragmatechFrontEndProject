@@ -3,12 +3,12 @@
 - Lesson
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day08-09-5-6-fevral-2022-utilityclassesincss)
     ```
-        > Ortaq class istifadəsi
-        > Optimal kod yaza bilmək üçün üsullar
-        > CSS dəyişənlərdən istifadə
-        > Flex istifadəsi zamanı diqqət olunmalı olan məqamlar
-        > CSS background istifadəsi
-        > reset.css məntiqi
+        > Common class usage
+        > Optimal code writing methods
+        > Using CSS variables
+        > Points to consider when using Flex
+        > Using CSS background
+        > reset.css logic
     ```
     - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 

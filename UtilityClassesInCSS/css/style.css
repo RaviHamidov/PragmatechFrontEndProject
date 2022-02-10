@@ -1,0 +1,9 @@
+.btn {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.btn-color .btn-primary {
+  color: #ffffff;
+  background-color: #5e2572;
+}
