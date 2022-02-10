@@ -6,9 +6,43 @@
         color: $color_primary;
         background: $color_primary-bg;
         transition: background 0.2s;
+        border-radius: 0.3rem;
     }
 
     .btn-primary:hover {
         background: $color_primary-bg-sh;
+    }
+
+    .btn-secondary {
+        color: $color_secondary;
+        background: $color_secondary-bg;
+        transition: background 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-secondary:hover {
+        background: $color_secondary-bg-sh;
+    }
+
+    .btn-succes {
+        color: $color_succes;
+        background: $color_succes-bg;
+        transition: background 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-succes:hover {
+        background: $color_succes-bg-sh;
+    }
+
+    .btn-danger {
+        color: $color_danger;
+        background: $color_danger-bg;
+        transition: background 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-danger:hover {
+        background: $color_danger-bg-sh;
     }
 }

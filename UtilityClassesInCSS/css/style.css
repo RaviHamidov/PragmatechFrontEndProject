@@ -8,8 +8,33 @@
   background: #5e2572;
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
+  border-radius: 0.3rem;
 }
 
 .btn-color .btn-primary:hover {
   background: #4a115e;
+}
+
+.btn-color .btn-secondary {
+  color: #212529;
+  background: #d9dbdc;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+  border-radius: 0.3rem;
+}
+
+.btn-color .btn-secondary:hover {
+  background: #c5c7c8;
+}
+
+.btn-color .btn-secondary {
+  color: #ffffff;
+  background: #00c689;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+  border-radius: 0.3rem;
+}
+
+.btn-color .btn-secondary:hover {
+  background: #c5c7c8;
 }
