@@ -677,7 +677,7 @@ main {
                 color: var(--ebony-clay);
                 padding: 40px 50px;
             }
-    
+
             form {
                 padding: 0 50px;
                 font-family: 'Montserrat', sans-serif;
@@ -689,7 +689,7 @@ main {
                 letter-spacing: 0.2px;
                 color: var(--ebony-clay);
                 box-sizing: border-box;
-    
+
                 .name {
                     height: 30px;
                     width: 311px;
@@ -702,7 +702,7 @@ main {
                     color: #737373;
                     margin: 10px 0px;
                 }
-    
+
                 .email {
                     height: 30px;
                     width: 311px;
@@ -715,7 +715,7 @@ main {
                     color: #737373;
                     margin: 10px 0px;
                 }
-    
+
                 .department {
                     height: 30px;
                     width: 320px;
@@ -729,7 +729,7 @@ main {
                     box-sizing: border-box;
                     margin: 10px 0px;
                 }
-    
+
                 .time {
                     height: 30px;
                     width: 320px;
@@ -743,7 +743,7 @@ main {
                     box-sizing: border-box;
                     margin: 10px 0px;
                 }
-    
+
                 .submit {
                     padding: 15px 40px;
                     position: static;
@@ -764,7 +764,7 @@ main {
                     letter-spacing: 0.2px;
                     color: var(--white);
                 }
-        }
+            }
 
         }
     }
@@ -781,7 +781,7 @@ footer {
         .container {
             .contact-content {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
                 padding: 40px 55px;
 
                 // contact-get-in-touch start
@@ -925,36 +925,34 @@ footer {
 
 // Credit Section Start 
 .credit {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: var(--white);
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    color: var(--ebony-clay);
+    padding: 25px 70.5px;
+
+    a {
+        text-decoration: none;
+        color: var(--persian-rose);
+    }
+
+    h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        text-align: center;
+        letter-spacing: 0.2px;
         color: var(--ebony-clay);
-        padding: 25px 70.5px;
-
-        a {
-            text-decoration: none;
-            color: var(--persian-rose);
-        }
-
-        h6 {
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 24px;
-            /* or 171% */
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: var(--ebony-clay);
-            margin: 0px 0px;
-        }
+        margin: 0px 0px;
     }
 }
 
 // Credit Section End
-
 
 nav.menu-btn {
     display: block;
@@ -963,7 +961,7 @@ nav.menu-btn {
 nav {
     position: fixed;
     z-index: 999;
-    width: 66%;
+    // width: 0%;
     right: 0;
     top: 0;
     background: #3f516e;

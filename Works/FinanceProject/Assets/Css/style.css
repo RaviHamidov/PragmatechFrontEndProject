@@ -832,8 +832,8 @@ main .appointment-bottom .card-content form .submit {
 footer .section-contact .container .contact-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  -ms-grid-columns: (minmax(17rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   padding: 40px 55px;
 }
 
@@ -955,7 +955,8 @@ footer .section-contact .container .contact-content .contact-resources a {
   display: block;
 }
 
-.credit .container {
+.credit {
+  width: 100% !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -970,12 +971,12 @@ footer .section-contact .container .contact-content .contact-resources a {
   padding: 25px 70.5px;
 }
 
-.credit .container a {
+.credit a {
   text-decoration: none;
   color: var(--persian-rose);
 }
 
-.credit .container h6 {
+.credit h6 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -995,7 +996,6 @@ nav.menu-btn {
 nav {
   position: fixed;
   z-index: 999;
-  width: 66%;
   right: 0;
   top: 0;
   background: #3f516e;
@@ -1152,4 +1152,3 @@ nav li a:hover {
     top: -1px;
   }
 }
-/*# sourceMappingURL=style.css.map */
