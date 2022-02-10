@@ -2,6 +2,9 @@
 @import "./variable.scss";
 
 .btn-color {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+
     .btn-primary {
         color: $color_primary;
         background: $color_primary-bg;
@@ -44,5 +47,60 @@
 
     .btn-danger:hover {
         background: $color_danger-bg-sh;
+    }
+    
+    .btn-warning {
+        color: $color_warning;
+        background: $color_warning-bg;
+        transition: background-color 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-warning:hover {
+        background: $color_warning-bg-sh;
+    }
+
+    .btn-info {
+        color: $color_info;
+        background: $color_info-bg;
+        transition: background-color 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-info:hover {
+        background: $color_info-bg-sh;
+    }
+
+    .btn-light {
+        color: $color_light;
+        background: $color_light-bg;
+        transition: background-color 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-light:hover {
+        background: $color_light-bg-sh;
+    }
+
+    .btn-dark {
+        color: $color_dark;
+        background: $color_dark-bg;
+        transition: background-color 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-dark:hover {
+        background: $color_dark-bg-sh;
+    }
+
+    .btn-link {
+        color: $color_link;
+        background: $color_link-bg;
+        transition: background-color 0.2s;
+        border-radius: 0.3rem;
+    }
+
+    .btn-link:hover {
+        background: $color_link-bg-sh;
     }
 }

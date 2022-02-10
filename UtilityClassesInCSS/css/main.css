@@ -50,3 +50,51 @@
 .btn-color .btn-danger:hover {
   background: #e85e2e;
 }
+
+.btn-color .btn-warning {
+  color: #212529;
+  background: #ffc100;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  border-radius: 0.3rem;
+}
+
+.btn-color .btn-warning:hover {
+  background: #ebad00;
+}
+
+.btn-color .btn-info {
+  color: #ffffff;
+  background: #4d13d1;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  border-radius: 0.3rem;
+}
+
+.btn-color .btn-info:hover {
+  background: #3900bd;
+}
+
+.btn-color .btn-light {
+  color: #212529;
+  background: #f8f9fa;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  border-radius: 0.3rem;
+}
+
+.btn-color .btn-light:hover {
+  background: #e4e5e6;
+}
+
+.btn-color .btn-dark {
+  color: #ffffff;
+  background: #4f4a60;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  border-radius: 0.3rem;
+}
+
+.btn-color .btn-dark:hover {
+  background: #3b364c;
+}
