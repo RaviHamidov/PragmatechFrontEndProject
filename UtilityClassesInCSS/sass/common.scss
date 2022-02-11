@@ -1,4 +1,28 @@
 .btn {
     padding: 1rem;
     text-decoration: none;
+    margin: 0.5rem;
 }
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+a { 
+    text-align: center;
+    display: inline-block;
+}
+
+
+.btn-color>a {
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+}
+
+.btn-rounded>a {
+    border-radius: 2rem;
+    transition: background-color 0.2s;
+}
+
+

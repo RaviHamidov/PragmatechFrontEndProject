@@ -1,15 +1,20 @@
-@import "./common.scss";
 @import "./variable.scss";
+@import "./common.scss";
 
-.btn-color {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+/* Demeli Main.css haqqinda info 
+   1 => Single color buttons (7-90) 
+   2 => Rounded buttons (7-90)
+   3 => Outlined buttons (94-191)
+   4 => */
+
+// Rounded & Single Color buttons Start
+
+.btn-color,
+.btn-rounded {
 
     .btn-primary {
         color: $color_primary;
         background: $color_primary-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-primary:hover {
@@ -19,8 +24,6 @@
     .btn-secondary {
         color: $color_secondary;
         background: $color_secondary-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-secondary:hover {
@@ -30,8 +33,6 @@
     .btn-succes {
         color: $color_succes;
         background: $color_succes-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-succes:hover {
@@ -41,19 +42,15 @@
     .btn-danger {
         color: $color_danger;
         background: $color_danger-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-danger:hover {
         background: $color_danger-bg-sh;
     }
-    
+
     .btn-warning {
         color: $color_warning;
         background: $color_warning-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-warning:hover {
@@ -63,8 +60,6 @@
     .btn-info {
         color: $color_info;
         background: $color_info-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-info:hover {
@@ -74,8 +69,6 @@
     .btn-light {
         color: $color_light;
         background: $color_light-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-light:hover {
@@ -85,8 +78,6 @@
     .btn-dark {
         color: $color_dark;
         background: $color_dark-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-dark:hover {
@@ -95,12 +86,209 @@
 
     .btn-link {
         color: $color_link;
-        background: $color_link-bg;
-        transition: background-color 0.2s;
-        border-radius: 0.3rem;
     }
 
     .btn-link:hover {
-        background: $color_link-bg-sh;
+        color: $color_link;
+        text-decoration: underline !important;
     }
 }
+
+// Rounded & Single Color buttons End
+
+// Outlined buttons Start
+.btn-outlined {
+
+    .btn-primary {
+        color: $color_primary-bg;
+        background: $color_primary;
+        border: 1px solid $color_primary-bg;
+    }
+
+    .btn-primary:hover {
+        color: $color_primary;
+        background: $color_primary-bg;
+    }
+
+    .btn-secondary {
+        color: $color_secondary-bg;
+        background: $color_primary;
+        border: 1px solid $color_secondary-bg;
+    }
+
+    .btn-secondary:hover {
+        color: $color_secondary;
+        background: $color_secondary-bg-sh;
+    }
+
+    .btn-succes {
+        color: $color_succes-bg;
+        background: $color_primary;
+        border: 1px solid $color_succes-bg;
+    }
+
+    .btn-succes:hover {
+        color: $color_primary;
+        background: $color_succes-bg;
+    }
+
+    .btn-danger {
+        color: $color_danger-bg;
+        background: $color_primary;
+        border: 1px solid $color_danger-bg;
+    }
+
+    .btn-danger:hover {
+        color: $color_primary;
+        background: $color_danger-bg;
+    }
+
+    .btn-warning {
+        color: $color_warning-bg;
+        background: $color_primary;
+        border: 1px solid $color_warning-bg;
+    }
+
+    .btn-warning:hover {
+        color: $color_secondary;
+        background: $color_warning-bg;
+    }
+
+    .btn-info {
+        color: $color_info-bg;
+        background: $color_primary;
+        border: 1px solid $color_info-bg;
+    }
+
+    .btn-info:hover {
+        color: $color_primary;
+        background: $color_info-bg;
+    }
+
+    .btn-light {
+        color: $color_primary;
+        background: $color_light-bg;
+    }
+
+    .btn-light:hover {
+        color: $color_secondary;
+        background: $color_light-bg;
+    }
+
+    .btn-dark {
+        color: $color_dark-bg;
+        background: $color_primary;
+        border: 1px solid $color_dark-bg;
+    }
+
+    .btn-dark:hover {
+        color: $color_primary;
+        background: $color_dark-bg;
+    }
+
+    .btn-link {
+        color: $color_link;
+    }
+
+    .btn-link:hover {
+        color: $color_link;
+        text-decoration: underline !important;
+    }
+}
+
+// Outlined buttons End
+
+// Inverse buttons Start
+.btn-inverse {
+
+    .btn-primary {
+        color: $color_primary-bg;
+        background: $color_primary-bg-in;
+    }
+
+    .btn-primary:hover {
+        color: $color_primary;
+        background: $color_primary-bg;
+    }
+
+    .btn-secondary {
+        color: $color_secondary-bg;
+        background: $color_secondary-bg-in;
+    }
+
+    .btn-secondary:hover {
+        color: $color_primary;
+        background: $color_secondary-bg;
+    }
+
+    .btn-succes {
+        color: $color_succes-bg;
+        background: $color_succes-bg-in;
+    }
+
+    .btn-succes:hover {
+        color: $color_primary;
+        background: $color_succes-bg;
+    }
+
+    .btn-danger {
+        color: $color_danger-bg;
+        background: $color_danger-bg-in;
+    }
+
+    .btn-danger:hover {
+        color: $color_primary;
+        background: $color_danger-bg;
+    }
+
+    .btn-warning {
+        color: $color_warning-bg;
+        background: $color_warning-bg-in;
+    }
+
+    .btn-warning:hover {
+        color: $color_primary;
+        background: $color_warning-bg;
+    }
+
+    .btn-info {
+        color: $color_info-bg;
+        background: $color_info-bg-in;
+    }
+
+    .btn-info:hover {
+        color: $color_primary;
+        background: $color_info-bg;
+    }
+
+    .btn-light {
+        color: $color_secondary;
+        background: $color_light-bg;
+    }
+
+    .btn-light:hover {
+        color: $color_primary;
+        background: $color_primary;
+    }
+
+    .btn-dark {
+        color: $color_dark-bg;
+        background: $color_dark-bg-in;
+    }
+
+    .btn-dark:hover {
+        color: $color_primary;
+        background: $color_dark-bg;
+    }
+
+    .btn-link {
+        color: $color_link;
+    }
+
+    .btn-link:hover {
+        color: $color_link;
+        text-decoration: underline !important;
+    }
+}
+
+// Inverse buttons End
