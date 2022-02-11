@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UtilityClassesInCSS</title>
+
+    <!-- main-css-link -->
     <link rel="stylesheet" href="./css/main.css">
+
+    <!-- fontawesome-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -63,8 +70,24 @@
         <a href="#" class="btn btn-dark">Dark</a>
         <a href="#" class="btn btn-link">Link</a>
     </section>
-    <section class="btn-icon"></section>
-    <section class="btn-size"></section>
+    <h2>Icon Buttons</h2>
+    <p>Add class .btn-icon for buttons with only icons</p>
+    <section class="btn-icon">
+        <a href="#" class="btn btn-primary-dark"><i class="fa-solid fa-house"></i></a>
+        <a href="#" class="btn btn-dark-dark"><i class="fa-brands fa-internet-explorer"></i></a>
+        <a href="#" class="btn btn-danger-dark"><i class="fa-solid fa-envelope-open"></i></a>
+        <a href="#" class="btn btn-info-dark"><i class="fa-solid fa-star"></i></a>
+        <br>
+        <a href="#" class="btn btn-primary-light"><i class="fa-solid fa-house"></i></a>
+        <a href="#" class="btn btn-dark-light"><i class="fa-brands fa-internet-explorer"></i></a>
+        <a href="#" class="btn btn-danger-light"><i class="fa-solid fa-envelope-open"></i></a>
+        <a href="#" class="btn btn-info-light"><i class="fa-solid fa-star"></i></a>
+    </section>
+    <section class="btn-size">
+        <a href="#" class="btn btn-secondary-size">Secondary</a>
+        <br>
+        <a href="#" class="btn btn-danger-size">Danger</a>
+    </section>
     <section class="btn-block"></section>
     <section class="btn-group"></section>
 </body>

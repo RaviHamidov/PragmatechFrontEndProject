@@ -294,5 +294,118 @@
 // Inverse buttons End
 
 // Icon Buttons Start
+.btn-icon {
+    display: inline-block !important;
+
+    a {
+        border-radius: 50%;
+    }
+
+    .btn-primary-dark {
+        color: $color_primary;
+        background: $color_primary-bg;
+    }
+
+    .btn-primary-dark:hover {
+        color: $color_primary;
+        background: $color_primary-bg-sh;
+    }
+
+    .btn-primary-light {
+        color: $color_primary-bg;
+        background: $color_primary-bg-in;
+    }
+
+    .btn-primary-light:hover {
+        color: $color_primary;
+        background: $color_primary-bg;
+    }
+
+    .btn-dark-dark {
+        color: $color_dark;
+        background: $color_dark-bg;
+    }
+
+    .btn-dark-dark:hover {
+        color: $color_dark;
+        background: $color_dark-bg-sh;
+    }
+
+    .btn-dark-light {
+        color: $color_dark-bg;
+        background: $color_dark-bg-in;
+    }
+
+    .btn-dark-light:hover {
+        color: $color_dark;
+        background: $color_dark-bg;
+    }
+
+    .btn-danger-dark {
+        color: $color_danger;
+        background: $color_danger-bg;
+    }
+
+    .btn-danger-dark:hover {
+        color: $color_danger;
+        background: $color_danger-bg-sh;
+    }
+
+    .btn-danger-light {
+        color: $color_danger-bg;
+        background: $color_danger-bg-in;
+    }
+
+    .btn-danger-light:hover {
+        color: $color_danger;
+        background: $color_danger-bg;
+    }
+
+    .btn-info-dark {
+        color: $color_info;
+        background: $color_info-bg;
+    }
+
+    .btn-info-dark:hover {
+        color: $color_primary;
+        background: $color_info-bg-sh;
+    }
+
+    .btn-info-light {
+        color: $color_info-bg;
+        background: $color_info-bg-in;
+    }
+
+    .btn-info-light:hover {
+        color: $color_info;
+        background: $color_info-bg;
+    }
+}
 
 // Icon Buttons End 
+
+// Button Size Buttons Start
+.btn-size {
+    .btn-secondary-size {
+        color: $color_secondary-bg;
+        background: $color_primary;
+        border: 1px solid $color_secondary-bg;
+    }
+
+    .btn-secondary-size:hover {
+        color: $color_secondary;
+        background: $color_secondary-bg;
+    }
+
+    .btn-danger-size {
+        color: $color_secondary;
+        background: $color_secondary-bg;
+    }
+
+    .btn-danger-size {
+        color: $color_secondary;
+        background: $color_secondary-bg;
+    }
+}
+
+// Button Size Buttons End
