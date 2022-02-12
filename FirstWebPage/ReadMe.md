@@ -6,7 +6,7 @@
         01) Basic Git Commands
             > git init
             > git status
-            > git add .
+            > git add . 
             > git commit -m "Comment"
             > git branch -M main
             > git log
