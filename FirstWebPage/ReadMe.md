@@ -24,6 +24,6 @@
 
         02) Get a ready-made design from the Internet and work on it, place it in a folder called "FirstWebPage"
 
-        => I got a ready-made design from the Internet, worked on it and placed it in a folder called "FirstWebPage", You can click on the link below to see
+        => I got a ready-made design from the Internet, worked on it and placed it in a folder called "FirstWebPage", You can click on the link below to see 
     ```
     - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works/FinanceProject)
