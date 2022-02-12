@@ -18,7 +18,7 @@
     - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day03--15-january-2022-namingconventioninaction)
-    ```
+    ``` 
         01) Select a template and perform the following processes in sequence
                  > WireFrame developed with LightShot ( I placed it below )
                  > Html structure and naming followed

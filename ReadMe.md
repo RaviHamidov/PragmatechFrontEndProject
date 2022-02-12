@@ -64,13 +64,13 @@
     ```
         01) VisualStudioCode
         02) Html, Css
-            > Html, Css ne ucun lazimdir? Aralarindaki ferq nedir?
-            > Html Tag strukturu necedir?
-            > En cox istifade olunan Html taglari
+            > Html, why do you need Css? What is the difference between them?
+            > What is the Html Tag structure?
+            > The most commonly used Html tags
             > Css Box Model
-        03) Git ve GitHub
+        03) Go and GitHub
         04) Pixel Perfect Templating
-        05) Layout kodlaşdırma texnikaları
+        05) Layout coding techniques
             > CSS Selectors
             > CSS Variables
             > CSS Structure
@@ -83,7 +83,7 @@
 - Task
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day04-05--122-23-january-2022-figma) 
     ```
-        01) Verilen Figma dizayna baxaraq bacardiginiz qeder eynisini hazirlamaga calisin
+        01) Try to prepare as much as you can by looking at the given Figma design
     ```
     - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)   
 
