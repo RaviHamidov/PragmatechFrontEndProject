@@ -2,7 +2,7 @@
 
 - Lesson
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day08-09-5-6-fevral-2022-utilityclassesincss)
-    ```
+    ``` 
         > Common class usage
         > Optimal code writing methods
         > Using CSS variables
