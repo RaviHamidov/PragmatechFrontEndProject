@@ -140,4 +140,4 @@
     ``` 
     [UI Kit Buttons link](https://www.bootstrapdash.com/demo/calmui/template/demo/vertical-default-light/pages/ui-features/buttons.html)
     
-    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/UtilityClassesInCSS)
+    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/UtilityClassesInCSS) 
