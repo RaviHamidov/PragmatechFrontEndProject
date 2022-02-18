@@ -3,5 +3,9 @@
     margin: 0 auto;
 }
 
-
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 

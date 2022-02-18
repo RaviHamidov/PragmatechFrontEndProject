@@ -1,0 +1,170 @@
+@import "./reset.scss";
+@import "./common.scss";
+@import "./variables.scss";
+
+.collection_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+
+    .collection_card {
+        cursor: pointer;
+        width: 270px;
+        padding: 10px;
+
+        .collection_card-image {
+            width: 270px;
+            height: 347px;
+            position: relative;
+
+            img:nth-child(1) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 270px;
+                height: 347px;
+                z-index: 1;
+            }
+
+            img:nth-child(2) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 270px;
+                height: 347px;
+            }
+
+            span {
+                background-color: $color-pomegranate;
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                padding: 7px;
+                color: $color-white;
+                font-size: 10px;
+                z-index: 1;
+            }
+
+            .collection_card-cta {
+                position: absolute;
+                z-index: 1;
+                top: 10px;
+                right: 10px;
+                @include flex-center-center;
+                flex-direction: column;
+
+                i {
+                    display: block;
+                    margin-bottom: 10px;
+                    width: 30px;
+                    height: 30px;
+                    background-color: $color-white;
+                    border-radius: 50%;
+                    font-size: 16px;
+                    @include flex-center-center;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $color-zinnwaldite;
+                    }
+                }
+
+                .collection_card-cta-hover {
+                    position: absolute;
+                    top: -30px;
+                    transform: scale(0);
+                }
+            }
+        }
+
+        .collection_header-star,
+        h3,
+        .collection_header-cost {
+            margin: 7px 0 0 0;
+        }
+
+        h3:hover {
+            color: $color-zinnwaldite
+        }
+
+        .collection_header-cost {
+            text-decoration: none;
+            color: $color-mineshaft;
+
+            &:hover {
+                color: $color-zinnwaldite;
+            }
+        }
+
+        .collection_header-star {
+            font-size: 14px;
+            color: $color-gray;
+            opacity: .9;
+
+            .star-full {
+                color: $color-zinnwaldite;
+            }
+        }
+
+        .collection_header-cost {
+            span {
+                font-size: 15px;
+            }
+
+            .cost-before {
+                text-decoration: line-through;
+                color: $color-gray;
+                opacity: .9;
+            }
+
+            .cost-after {
+                font-weight: 15px;
+            }
+        }
+
+        .collection_card-footer {
+            width: 100%;
+            height: 40px;
+            background-color: $color-zinnwaldite;
+            display: block;
+            opacity: 0;
+            @include flex-center-center;
+
+            a {
+                text-decoration: none;
+                color: $color-mineshaft;
+            }
+
+            &:hover {
+                background-color: $color-mineshaft;
+
+                a {
+                    color: $color-white;
+                }
+            }
+        }
+
+        &:hover {
+            box-shadow: 1px 1px 2px 1px $color-gray;
+            transition: all 200ms linear;
+
+            .collection_card-footer {
+                margin-top: 7px;
+                opacity: 1;
+                transition: all 200ms linear;
+            }
+
+            .collection_card-image {
+                img:nth-child(1) {
+                    opacity: 0;
+                    transition: all 200ms linear;
+                }
+
+                .collection_card-cta-hover {
+                    transition: all 300ms linear;
+                    transform: scale(1);
+                    top: 37px;
+                }
+            }
+        }
+    }
+}
