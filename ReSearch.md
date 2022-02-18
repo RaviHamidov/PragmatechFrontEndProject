@@ -27,9 +27,13 @@
 - Lesson
     - [Content](https://github.com/PragmatechEducation/FrontEnd03#day09-10--12-13-february-2022)
     
-    ```
-        # Question 01: In what areas is the Javascript programming language used?
+    <br>
+    
+    ### Question 01: In what areas is the Javascript programming language used ?
 
+    <br>
+
+    ```
         JavaScript is mainly used for web-based applications and web browsers. But JavaScript is 
         also used beyond the Web in software, servers and embedded hardware controls. Here are 
         some basic things JavaScript is used for:
@@ -64,14 +68,19 @@
         4. Game development
         Of course, you can also use JavaScript to create browser games. These are a great way for
         beginning developers to practice their JavaScript skills. 
-        
-        # Question 02: Write a brief explanation of the following programming terms
+    ```
+    <br>
 
-        > compilers
+    ### Question 02: Write a brief explanation of the following programming terms
+
+    <br>
+
+    ``` 
+        > Compilers
             Answer -> The compiler is software that converts a program written in a high-level
             language (Source Language) to low-level language (Object/Target/Machine Language). 
 
-        > interpreters
+        > Interpreters
             Answer -> Interpreter – An interpreter converts high-level language into low-level
             machine language, just like a compiler. But they are different in the way they read the
             input. The Compiler in one go reads the inputs, does the processing, and executes the
@@ -80,7 +89,7 @@
             the program one statement at a time. Interpreted programs are usually slower with respect
             to compiled ones.
 
-        > translators
+        > Translators
             Answer -> The most general term for a software code converting tool is “translator.” A
             translator, in software programming terms, is a generic term that could refer to a
             compiler, assembler, or interpreter; anything that converts higher level code into
@@ -89,21 +98,20 @@
             If you don’t know what the tool actually does other than that it accomplishes some level
             of code conversion to a specific target language, then you can safely call it a
             translator.
-        > assemblers
-        > programming paradigms
-        > debugging
-        > boolean
-        > char
-        > null
-        > command-line
-        > interface
-        > low-level language
-        > high-level language
-        > markup language
-
-        # Question 03: To understand the working principle of a website, research and write the
-        following concepts
-
+        > Assemblers
+        > Programming paradigms
+        > Debugging
+        > Boolean
+        > Char
+        > Null
+        > Command-line
+        > Interface
+        > Low-level language
+        > High-level language
+        > Markup language
+    ```
+    ### Question 03: To understand the working principle of a website, research and write the following concepts
+    ```
         > What are the differences between the Internet and an intranet?
         > What do the terms server-side and client-side mean?
         > What is a server and how does it work?
