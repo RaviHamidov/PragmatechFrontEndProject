@@ -30,47 +30,65 @@
     ```
         # Question 01: In what areas is the Javascript programming language used?
 
-        JavaScript is mainly used for web-based applications and web browsers. But JavaScript is also used beyond the Web in software, servers and embedded hardware controls. Here are some basic things JavaScript is used for:
+        JavaScript is mainly used for web-based applications and web browsers. But JavaScript is 
+        also used beyond the Web in software, servers and embedded hardware controls. Here are 
+        some basic things JavaScript is used for:
 
-        1. Adding interactive behavior to web pages JavaScript allows users to interact with web pages. There are almost no limits to the things you can do with JavaScript on a web page – these are just a few examples:
+        1. Adding interactive behavior to web pages JavaScript allows users to interact with web
+        pages. There are almost no limits to the things you can do with JavaScript on a web page
+        these are just a few examples:
 
         > Show or hide more information with the click of a button
-
         > Change the color of a button when the mouse hovers over it
-
         > Slide through a carousel of images on the homepage
-
         > Zooming in or zooming out on an image
-
         > Displaying a timer or count-down on a website
-
         > Playing audio and video in a web page
-
         > Displaying animations
-
         > Using a drop-down hamburger menu
 
         2. Creating web and mobile apps
-        Developers can use various JavaScript frameworks for developing and building web and mobile apps. JavaScript frameworks are collections of JavaScript code libraries that provide developers with pre-written code to use for routine programming features and tasks—literally a framework to build websites or web applications around. 
+        Developers can use various JavaScript frameworks for developing and building web and mobile
+        apps. JavaScript frameworks are collections of JavaScript code libraries that provide
+        developers with pre-written code to use for routine programming features and tasks—literally
+        a framework to build websites or web applications around. 
 
-        Popular JavaScript front-end frameworks include React, React Native, Angular, and Vue. Many companies use Node.js, a JavaScript runtime environment built on Google Chrome’s JavaScript V8 engine. A few famous examples include Paypal, LinkedIn, Netflix, and Uber!
+        Popular JavaScript front-end frameworks include React, React Native, Angular, and Vue. Many
+        companies use Node.js, a JavaScript runtime environment built on Google Chrome’s JavaScript
+        V8 engine. A few famous examples include Paypal, LinkedIn, Netflix, and Uber!
 
         3. Building web servers and developing server applications
-        Beyond websites and apps, developers can also use JavaScript to build simple web servers and develop the back-end infrastructure using Node.js. 
+        Beyond websites and apps, developers can also use JavaScript to build simple web servers and
+        develop the back-end infrastructure using Node.js. 
 
         4. Game development
-        Of course, you can also use JavaScript to create browser games. These are a great way for beginning developers to practice their JavaScript skills. 
+        Of course, you can also use JavaScript to create browser games. These are a great way for
+        beginning developers to practice their JavaScript skills. 
         
         # Question 02: Write a brief explanation of the following programming terms
 
         > compilers
-            Answer -> The compiler is software that converts a program written in a high-level language (Source Language) to low-level language (Object/Target/Machine Language). 
+            Answer -> The compiler is software that converts a program written in a high-level
+            language (Source Language) to low-level language (Object/Target/Machine Language). 
 
         > interpreters
-            Answer -> Interpreter – An interpreter converts high-level language into low-level machine language, just like a compiler. But they are different in the way they read the input. The Compiler in one go reads the inputs, does the processing, and executes the source code whereas the interpreter does the same line by line. Compiler scans the entire program and translates it as a whole into machine code whereas an interpreter translates the program one statement at a time. Interpreted programs are usually slower with respect to compiled ones.
+            Answer -> Interpreter – An interpreter converts high-level language into low-level
+            machine language, just like a compiler. But they are different in the way they read the
+            input. The Compiler in one go reads the inputs, does the processing, and executes the
+            source code whereas the interpreter does the same line by line. Compiler scans the entire
+            program and translates it as a whole into machine code whereas an interpreter translates
+            the program one statement at a time. Interpreted programs are usually slower with respect
+            to compiled ones.
 
         > translators
-            Answer -> The most general term for a software code converting tool is “translator.” A translator, in software programming terms, is a generic term that could refer to a compiler, assembler, or interpreter; anything that converts higher level code into another high-level code (e.g., Basic, C++, Fortran, Java) or lower-level (i.e., a language that the processor can understand), such as assembly language or machine code. If you don’t know what the tool actually does other than that it accomplishes some level of code conversion to a specific target language, then you can safely call it a translator.
+            Answer -> The most general term for a software code converting tool is “translator.” A
+            translator, in software programming terms, is a generic term that could refer to a
+            compiler, assembler, or interpreter; anything that converts higher level code into
+            another high-level code (e.g., Basic, C++, Fortran, Java) or lower-level (i.e., a
+            language that the processor can understand), such as assembly language or machine code.
+            If you don’t know what the tool actually does other than that it accomplishes some level
+            of code conversion to a specific target language, then you can safely call it a
+            translator.
         > assemblers
         > programming paradigms
         > debugging
@@ -83,7 +101,8 @@
         > high-level language
         > markup language
 
-        # Question 03: To understand the working principle of a website, research and write the following concepts
+        # Question 03: To understand the working principle of a website, research and write the
+        following concepts
 
         > What are the differences between the Internet and an intranet?
         > What do the terms server-side and client-side mean?
