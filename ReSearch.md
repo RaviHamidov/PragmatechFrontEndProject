@@ -98,7 +98,15 @@
             If you don’t know what the tool actually does other than that it accomplishes some level
             of code conversion to a specific target language, then you can safely call it a
             translator.
+
         > Assemblers
+            Answer -> For every platform (Hardware +
+            OS) we will have an assembler. They are
+            not universal since for each platform we
+            have one. The output of the assembler is
+            called an object file. Its translates
+            assembly language to machine code.
+
         > Programming paradigms
         > Debugging
         > Boolean
@@ -106,10 +114,22 @@
         > Null
         > Command-line
         > Interface
-        > Low-level language
-        > High-level language
+        > Low-level language, High-level language
+        Both High level language and low level language are the programming languages’s types.
+        
+        The main difference between high level
+        language and low level language is that,
+        Programmers can easily understand or interpret
+        or compile the high level language in
+        comparison of machine. On the other hand,
+        Machine can easily understand the low level
+        language in comparison of human beings.
+        Examples of high level languages are C, C++,
+        Java, Python, etc.
+        
         > Markup language
     ```
+
     ### Question 03: To understand the working principle of a website, research and write the following concepts
     ```
         > What are the differences between the Internet and an intranet?
