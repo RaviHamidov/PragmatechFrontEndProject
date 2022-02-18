@@ -81,7 +81,7 @@
             language (Source Language) to low-level language (Object/Target/Machine Language). 
 
         > Interpreters
-            Answer -> Interpreter – An interpreter converts high-level language into low-level
+            Answer -> An interpreter converts high-level language into low-level
             machine language, just like a compiler. But they are different in the way they read the
             input. The Compiler in one go reads the inputs, does the processing, and executes the
             source code whereas the interpreter does the same line by line. Compiler scans the entire
