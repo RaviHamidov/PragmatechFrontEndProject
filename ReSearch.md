@@ -127,7 +127,7 @@
         Examples of high level languages are C, C++,
         Java, Python, etc.
         
-        > Markup language
+        > Markup language 
     ```
 
     ### Question 03: To understand the working principle of a website, research and write the following concepts
