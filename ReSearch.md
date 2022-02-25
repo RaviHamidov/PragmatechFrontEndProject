@@ -19,7 +19,7 @@
 
             > git remote => Manage set of tracked repositories
 
-            > git push -u origin main/master => Update remote refs along with associated objects
+            > git push -u origin main/master => Update remote refs along with associated objects 
     ```
 
 ## Lesson-09 [12/02/2022] & Lesson-10 [13/02/2022]
