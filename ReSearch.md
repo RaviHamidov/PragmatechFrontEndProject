@@ -10,7 +10,7 @@
             > git status => Show the working tree status 
 
             > git add . => Add file contents to the index
-
+ 
             > git commit -m "Comment" => Record changes to the repository
 
             > git branch -M main => List, create, or delete branches
