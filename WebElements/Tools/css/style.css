@@ -498,51 +498,67 @@ main .demo-03 .demo-03_main .demo-03_item a:hover {
 }
 
 main .demo-03 .demo-03_main .demo-03_item:hover {
-  -webkit-animation: border 1s forwards;
-          animation: border 1s forwards;
-  -webkit-transition: all 3s ease;
-  transition: all 3s ease;
+  -webkit-animation: border 3s forwards;
+          animation: border 3s forwards;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 @-webkit-keyframes border {
   0% {
     border-bottom: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
   25% {
     border-bottom: 3px solid #24cf5f;
     border-left: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
   75% {
     border-bottom: 3px solid #24cf5f;
     border-left: 3px solid #24cf5f;
     border-top: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
   100% {
     border-bottom: 3px solid #24cf5f;
     border-left: 3px solid #24cf5f;
     border-top: 3px solid #24cf5f;
     border-right: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
 }
 
 @keyframes border {
   0% {
     border-bottom: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
   25% {
     border-bottom: 3px solid #24cf5f;
     border-left: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
   75% {
     border-bottom: 3px solid #24cf5f;
     border-left: 3px solid #24cf5f;
     border-top: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
   100% {
     border-bottom: 3px solid #24cf5f;
     border-left: 3px solid #24cf5f;
     border-top: 3px solid #24cf5f;
     border-right: 3px solid #24cf5f;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
   }
 }
 
@@ -1073,4 +1089,270 @@ main .demo-07 .demo-07_main .demo-07_item:hover i {
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-08 {
+  background: #edf4f3;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-08 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ff4343;
+}
+
+main .demo-08 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-08 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-08 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-08 .demo-08_main .demo-08_item {
+  position: relative;
+  overflow: hidden;
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  background: #ffffff;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+main .demo-08 .demo-08_main .demo-08_item i {
+  font-size: 52px;
+  color: #ff4343;
+  width: 130px;
+  line-height: 130px;
+  text-align: center;
+  margin: 20px;
+  color: #ff4343;
+  border: 1px solid #e5e5e5;
+  border-radius: 100%;
+  -webkit-box-shadow: 5px 5px 3px #ddd;
+          box-shadow: 5px 5px 3px #ddd;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-08 .demo-08_main .demo-08_item h2 {
+  margin: 0 -10px 15px;
+  padding: 10px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  background: #edf4f3;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-08 .demo-08_main .demo-08_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-08 .demo-08_main .demo-08_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #ff4343;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  border-radius: 1rem;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-08 .demo-08_main .demo-08_item a:hover {
+  background: #dc0000;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-08 .demo-08_main .demo-08_item:hover h2 {
+  -webkit-box-shadow: inset -410px 0 0 0 #ff4343;
+          box-shadow: inset -410px 0 0 0 #ff4343;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  color: #ffffff;
+}
+
+main .demo-08 .demo-08_main .demo-08_item:hover i {
+  -webkit-box-shadow: -5px 7px 3px #ddd;
+          box-shadow: -5px 7px 3px #ddd;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-09 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #c0df19;
+}
+
+main .demo-09 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-09 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-09 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-09 .demo-09_main .demo-09_item {
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  background-color: #f4ffb9;
+}
+
+main .demo-09 .demo-09_main .demo-09_item i {
+  width: 130px;
+  margin: -90px 20px 20px;
+  color: #c0df19;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  background: #fff;
+  font-size: 52px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  line-height: 120px;
+  height: 130px;
+  transition: all .4s ease;
+}
+
+main .demo-09 .demo-09_main .demo-09_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  font-size: 30px;
+}
+
+main .demo-09 .demo-09_main .demo-09_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-09 .demo-09_main .demo-09_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #c0df19;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-09 .demo-09_main .demo-09_item a:hover {
+  background: #99b114;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-09 .demo-09_main .demo-09_item:hover i {
+  background-color: #c0df19;
+  color: #fff;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }

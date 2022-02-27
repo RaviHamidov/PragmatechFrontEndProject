@@ -86,27 +86,31 @@ main {
                 }
 
                 &:hover {
-                    animation: border 1s forwards;
-                    transition: all 3s ease;
+                    animation: border 3s forwards;
+                    transition: all 0s ease;
 
                     @keyframes border {
                         0% {
                             border-bottom: 3px solid $color-green;
+                            transition: all 0s ease;
                         }
                         25% {
                             border-bottom: 3px solid $color-green;
                             border-left: 3px solid $color-green;
+                            transition: all 0s ease;
                         }
                         75% {
                             border-bottom: 3px solid $color-green;
                             border-left: 3px solid $color-green;
                             border-top: 3px solid $color-green;
+                            transition: all 0s ease;
                         }
                         100% {
                             border-bottom: 3px solid $color-green;
                             border-left: 3px solid $color-green;
                             border-top: 3px solid $color-green;
                             border-right: 3px solid $color-green;
+                            transition: all 0s ease;
                         }
                       }
                 }
