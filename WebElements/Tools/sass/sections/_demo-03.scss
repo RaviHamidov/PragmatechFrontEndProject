@@ -1,0 +1,116 @@
+main {
+    font-family: $font-family;
+
+    .demo-03 {
+
+        .demo-top {
+            @include flex-center-center;
+            background: $color-green;
+
+            h2 {
+                font-size: 18px;
+                font-weight: 700;
+                color: $color-white;
+                padding: 13px 15px;
+            }
+        }
+
+        .demo-title {
+            color: $color-black;
+            @include flex-center-center-column;
+            padding: 70px 0;
+            
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                line-height: 1.1;
+            }
+        }
+
+        .demo-03_main {
+
+            .demo-03_item {
+                margin: 40px 20px;
+                padding: 20px;
+                transition: all .4s ease;
+                text-align: center;
+                border: 3px solid white;
+
+                i {
+                    width: 130px;
+                    height: 130px;
+                    margin: 20px;
+                    font-size: 52px;
+                    line-height: 120px;
+                    color: $color-green;
+                    border: solid;
+                    border-radius: 100%;
+                    text-align: center;
+                }
+
+                h2 {
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                    padding: 13px 0;
+                    color: $color-black;
+                    font-weight: 700;
+                    font-size: 30px;
+                }
+
+                p {
+                    padding: 0 17px 17px;
+                    color: $color-black;
+                    margin: 0 0 10px;
+                }
+
+                a {
+                    margin: 10px 0 20px;
+                    padding: 14px 35px;
+                    color: $color-white;
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    text-decoration: none;
+                    background: $color-green;
+
+                    &:hover {
+                        color: $color-white;
+                        background-color: lighten($color: $color-green, $amount: 10%);
+                    }
+                }
+
+                &:hover {
+                    animation: border 1s forwards;
+                    transition: all 3s ease;
+
+                    @keyframes border {
+                        0% {
+                            border-bottom: 3px solid $color-green;
+                        }
+                        25% {
+                            border-bottom: 3px solid $color-green;
+                            border-left: 3px solid $color-green;
+                        }
+                        75% {
+                            border-bottom: 3px solid $color-green;
+                            border-left: 3px solid $color-green;
+                            border-top: 3px solid $color-green;
+                        }
+                        100% {
+                            border-bottom: 3px solid $color-green;
+                            border-left: 3px solid $color-green;
+                            border-top: 3px solid $color-green;
+                            border-right: 3px solid $color-green;
+                        }
+                      }
+                }
+            }
+        }
+    }
+}

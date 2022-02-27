@@ -1,0 +1,98 @@
+main {
+    font-family: $font-family;
+
+    .demo-02 {
+        background: $color-magenta;
+
+        .demo-top {
+            @include flex-center-center;
+            background: darken($color: $color-magenta, $amount: 5%);
+
+            h2 {
+                font-size: 18px;
+                font-weight: 700;
+                color: $color-white;
+                padding: 13px 15px;
+            }
+        }
+
+        .demo-title {
+            @include flex-center-center-column;
+            padding: 70px 0;
+            color: $color-white;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                line-height: 1.1;
+            }
+        }
+
+        .demo-02_main {
+
+            .demo-02_item {
+                position: relative;
+                overflow: hidden;
+                margin: 40px 20px;
+                padding: 20px;
+                transition: all .4s ease;
+                text-align: center;
+
+                i {
+                    width: 130px;
+                    height: 130px;
+                    margin: 20px;
+                    font-size: 52px;
+                    line-height: 120px;
+                    color: $color-white;
+                    border: solid;
+                    border-radius: 100%;
+                    text-align: center;
+                }
+
+                h2 {
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                    padding: 13px 0;
+                    color: $color-white;
+                    font-family: 'Droid Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 30px;
+                }
+
+                p {
+                    padding: 0 17px 17px;
+                    color: $color-white;
+                    margin: 0 0 10px;
+                }
+
+                a {
+                    margin: 10px 0 20px;
+                    padding: 14px 35px;
+                    color: $color-magenta;
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    text-decoration: none;
+                    background: $color-white;
+                }
+
+                &:hover {
+                    background: darken($color: $color-magenta, $amount: 10%);
+                    transform: scale(.9);
+
+                    a {
+                        color: $color-white;
+                        background-color: $color-magenta;
+                    }
+                }
+            }
+        }
+    }
+}

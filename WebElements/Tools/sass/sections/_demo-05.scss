@@ -1,0 +1,128 @@
+main {
+    font-family: $font-family;
+
+    .demo-05 {
+
+        .demo-top {
+            @include flex-center-center;
+            background: $color-lightblue;
+
+            h2 {
+                font-size: 18px;
+                font-weight: 700;
+                color: $color-white;
+                padding: 13px 15px;
+            }
+        }
+
+        .demo-title {
+            color: $color-black;
+            @include flex-center-center-column;
+            padding: 70px 0;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                line-height: 1.1;
+            }
+        }
+
+        .demo-05_main {
+
+            .demo-05_item {
+                position: relative;
+                z-index: 0;
+                margin: 40px 20px;
+                padding: 20px;
+                text-align: center;
+                // background: lighten($color: $color-lightblue, $amount: 15%);
+                background: $color-bluegreen;
+                transition: all .8s ease;
+
+                i {
+                    width: 130px;
+                    height: 130px;
+                    margin: 20px;
+                    font-size: 52px;
+                    line-height: 120px;
+                    color: lighten($color: $color-lightblue, $amount: 40%);
+                    border: solid;
+                    border-radius: 100%;
+                    text-align: center;
+                }
+
+                h2 {
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                    padding: 13px 0;
+                    color: $color-white;
+                    font-weight: 700;
+                    font-size: 30px;
+                }
+
+                p {
+                    padding: 0 17px 17px;
+                    color: $color-white;
+                    margin: 0 0 10px;
+                }
+
+                a {
+                    margin: 10px 0 20px;
+                    padding: 14px 35px;
+                    color: $color-white;
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-align: center;
+                    text-decoration: none;
+                    background: darken($color: $color-lightblue, $amount: 10%);
+                }
+
+                &::after {
+                    position: absolute;
+                    width: 95%;
+                    height: 95%;
+                    border: 2px solid $color-dodgerblue;
+                    content: '';
+                    top: 10px;
+                    right: 10px;
+                    opacity: .6;
+                    z-index: -1;
+                    box-sizing: border-box;
+                    transition: all .8s ease;
+                }
+
+                &:hover {
+                    a {
+                        background-color: $color-dodgerblue;
+                        color: white;
+                        transition: all .8s ease;
+                    }
+
+                    .demo-05_main-cta {
+                        transform: scale(0);
+                        transition: all .8s ease;
+                    }
+                }
+
+                &:hover::after {
+                    border: 5px solid $color-dodgerblue;
+                }
+
+                .demo-05_main-cta {
+                    position: absolute;
+                    width: 90%;
+                    height: 90%;
+                    top: 5%;
+                    left: 5%;
+                    z-index: -1;
+                    background-color: $color-dodgerblue;
+                    transition: all .8s ease;
+                }
+            }
+        }
+    }
+}

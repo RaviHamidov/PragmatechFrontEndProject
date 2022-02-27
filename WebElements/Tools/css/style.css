@@ -146,7 +146,7 @@ header h2 {
 }
 
 main {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: "Droid Sans", sans-serif;
 }
 
 main .demo-01 .demo-top {
@@ -203,10 +203,8 @@ main .demo-01 .demo-01_main .demo-01_item {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   text-align: center;
-  -webkit-box-shadow: 1px 2px 10px #919191;
-          box-shadow: 1px 2px 10px #919191;
-  -webkit-box-shadow: inset 0 0 0 0 #ffa500;
-          box-shadow: inset 0 0 0 0 #ffa500;
+  -webkit-box-shadow: inset 0 0 0 0 #ffa500, 1px 2px 10px #919191;
+          box-shadow: inset 0 0 0 0 #ffa500, 1px 2px 10px #919191;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
 }
@@ -256,8 +254,8 @@ main .demo-01 .demo-01_main .demo-01_item a {
 }
 
 main .demo-01 .demo-01_main .demo-01_item:hover {
-  -webkit-box-shadow: inset 0 -400px 0 0 #ffa500;
-          box-shadow: inset 0 -400px 0 0 #ffa500;
+  -webkit-box-shadow: inset 0 -410px 0 0 #ffa500, 1px 2px 10px #919191;
+          box-shadow: inset 0 -410px 0 0 #ffa500, 1px 2px 10px #919191;
 }
 
 main .demo-01 .demo-01_main .demo-01_item:hover i {
@@ -273,4 +271,806 @@ main .demo-01 .demo-01_main .demo-01_item:hover p {
 main .demo-01 .demo-01_main .demo-01_item:hover a {
   color: #ffa500;
   background-color: #ffffff;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-02 {
+  background: #5b5bae;
+}
+
+main .demo-02 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #4f4fa0;
+}
+
+main .demo-02 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-02 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #ffffff;
+}
+
+main .demo-02 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-02 .demo-02_main .demo-02_item {
+  position: relative;
+  overflow: hidden;
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+}
+
+main .demo-02 .demo-02_main .demo-02_item i {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  color: #ffffff;
+  border: solid;
+  border-radius: 100%;
+  text-align: center;
+}
+
+main .demo-02 .demo-02_main .demo-02_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  color: #ffffff;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-02 .demo-02_main .demo-02_item p {
+  padding: 0 17px 17px;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+main .demo-02 .demo-02_main .demo-02_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #5b5bae;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  background: #ffffff;
+}
+
+main .demo-02 .demo-02_main .demo-02_item:hover {
+  background: #47478f;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+main .demo-02 .demo-02_main .demo-02_item:hover a {
+  color: #ffffff;
+  background-color: #5b5bae;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-03 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #24cf5f;
+}
+
+main .demo-03 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-03 .demo-title {
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+}
+
+main .demo-03 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-03 .demo-03_main .demo-03_item {
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  border: 3px solid white;
+}
+
+main .demo-03 .demo-03_main .demo-03_item i {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  color: #24cf5f;
+  border: solid;
+  border-radius: 100%;
+  text-align: center;
+}
+
+main .demo-03 .demo-03_main .demo-03_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-03 .demo-03_main .demo-03_item p {
+  padding: 0 17px 17px;
+  color: #000000;
+  margin: 0 0 10px;
+}
+
+main .demo-03 .demo-03_main .demo-03_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  background: #24cf5f;
+}
+
+main .demo-03 .demo-03_main .demo-03_item a:hover {
+  color: #ffffff;
+  background-color: #47df7b;
+}
+
+main .demo-03 .demo-03_main .demo-03_item:hover {
+  -webkit-animation: border 1s forwards;
+          animation: border 1s forwards;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+}
+
+@-webkit-keyframes border {
+  0% {
+    border-bottom: 3px solid #24cf5f;
+  }
+  25% {
+    border-bottom: 3px solid #24cf5f;
+    border-left: 3px solid #24cf5f;
+  }
+  75% {
+    border-bottom: 3px solid #24cf5f;
+    border-left: 3px solid #24cf5f;
+    border-top: 3px solid #24cf5f;
+  }
+  100% {
+    border-bottom: 3px solid #24cf5f;
+    border-left: 3px solid #24cf5f;
+    border-top: 3px solid #24cf5f;
+    border-right: 3px solid #24cf5f;
+  }
+}
+
+@keyframes border {
+  0% {
+    border-bottom: 3px solid #24cf5f;
+  }
+  25% {
+    border-bottom: 3px solid #24cf5f;
+    border-left: 3px solid #24cf5f;
+  }
+  75% {
+    border-bottom: 3px solid #24cf5f;
+    border-left: 3px solid #24cf5f;
+    border-top: 3px solid #24cf5f;
+  }
+  100% {
+    border-bottom: 3px solid #24cf5f;
+    border-left: 3px solid #24cf5f;
+    border-top: 3px solid #24cf5f;
+    border-right: 3px solid #24cf5f;
+  }
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-04 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #e12573;
+}
+
+main .demo-04 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-04 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-04 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-04 .demo-04_main .demo-04_item {
+  position: relative;
+  overflow: hidden;
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  -webkit-box-shadow: inset 0 0 0 0 #e12573, 1px 2px 10px #919191;
+          box-shadow: inset 0 0 0 0 #e12573, 1px 2px 10px #919191;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+main .demo-04 .demo-04_main .demo-04_item i {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  font-size: 42px;
+  line-height: 120px;
+  color: #e12573;
+  text-align: center;
+}
+
+main .demo-04 .demo-04_main .demo-04_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-04 .demo-04_main .demo-04_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-04 .demo-04_main .demo-04_item .demo-04_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+main .demo-04 .demo-04_main .demo-04_item .demo-04_button a {
+  padding: 14px 35px;
+  color: #ffffff;
+  background: #e12573;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  border-radius: 3rem;
+}
+
+main .demo-04 .demo-04_main .demo-04_item:hover {
+  -webkit-box-shadow: inset -450px 0 0 0 #e12573, 1px 2px 10px #919191;
+          box-shadow: inset -450px 0 0 0 #e12573, 1px 2px 10px #919191;
+}
+
+main .demo-04 .demo-04_main .demo-04_item:hover i {
+  color: #ffffff;
+}
+
+main .demo-04 .demo-04_main .demo-04_item:hover h2,
+main .demo-04 .demo-04_main .demo-04_item:hover p {
+  color: #ffffff;
+}
+
+main .demo-04 .demo-04_main .demo-04_item:hover a {
+  color: #e12573;
+  background-color: #ffffff;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-05 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #1997d3;
+}
+
+main .demo-05 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-05 .demo-title {
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+}
+
+main .demo-05 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-05 .demo-05_main .demo-05_item {
+  position: relative;
+  z-index: 0;
+  margin: 40px 20px;
+  padding: 20px;
+  text-align: center;
+  background: #118fcb;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main .demo-05 .demo-05_main .demo-05_item i {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  color: #c0e6f8;
+  border: solid;
+  border-radius: 100%;
+  text-align: center;
+}
+
+main .demo-05 .demo-05_main .demo-05_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-05 .demo-05_main .demo-05_item p {
+  padding: 0 17px 17px;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+main .demo-05 .demo-05_main .demo-05_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  background: #1476a5;
+}
+
+main .demo-05 .demo-05_main .demo-05_item::after {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  border: 2px solid #20B7FF;
+  content: '';
+  top: 10px;
+  right: 10px;
+  opacity: .6;
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main .demo-05 .demo-05_main .demo-05_item:hover a {
+  background-color: #20B7FF;
+  color: white;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main .demo-05 .demo-05_main .demo-05_item:hover .demo-05_main-cta {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main .demo-05 .demo-05_main .demo-05_item:hover::after {
+  border: 5px solid #20B7FF;
+}
+
+main .demo-05 .demo-05_main .demo-05_item .demo-05_main-cta {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  z-index: -1;
+  background-color: #20B7FF;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-06 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #19d3ca;
+}
+
+main .demo-06 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-06 .demo-title {
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+}
+
+main .demo-06 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-06 .demo-06_main .demo-06_item {
+  position: relative;
+  z-index: 0;
+  margin: 40px 20px;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main .demo-06 .demo-06_main .demo-06_item i {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  color: #ffffff;
+  background: #19d3ca;
+  border-radius: 1rem;
+  text-align: center;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main .demo-06 .demo-06_main .demo-06_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-06 .demo-06_main .demo-06_item p {
+  padding: 0 17px 17px;
+  color: #000000;
+  margin: 0 0 10px;
+}
+
+main .demo-06 .demo-06_main .demo-06_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  background: #19d3ca;
+}
+
+main .demo-06 .demo-06_main .demo-06_item a:hover {
+  background: #14a59e;
+}
+
+main .demo-06 .demo-06_main .demo-06_item .demo-06_main-cta {
+  position: relative;
+  overflow: hidden;
+  text-align: right;
+  border-bottom: 1px solid #19d3ca;
+}
+
+main .demo-06 .demo-06_main .demo-06_item .demo-06_main-cta span {
+  font-size: 72px;
+  line-height: 72px;
+  position: relative;
+  top: 30px;
+  display: inline-block;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  color: #e9e9e9;
+}
+
+main .demo-06 .demo-06_main .demo-06_item:hover i {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+main .demo-06 .demo-06_main .demo-06_item:hover .demo-06_main-cta span {
+  top: -6px;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-07 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #2e4b9b;
+}
+
+main .demo-07 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-07 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-07 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-07 .demo-07_main .demo-07_item {
+  position: relative;
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+main .demo-07 .demo-07_main .demo-07_item i {
+  position: absolute;
+  font-size: 122px;
+  top: 0;
+  right: 20px;
+  line-height: 120px;
+  color: #8aa9ff;
+  text-align: right;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+main .demo-07 .demo-07_main .demo-07_item h2 {
+  position: relative;
+  top: 0.5rem;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+main .demo-07 .demo-07_main .demo-07_item p {
+  padding: 40px 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-07 .demo-07_main .demo-07_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  background: #2e4b9b;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .demo-07 .demo-07_main .demo-07_item a:hover {
+  background-color: #8aa9ff;
+}
+
+main .demo-07 .demo-07_main .demo-07_item:hover i {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
 }
