@@ -1356,3 +1356,420 @@ main .demo-09 .demo-09_main .demo-09_item:hover i {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-10 {
+  background: #edf4f3;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-10 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #816ee7;
+}
+
+main .demo-10 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-10 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-10 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-10 .demo-10_main .demo-10_item {
+  position: relative;
+  overflow: hidden;
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  background: #ffffff;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border: 2px solid #816ee7;
+  border-radius: 40px 0;
+}
+
+main .demo-10 .demo-10_main .demo-10_item i {
+  font-size: 52px;
+  color: #816ee7;
+  width: 130px;
+  line-height: 130px;
+  text-align: center;
+  margin: 20px;
+  color: #816ee7;
+  border: 1px solid #e5e5e5;
+  border-radius: 100%;
+  -webkit-box-shadow: 5px 5px 3px #ddd;
+          box-shadow: 5px 5px 3px #ddd;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-10 .demo-10_main .demo-10_item h2 {
+  margin: 0 -10px 15px;
+  padding: 10px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  background: #edf4f3;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-10 .demo-10_main .demo-10_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-10 .demo-10_main .demo-10_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #816ee7;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  border-radius: 1rem;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-10 .demo-10_main .demo-10_item a:hover {
+  background: #3d22cd;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-10 .demo-10_main .demo-10_item:hover {
+  border-radius: 0 40px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-10 .demo-10_main .demo-10_item:hover h2 {
+  -webkit-box-shadow: inset -410px 0 0 0 #816ee7;
+          box-shadow: inset -410px 0 0 0 #816ee7;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  color: #ffffff;
+}
+
+main .demo-10 .demo-10_main .demo-10_item:hover i {
+  -webkit-box-shadow: -5px 7px 3px #ddd;
+          box-shadow: -5px 7px 3px #ddd;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-11 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ee12a0;
+}
+
+main .demo-11 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-11 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-11 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-11 .demo-11_main .demo-11_item {
+  margin: 75px 15px 25px;
+  padding: 10px 0px 70px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  border: 1px solid #ee12a0;
+  border-radius: 100%;
+  background: #fff;
+}
+
+main .demo-11 .demo-11_main .demo-11_item i {
+  width: 130px;
+  margin: -90px 20px 20px;
+  background-color: #ee12a0;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 52px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  line-height: 120px;
+  height: 130px;
+  transition: all .4s ease;
+}
+
+main .demo-11 .demo-11_main .demo-11_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  font-size: 30px;
+}
+
+main .demo-11 .demo-11_main .demo-11_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-11 .demo-11_main .demo-11_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  border-radius: 3rem;
+  background: #ee12a0;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-11 .demo-11_main .demo-11_item a:hover {
+  background: #bf0e80;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-11 .demo-11_main .demo-11_item:hover {
+  background: #ee12a0;
+}
+
+main .demo-11 .demo-11_main .demo-11_item:hover i {
+  color: #ee12a0;
+  background-color: #fff;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main .demo-11 .demo-11_main .demo-11_item:hover h2 {
+  color: #ffffff;
+}
+
+main .demo-11 .demo-11_main .demo-11_item:hover p {
+  color: #ffffff;
+}
+
+main .demo-11 .demo-11_main .demo-11_item:hover a {
+  background: #bf0e80;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-12 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #12daee;
+}
+
+main .demo-12 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-12 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-12 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-12 .demo-12_main .demo-12_item {
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+main .demo-12 .demo-12_main .demo-12_item i {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  color: #12daee;
+  border: solid;
+  border-radius: 100%;
+  text-align: center;
+}
+
+main .demo-12 .demo-12_main .demo-12_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-12 .demo-12_main .demo-12_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-12 .demo-12_main .demo-12_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #12daee;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+main .demo-12 .demo-12_main .demo-12_item:hover::after {
+  -webkit-transform: rotateZ(0) translateX(0);
+          transform: rotateZ(0) translateX(0);
+}
+
+main .demo-12 .demo-12_main .demo-12_item::after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  -webkit-transform: rotateZ(90deg) translateX(100%);
+          transform: rotateZ(90deg) translateX(100%);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  background: #12daee;
+}

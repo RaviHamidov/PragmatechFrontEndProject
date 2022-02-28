@@ -1,10 +1,10 @@
 main {
     font-family: $font-family;
 
-    .demo-09 {
+    .demo-11 {
         .demo-top {
             @include flex-center-center;
-            background: $color-fueqo;
+            background: $color-frostbite;
 
             h2 {
                 font-size: 18px;
@@ -28,22 +28,24 @@ main {
             }
         }
 
-        .demo-09_main {
+        .demo-11_main {
 
-            .demo-09_item {
-                margin: 40px 20px;
-                padding: 20px;
+            .demo-11_item {
+                margin: 75px 15px 25px;
+                padding: 10px 0px 70px;
                 transition: all .4s ease;
                 text-align: center;
-                background-color: $color-lime;
+                border: 1px solid #ee12a0;
+                border-radius: 100%;
+                background: #fff;
 
                 i {
                     width: 130px;
                     margin: -90px 20px 20px;
-                    color: #c0df19;
+                    background-color: $color-frostbite;
                     border: 1px solid #fff;
                     border-radius: 100%;
-                    background: #fff;
+                    color: #fff;
                     font-size: 52px;
                     transition: all .4s ease;
                     line-height: 120px;
@@ -71,8 +73,8 @@ main {
                     margin: 10px 0 20px;
                     padding: 14px 35px;
                     color: $color-white;
-                    border-radius: 0;
-                    background: $color-fueqo;
+                    border-radius: 3rem;
+                    background: $color-frostbite;
                     display: inline-block;
                     margin-bottom: 0;
                     font-size: 14px;
@@ -83,17 +85,33 @@ main {
                     vertical-align: middle;
                     text-decoration: none;
                     transition: all .4s ease;
+
                     &:hover {
-                        background: darken($color: $color-fueqo, $amount: 10%);
+                        background: darken($color: $color-frostbite, $amount: 10%);
                         transition: all .4s ease;
-                    } 
+                    }
                 }
 
                 &:hover {
+
+                    background: $color-frostbite;
+
                     i {
-                        background-color: #c0df19;
-                        color: #fff;
+                        color: $color-frostbite;
+                        background-color: #fff;
                         transition: all .4s ease;
+                    }
+
+                    h2 {
+                        color: $color-white;
+                    }
+    
+                    p {
+                        color: $color-white;
+                    }
+
+                    a {
+                        background: darken($color: $color-frostbite, $amount: 10%);
                     }
                 }
             }
