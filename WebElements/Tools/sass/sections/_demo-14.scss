@@ -1,7 +1,7 @@
 main {
     font-family: $font-family;
 
-    .demo-13 {
+    .demo-14 {
         .demo-top {
             @include flex-center-center;
             background: $color-orange;
@@ -10,7 +10,7 @@ main {
                 font-size: 18px;
                 font-weight: 700;
                 color: $color-white;
-                padding: 13px 15px;
+                padding: 14px 15px;
             }
         }
 
@@ -28,9 +28,9 @@ main {
             }
         }
 
-        .demo-13_main {
+        .demo-14_main {
 
-            .demo-13_item {
+            .demo-14_item {
                 position: relative;
                 overflow: hidden;
                 margin: 49px 0 40px;
@@ -40,8 +40,8 @@ main {
                 transition-duration: 0.5s;
 
                 i {
-                    width: 130px;
-                    height: 130px;
+                    width: 140px;
+                    height: 140px;
                     margin: 20px;
                     font-size: 52px;
                     line-height: 120px;
@@ -54,7 +54,7 @@ main {
                 h2 {
                     margin-top: 0;
                     margin-bottom: 15px;
-                    padding: 13px 0;
+                    padding: 14px 0;
                     font-family: 'Droid Sans', sans-serif;
                     font-weight: 700;
                     font-size: 30px;
@@ -106,7 +106,7 @@ main {
                 }
             }
 
-            .demo-13_item::after {
+            .demo-14_item::after {
                 position: absolute;
                 z-index: -1;
                 top: 0;

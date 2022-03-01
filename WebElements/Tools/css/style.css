@@ -1773,3 +1773,643 @@ main .demo-12 .demo-12_main .demo-12_item::after {
   transition: all .4s ease;
   background: #12daee;
 }
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-13 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffa500;
+}
+
+main .demo-13 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 13px 15px;
+}
+
+main .demo-13 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-13 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-13 .demo-13_main .demo-13_item {
+  position: relative;
+  overflow: hidden;
+  margin: 40px 20px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  -webkit-box-shadow: inset 0 0 0 0 #ffa500, 1px 2px 10px #919191;
+          box-shadow: inset 0 0 0 0 #ffa500, 1px 2px 10px #919191;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+main .demo-13 .demo-13_main .demo-13_item i {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  color: #ffa500;
+  border: solid;
+  border-radius: 100%;
+  text-align: center;
+}
+
+main .demo-13 .demo-13_main .demo-13_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-13 .demo-13_main .demo-13_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-13 .demo-13_main .demo-13_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #ffa500;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+main .demo-13 .demo-13_main .demo-13_item:hover {
+  -webkit-box-shadow: inset 0 -410px 0 0 #ffa500, 1px 2px 10px #919191;
+          box-shadow: inset 0 -410px 0 0 #ffa500, 1px 2px 10px #919191;
+}
+
+main .demo-13 .demo-13_main .demo-13_item:hover i {
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+main .demo-13 .demo-13_main .demo-13_item:hover h2,
+main .demo-13 .demo-13_main .demo-13_item:hover p {
+  color: #ffffff;
+}
+
+main .demo-13 .demo-13_main .demo-13_item:hover a {
+  color: #ffa500;
+  background-color: #ffffff;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-14 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffa500;
+}
+
+main .demo-14 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 14px 15px;
+}
+
+main .demo-14 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-14 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-14 .demo-14_main .demo-14_item {
+  position: relative;
+  overflow: hidden;
+  margin: 49px 0 40px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+main .demo-14 .demo-14_main .demo-14_item i {
+  width: 140px;
+  height: 140px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  color: #ffa500;
+  border: solid;
+  border-radius: 100%;
+  text-align: center;
+}
+
+main .demo-14 .demo-14_main .demo-14_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 14px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-14 .demo-14_main .demo-14_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-14 .demo-14_main .demo-14_item a {
+  margin: 10px 0 20px;
+  padding: 14px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #ffa500;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+main .demo-14 .demo-14_main .demo-14_item:hover i {
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+main .demo-14 .demo-14_main .demo-14_item:hover h2,
+main .demo-14 .demo-14_main .demo-14_item:hover p {
+  color: #ffffff;
+}
+
+main .demo-14 .demo-14_main .demo-14_item:hover a {
+  color: #ffa500;
+  background-color: #ffffff;
+}
+
+main .demo-14 .demo-14_main .demo-14_item:hover::after {
+  -webkit-transform: rotateZ(0) translateX(0);
+          transform: rotateZ(0) translateX(0);
+}
+
+main .demo-14 .demo-14_main .demo-14_item::after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  content: '';
+  -webkit-transform: translateY(-100%) translateX(-100%);
+          transform: translateY(-100%) translateX(-100%);
+  background: #1ce6ae;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-15 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffa500;
+}
+
+main .demo-15 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 15px 15px;
+}
+
+main .demo-15 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-15 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-15 .demo-15_main .demo-15_item {
+  position: relative;
+  overflow: hidden;
+  margin: 49px 20px 40px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: #fff;
+  background: #ff408f;
+}
+
+main .demo-15 .demo-15_main .demo-15_item i {
+  color: #fff;
+  border-radius: 100%;
+  background: #fd6faa;
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.12) #000000;
+          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.12) #000000;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  text-align: center;
+}
+
+main .demo-15 .demo-15_main .demo-15_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 15px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-15 .demo-15_main .demo-15_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-15 .demo-15_main .demo-15_item a {
+  margin: 10px 0 20px;
+  padding: 15px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #ffa500;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.42857153;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover {
+  -webkit-animation: flipZoomOut 1s forwards 1;
+          animation: flipZoomOut 1s forwards 1;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover i {
+  -webkit-animation: ripple 1s infinite;
+          animation: ripple 1s infinite;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover h2,
+main .demo-15 .demo-15_main .demo-15_item:hover p {
+  color: #ffffff;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover a {
+  color: #ffa500;
+  background-color: #ffffff;
+}
+
+@-webkit-keyframes flipZoomOut {
+  0%,
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  20% {
+    -webkit-transform: scale(0.8, 0.8);
+            transform: scale(0.8, 0.8);
+  }
+}
+
+@keyframes flipZoomOut {
+  0%,
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  20% {
+    -webkit-transform: scale(0.8, 0.8);
+            transform: scale(0.8, 0.8);
+  }
+}
+
+@-webkit-keyframes ripple {
+  0%,
+  80% {
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100%,
+  40% {
+    -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4);
+            box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes ripple {
+  0%,
+  80% {
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100%,
+  40% {
+    -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4);
+            box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4);
+  }
+}
+
+main .demo-15 .demo-15_main .demo-15_item::after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  content: '';
+  bottom: -30px;
+  height: 90px;
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
+  background: #ff408f;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+main {
+  font-family: "Droid Sans", sans-serif;
+}
+
+main .demo-15 .demo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffa500;
+}
+
+main .demo-15 .demo-top h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 15px 15px;
+}
+
+main .demo-15 .demo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+  color: #333;
+}
+
+main .demo-15 .demo-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+main .demo-15 .demo-15_main .demo-15_item {
+  position: relative;
+  overflow: hidden;
+  margin: 49px 20px 40px;
+  padding: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: #fff;
+  background: #ff408f;
+}
+
+main .demo-15 .demo-15_main .demo-15_item i {
+  color: #fff;
+  border-radius: 100%;
+  background: #fd6faa;
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.12) #000000;
+          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.12) #000000;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  font-size: 52px;
+  line-height: 120px;
+  text-align: center;
+}
+
+main .demo-15 .demo-15_main .demo-15_item h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 15px 0;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main .demo-15 .demo-15_main .demo-15_item p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+main .demo-15 .demo-15_main .demo-15_item a {
+  margin: 10px 0 20px;
+  padding: 15px 35px;
+  color: #ffffff;
+  border-radius: 0;
+  background: #ffa500;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.42857153;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover {
+  -webkit-animation: flipZoomOut 1s forwards 1;
+          animation: flipZoomOut 1s forwards 1;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover i {
+  -webkit-animation: ripple 1s infinite;
+          animation: ripple 1s infinite;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover h2,
+main .demo-15 .demo-15_main .demo-15_item:hover p {
+  color: #ffffff;
+}
+
+main .demo-15 .demo-15_main .demo-15_item:hover a {
+  color: #ffa500;
+  background-color: #ffffff;
+}
+
+@keyframes flipZoomOut {
+  0%,
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  20% {
+    -webkit-transform: scale(0.8, 0.8);
+            transform: scale(0.8, 0.8);
+  }
+}
+
+@keyframes ripple {
+  0%,
+  80% {
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100%,
+  40% {
+    -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4);
+            box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4);
+  }
+}
+
+main .demo-15 .demo-15_main .demo-15_item::after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  content: '';
+  bottom: -30px;
+  height: 90px;
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
+  background: #ff408f;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
