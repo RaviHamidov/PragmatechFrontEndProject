@@ -1,0 +1,150 @@
+main {
+    font-family: $font-family;
+
+    .demo-15 {
+        .demo-top {
+            @include flex-center-center;
+            background: $color-orange;
+
+            h2 {
+                font-size: 18px;
+                font-weight: 700;
+                color: $color-white;
+                padding: 15px 15px;
+            }
+        }
+
+        .demo-title {
+            @include flex-center-center-column;
+            padding: 70px 0;
+            color: $color-title;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                line-height: 1.1;
+            }
+        }
+
+        .demo-15_main {
+
+            .demo-15_item {
+                position: relative;
+                overflow: hidden;
+                margin: 49px 20px 40px;
+                padding: 20px;
+                transition: all .4s ease;
+                text-align: center;
+                transition-duration: 0.5s;
+                color: #fff;
+                background: #ff408f;
+
+                i {
+                    color: #fff;
+                    border-radius: 100%;
+                    background: #fd6faa;
+                    box-shadow: 0 0 0 10px rgba(255, 255, 255, .12)#000000;
+                    width: 150px;
+                    height: 150px;
+                    margin: 20px;
+                    font-size: 52px;
+                    line-height: 120px;
+                    text-align: center;
+                }
+
+                h2 {
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                    padding: 15px 0;
+                    font-family: 'Droid Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 30px;
+                }
+
+                p {
+                    padding: 0 17px 17px;
+                    color: $color-shadow;
+                    margin: 0 0 10px;
+                }
+
+                a {
+                    margin: 10px 0 20px;
+                    padding: 15px 35px;
+                    color: $color-white;
+                    border-radius: 0;
+                    background: $color-orange;
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 1.42857153;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    animation: flipZoomOut 1s forwards 1;
+
+                    i {
+                        animation: ripple 1s infinite;
+                        color: $color-white;
+                        border: 3px solid $color-white;
+                    }
+
+                    h2,
+                    p {
+                        color: $color-white;
+                    }
+
+                    a {
+                        color: $color-orange;
+                        background-color: $color-white;
+                    }
+                }
+
+                @keyframes flipZoomOut {
+
+                    0%,
+                    100% {
+                        transform: scale(1, 1)
+                    }
+
+                    20% {
+                        transform: scale(.8, .8)
+                    }
+                }
+
+                @keyframes ripple {
+
+                    0%,
+                    80% {
+                        box-shadow: 0 0 0 10px rgba(255, 255, 255, .5)
+                    }
+                
+                    100%,
+                    40% {
+                        box-shadow: 0 0 0 15px rgba(255, 255, 255, .4)
+                    }
+                }
+            }
+
+            .demo-15_item::after {
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                right: 0;
+                left: 0;
+                content: '';
+                bottom: -30px;
+                height: 90px;
+                transform: skewY(5deg);
+                background: #ff408f;
+                transition: all .4s ease;
+            }
+        }
+    }
+}
