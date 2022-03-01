@@ -19,7 +19,7 @@ main {
             color: $color-black;
             @include flex-center-center-column;
             padding: 70px 0;
-            
+
             h2 {
                 font-size: 30px;
                 font-weight: 700;
@@ -32,37 +32,42 @@ main {
         .demo-03_main {
 
             .demo-03_item {
-                margin: 40px 20px;
-                padding: 20px;
+                position: relative;
+                overflow: hidden;
+                margin: 40px 0;
+                padding: 10px;
+
                 transition: all .4s ease;
                 text-align: center;
-                border: 3px solid white;
+                border: 3px solid $color-white;
 
                 i {
                     width: 130px;
                     height: 130px;
-                    margin: 20px;
+                    color: $color-green;
+                    text-align: center;
                     font-size: 52px;
                     line-height: 120px;
-                    color: $color-green;
-                    border: solid;
                     border-radius: 100%;
-                    text-align: center;
                 }
 
                 h2 {
+                    font: {
+                        size: 30px;
+                        weight: 700;
+                        family: $font-family;
+                    }
                     margin-top: 0;
-                    margin-bottom: 15px;
-                    padding: 13px 0;
-                    color: $color-black;
-                    font-weight: 700;
-                    font-size: 30px;
+                    margin-bottom: 0;
+                    padding: 13px 0
                 }
 
                 p {
-                    padding: 0 17px 17px;
                     color: $color-black;
                     margin: 0 0 10px;
+
+                    padding: 0 17px 17px;
+                    color: $color-jordygray;
                 }
 
                 a {
@@ -89,31 +94,48 @@ main {
                     animation: border 3s forwards;
                     transition: all 0s ease;
 
-                    @keyframes border {
-                        0% {
-                            border-bottom: 3px solid $color-green;
-                            transition: all 0s ease;
-                        }
-                        25% {
-                            border-bottom: 3px solid $color-green;
-                            border-left: 3px solid $color-green;
-                            transition: all 0s ease;
-                        }
-                        75% {
-                            border-bottom: 3px solid $color-green;
-                            border-left: 3px solid $color-green;
-                            border-top: 3px solid $color-green;
-                            transition: all 0s ease;
-                        }
-                        100% {
-                            border-bottom: 3px solid $color-green;
-                            border-left: 3px solid $color-green;
-                            border-top: 3px solid $color-green;
-                            border-right: 3px solid $color-green;
-                            transition: all 0s ease;
-                        }
-                      }
+
                 }
+            }
+
+            .demo-03_item::after,
+            .demo-03_item::before {
+                position: absolute;
+                box-sizing: border-box;
+                width: 99.5%;
+                height: 2px;
+                z-index: -1;
+                left: 0;
+                content: ''
+            }
+
+            .demo-03_item:before {
+                bottom: 0;
+                transform: translateX(100%);
+                border-bottom: 2px solid transparent;
+                border-left: 2px solid transparent
+            }
+            
+            .demo-03_item:after {
+                top: 0;
+                transform: translateX(-100%);
+                border-top: 2px solid transparent;
+                border-right: 2px solid transparent
+            }
+            
+            .demo-03_item:hover:after,
+            .demo-03_item:hover:before {
+                height: 100%;
+                transform: translateX(0);
+                border-color: #24cf5f
+            }
+            
+            .demo-03_item:hover:before {
+                transition: .2s transform ease, .1s height ease .1s
+            }
+            
+            .demo-03_item:hover:after {
+                transition: .2s transform ease .2s, .1s height ease .3s
             }
         }
     }

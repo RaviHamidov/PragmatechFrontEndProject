@@ -51,7 +51,7 @@ main {
                     text-align: center;
                     margin: 20px;
                     color: $color-red;
-                    border: 1px solid #e5e5e5;
+                    border: 1px solid $color-jordyborder;
                     border-radius: 100%;
                     box-shadow: 5px 5px 3px #ddd;
                     transition: all .4s ease;
@@ -106,7 +106,7 @@ main {
                     }
 
                     i {
-                        box-shadow: -5px 7px 3px #ddd;
+                        box-shadow: -5px 7px 3px $color-jordyborder;
                         transition: all .4s ease;
                     }
                 }

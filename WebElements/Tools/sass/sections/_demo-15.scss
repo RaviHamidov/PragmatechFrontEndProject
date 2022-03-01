@@ -1,16 +1,18 @@
 main {
-    font-family: $font-family;
-
     .demo-15 {
         .demo-top {
             @include flex-center-center;
-            background: $color-orange;
+            background: $color-caribbeaneen;
 
             h2 {
-                font-size: 18px;
-                font-weight: 700;
+                font: {
+                    size: 18px;
+                    weight: 700;
+                    family: $font-family;
+                }
+
                 color: $color-white;
-                padding: 15px 15px;
+                padding: 13px 15px;
             }
         }
 
@@ -20,8 +22,12 @@ main {
             color: $color-title;
 
             h2 {
-                font-size: 30px;
-                font-weight: 700;
+                font: {
+                    size: 30px;
+                    weight: 700;
+                    family: $font-family;
+                }
+
                 margin-top: 20px;
                 margin-bottom: 10px;
                 line-height: 1.1;
@@ -33,34 +39,31 @@ main {
             .demo-15_item {
                 position: relative;
                 overflow: hidden;
-                margin: 49px 20px 40px;
+                margin: 40px 20px;
                 padding: 20px;
                 transition: all .4s ease;
                 text-align: center;
-                transition-duration: 0.5s;
-                color: #fff;
-                background: #ff408f;
+                padding: 15px;
 
                 i {
-                    color: #fff;
-                    border-radius: 100%;
-                    background: #fd6faa;
-                    box-shadow: 0 0 0 10px rgba(255, 255, 255, .12)#000000;
-                    width: 150px;
-                    height: 150px;
-                    margin: 20px;
+                    width: 130px;
+                    height: 130px;
                     font-size: 52px;
                     line-height: 120px;
+                    color: $color-black;
                     text-align: center;
                 }
 
                 h2 {
+                    font: {
+                        size: 25px;
+                        weight: 700;
+                        family: $font-family;
+                    }
+
                     margin-top: 0;
                     margin-bottom: 15px;
-                    padding: 15px 0;
-                    font-family: 'Droid Sans', sans-serif;
-                    font-weight: 700;
-                    font-size: 30px;
+                    padding: 13px 0;
                 }
 
                 p {
@@ -70,80 +73,52 @@ main {
                 }
 
                 a {
+                    font: {
+                        size: 14px;
+                        weight: 400;
+                        family: $font-family;
+                    }
+
                     margin: 10px 0 20px;
-                    padding: 15px 35px;
-                    color: $color-white;
-                    border-radius: 0;
-                    background: $color-orange;
+                    padding: 14px 35px;
+                    color: $color-black;
                     display: inline-block;
                     margin-bottom: 0;
-                    font-size: 15px;
-                    font-weight: 400;
-                    line-height: 1.42857153;
+                    line-height: 1.42857143;
                     text-align: center;
-                    white-space: nowrap;
-                    vertical-align: middle;
+                    border: 2px solid $color-black;
+                    border-radius: 1rem;
                     text-decoration: none;
+                    -webkit-border-radius: 1rem;
+                    -moz-border-radius: 1rem;
+                    -ms-border-radius: 1rem;
+                    -o-border-radius: 1rem;
                 }
 
                 &:hover {
-                    animation: flipZoomOut 1s forwards 1;
-
                     i {
-                        animation: ripple 1s infinite;
-                        color: $color-white;
-                        border: 3px solid $color-white;
-                    }
-
-                    h2,
-                    p {
-                        color: $color-white;
-                    }
-
-                    a {
-                        color: $color-orange;
-                        background-color: $color-white;
+                        animation: hinge 1.4s infinite forwards;
+                        -webkit-animation: hinge 1.4s infinite forwards;
                     }
                 }
 
-                @keyframes flipZoomOut {
-
-                    0%,
-                    100% {
-                        transform: scale(1, 1)
-                    }
-
-                    20% {
-                        transform: scale(.8, .8)
-                    }
-                }
-
-                @keyframes ripple {
-
-                    0%,
-                    80% {
-                        box-shadow: 0 0 0 10px rgba(255, 255, 255, .5)
-                    }
-                
-                    100%,
-                    40% {
-                        box-shadow: 0 0 0 15px rgba(255, 255, 255, .4)
-                    }
+                &:hover::after {
+                    transform: rotateX(0) translateY(0)
                 }
             }
 
-            .demo-15_item::after {
+            .demo-15_item:after {
                 position: absolute;
-                z-index: -1;
+                bottom: 0;
+                background: #DDF9FF;
+                transform: rotateX(90deg) translateY(100%);
+                content: '';
                 top: 0;
                 right: 0;
+                bottom: 0;
                 left: 0;
-                content: '';
-                bottom: -30px;
-                height: 90px;
-                transform: skewY(5deg);
-                background: #ff408f;
                 transition: all .4s ease;
+                z-index: -1;
             }
         }
     }

@@ -1,14 +1,15 @@
 main {
-    font-family: $font-family;
-
     .demo-01 {
         .demo-top {
             @include flex-center-center;
             background: $color-orange;
 
             h2 {
-                font-size: 18px;
-                font-weight: 700;
+                font: {
+                    size: 18px;
+                    weight: 700;
+                    family: $font-family;
+                }
                 color: $color-white;
                 padding: 13px 15px;
             }
@@ -20,8 +21,11 @@ main {
             color: $color-title;
 
             h2 {
-                font-size: 30px;
-                font-weight: 700;
+                font: {
+                    size: 30px;
+                    weight: 700;
+                    family: $font-family;
+                }
                 margin-top: 20px;
                 margin-bottom: 10px;
                 line-height: 1.1;
@@ -54,12 +58,14 @@ main {
                 }
 
                 h2 {
+                    font: {
+                        size: 25px;
+                        weight: 700;
+                        family: $font-family;
+                    }
                     margin-top: 0;
                     margin-bottom: 15px;
                     padding: 13px 0;
-                    font-family: 'Droid Sans', sans-serif;
-                    font-weight: 700;
-                    font-size: 30px;
                 }
 
                 p {
@@ -69,15 +75,17 @@ main {
                 }
 
                 a {
+                    font: {
+                        size: 14px;
+                        weight: 400;
+                        family: $font-family;
+                    }
                     margin: 10px 0 20px;
                     padding: 14px 35px;
                     color: $color-white;
-                    border-radius: 0;
                     background: $color-orange;
                     display: inline-block;
                     margin-bottom: 0;
-                    font-size: 14px;
-                    font-weight: 400;
                     line-height: 1.42857143;
                     text-align: center;
                     white-space: nowrap;

@@ -8,8 +8,11 @@ main {
             background: $color-lightblue;
 
             h2 {
-                font-size: 18px;
-                font-weight: 700;
+                font: {
+                    size: 18px;
+                    weight: 700;
+                    family: $font-family;
+                }
                 color: $color-white;
                 padding: 13px 15px;
             }
@@ -21,8 +24,11 @@ main {
             padding: 70px 0;
 
             h2 {
-                font-size: 30px;
-                font-weight: 700;
+                font: {
+                    size: 30px;
+                    weight: 700;
+                    family: $font-family;
+                }
                 margin-top: 20px;
                 margin-bottom: 10px;
                 line-height: 1.1;
@@ -35,31 +41,32 @@ main {
                 position: relative;
                 z-index: 0;
                 margin: 40px 20px;
-                padding: 20px;
+                padding: 30px;
                 text-align: center;
                 // background: lighten($color: $color-lightblue, $amount: 15%);
                 background: $color-bluegreen;
-                transition: all .8s ease;
+                transition: all .3s ease;
 
                 i {
-                    width: 130px;
-                    height: 130px;
+                    width: 100px;
+                    height: 100px;
                     margin: 20px;
                     font-size: 52px;
                     line-height: 120px;
                     color: lighten($color: $color-lightblue, $amount: 40%);
-                    border: solid;
-                    border-radius: 100%;
                     text-align: center;
                 }
 
                 h2 {
+                    font: {
+                        size: 30px;
+                        weight: 700;
+                        family: $font-family;
+                    }
                     margin-top: 0;
                     margin-bottom: 15px;
                     padding: 13px 0;
                     color: $color-white;
-                    font-weight: 700;
-                    font-size: 30px;
                 }
 
                 p {
@@ -69,13 +76,16 @@ main {
                 }
 
                 a {
+                    font: {
+                        size: 14px;
+                        weight: 400;
+                        family: $font-family;
+                    }
                     margin: 10px 0 20px;
                     padding: 14px 35px;
                     color: $color-white;
                     display: inline-block;
                     margin-bottom: 0;
-                    font-size: 14px;
-                    font-weight: 400;
                     text-align: center;
                     text-decoration: none;
                     background: darken($color: $color-lightblue, $amount: 10%);
@@ -92,19 +102,19 @@ main {
                     opacity: .6;
                     z-index: -1;
                     box-sizing: border-box;
-                    transition: all .8s ease;
+                    transition: all .3s ease;
                 }
 
                 &:hover {
                     a {
                         background-color: $color-dodgerblue;
-                        color: white;
-                        transition: all .8s ease;
+                        color: $color-white;
+                        transition: all .3s ease;
                     }
 
                     .demo-05_main-cta {
                         transform: scale(0);
-                        transition: all .8s ease;
+                        transition: all .3s ease;
                     }
                 }
 
@@ -121,6 +131,10 @@ main {
                     z-index: -1;
                     background-color: $color-dodgerblue;
                     transition: all .8s ease;
+                    -webkit-transition: all .8s ease;
+                    -moz-transition: all .8s ease;
+                    -ms-transition: all .8s ease;
+                    -o-transition: all .8s ease;
                 }
             }
         }

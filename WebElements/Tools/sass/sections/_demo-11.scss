@@ -35,17 +35,17 @@ main {
                 padding: 10px 0px 70px;
                 transition: all .4s ease;
                 text-align: center;
-                border: 1px solid #ee12a0;
+                border: 1px solid $color-frostbite;
                 border-radius: 100%;
-                background: #fff;
+                background: $color-white;
 
                 i {
                     width: 130px;
                     margin: -90px 20px 20px;
                     background-color: $color-frostbite;
-                    border: 1px solid #fff;
+                    border: 1px solid $color-white;
                     border-radius: 100%;
-                    color: #fff;
+                    color: $color-white;
                     font-size: 52px;
                     transition: all .4s ease;
                     line-height: 120px;
@@ -98,7 +98,7 @@ main {
 
                     i {
                         color: $color-frostbite;
-                        background-color: #fff;
+                        background-color: $color-white;
                         transition: all .4s ease;
                     }
 

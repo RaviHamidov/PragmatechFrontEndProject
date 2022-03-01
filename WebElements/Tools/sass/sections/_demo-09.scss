@@ -40,10 +40,10 @@ main {
                 i {
                     width: 130px;
                     margin: -90px 20px 20px;
-                    color: #c0df19;
-                    border: 1px solid #fff;
+                    color: $color-fueqo;
+                    border: 1px solid $color-white;
                     border-radius: 100%;
-                    background: #fff;
+                    background: $color-white;
                     font-size: 52px;
                     transition: all .4s ease;
                     line-height: 120px;
@@ -91,8 +91,8 @@ main {
 
                 &:hover {
                     i {
-                        background-color: #c0df19;
-                        color: #fff;
+                        background-color: $color-fueqo;
+                        color: $color-white;
                         transition: all .4s ease;
                     }
                 }

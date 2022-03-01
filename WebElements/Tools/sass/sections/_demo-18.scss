@@ -1,5 +1,5 @@
 main {
-    .demo-16 {
+    .demo-18 {
         .demo-top {
             @include flex-center-center;
             background: darken($color: $color-newsletter, $amount: 20%);
@@ -12,7 +12,7 @@ main {
                 }
 
                 color: $color-white;
-                padding: 13px 16px;
+                padding: 13px 18px;
             }
         }
 
@@ -34,20 +34,17 @@ main {
             }
         }
 
-        .demo-16_main {
+        .demo-18_main {
 
-            .demo-16_item {
+            .demo-18_item {
                 position: relative;
                 overflow: hidden;
                 margin: 40px 20px;
                 transition: all .4s ease;
                 text-align: center;
-                background: $color-newsletter;
-                
+                background: $color-fueshoes;
+
                 img {
-                    // height: 260px;
-                    // vertical-align: middle;
-                    // width: 360px;
                     display: block;
                     max-width: 100%;
                     height: auto;
@@ -59,9 +56,7 @@ main {
                     z-index: 1;
                     color: $color-white;
                     width: 100%;
-                    padding-left: 20px;
                     padding-right: 20px;
-                    left: -20px;
 
                     h2 {
                         font: {
@@ -75,66 +70,28 @@ main {
                         text-align: center;
                     }
 
-                    a {
+                    a,
+                    p {
                         display: none;
+                    }
+
+                    a {
                         padding: 10px 20px;
                         color: $color-white;
                         width: 140px;
-                        margin: auto;
-                        background: linear-gradient(to right, $color-black 50%, $color-white 50%);
-                        background-size: 200% 100%;
-                        background-position: left;
+                        margin: 20px auto auto;
+                        background: linear-gradient(to bottom, transparent 50%, $color-white 50%);
+                        background-size: 100% 200%;
+                        background-position: top;
                         transition: all .2s ease;
-                        border: none;
-                        text-align: center;
+                        border: 2px solid;
+                        border-radius: 40px;
                         text-decoration: none;
 
                         &:hover {
-                            background-position: right;
+                            background-position: bottom;
                             color: $color-black;
-                        }
-                    }
-                }
-
-                &:hover {
-                    i {
-                        animation: hinge 1.4s infinite forwards;
-                    }
-
-                    a {
-                        display: block;
-                        animation: fadeInUp .4s 1 forwards;
-                    }
-
-                    @keyframes fadeInUp {
-                        0% {
-                            opacity: 0;
-                            transform: translateY(100%)
-                        }
-                    
-                        100% {
-                            opacity: 1;
-                            transform: translateY(0)
-                        }
-                    }
-
-                    p {
-                        display: none
-                    }
-
-                    h2 {
-                        animation: fadeInDown .4s 1 forwards;
-                    }
-
-                    @keyframes fadeInDown {
-                        0% {
-                            opacity: 0;
-                            transform: translateY(-100%)
-                        }
-                    
-                        100% {
-                            opacity: 1;
-                            transform: translateY(0)
+                            border-color: $color-white;
                         }
                     }
                 }
@@ -147,11 +104,33 @@ main {
                     transform: translateY(-100%);
                 }
 
+                &:hover {
 
+                    .data a,
+                    p {
+                        display: block
+                    }
+
+                    .data {
+                        animation: fadeInUp .4s 1 forwards;
+                    }
+
+                    @keyframes fadeInUp {
+                        0% {
+                            opacity: 0;
+                            transform: translateY(100%)
+                        }
+
+                        100% {
+                            opacity: 1;
+                            transform: translateY(0)
+                        }
+                    }
+                }
             }
 
-            .demo-16_item:after,
-            .demo-16_item:before {
+            .demo-18_item:after,
+            .demo-18_item:before {
                 content: '';
                 top: 0;
                 right: 0;
@@ -161,24 +140,16 @@ main {
                 z-index: 0;
             }
 
-            .demo-16_item::before {
+            .demo-18_item::before {
                 position: absolute;
-                background: rgba(0, 0, 0, .25);
+                background: rgba(66, 65, 16, .44);
                 transform: translateY(0);
-                -webkit-transform: translateY(0);
-                -moz-transform: translateY(0);
-                -ms-transform: translateY(0);
-                -o-transform: translateY(0);
             }
 
-            .demo-16_item:after {
+            .demo-18_item:after {
                 position: absolute;
-                background: rgba(0, 0, 0, .35);
+                background: rgba(66, 65, 16, .66);
                 transform: translateY(100%);
-                -webkit-transform: translateY(100%);
-                -moz-transform: translateY(100%);
-                -ms-transform: translateY(100%);
-                -o-transform: translateY(100%);
             }
         }
     }

@@ -7,8 +7,12 @@ main {
             background: $color-brightturquoise;
 
             h2 {
-                font-size: 18px;
-                font-weight: 700;
+                font: {
+                    size: 18px;
+                    weight: 700;
+                    family: $font-family;
+                }
+
                 color: $color-white;
                 padding: 13px 15px;
             }
@@ -20,8 +24,12 @@ main {
             color: $color-title;
 
             h2 {
-                font-size: 30px;
-                font-weight: 700;
+                font: {
+                    size: 30px;
+                    weight: 700;
+                    family: $font-family;
+                }
+
                 margin-top: 20px;
                 margin-bottom: 10px;
                 line-height: 1.1;
@@ -29,6 +37,7 @@ main {
         }
 
         .demo-12_main {
+            padding: 50px 0;
 
             .demo-12_item {
                 position: relative;
@@ -37,26 +46,31 @@ main {
                 transition: all .4s ease;
                 text-align: center;
                 transition-duration: 0.5s;
+                background-color: $color-limensik;
+                z-index: 0;
 
                 i {
-                    width: 130px;
-                    height: 130px;
-                    margin: 20px;
-                    font-size: 52px;
-                    line-height: 120px;
+                    float: right;
+                    font-size: 42px;
+                    line-height: 110px;
+                    width: 110px;
+                    margin: 20px 0;
                     color: $color-brightturquoise;
-                    border: solid;
                     border-radius: 100%;
-                    text-align: center;
+                    background: $color-white;
+                    box-shadow: -3px -2px 5px $color-fueqolova inset;
                 }
 
                 h2 {
+                    font: {
+                        size: 30px;
+                        weight: 700;
+                        family: $font-family;
+                    }
+
                     margin-top: 0;
                     margin-bottom: 15px;
                     padding: 13px 0;
-                    font-family: 'Droid Sans', sans-serif;
-                    font-weight: 700;
-                    font-size: 30px;
                 }
 
                 p {
@@ -66,15 +80,17 @@ main {
                 }
 
                 a {
+                    font: {
+                        size: 14px;
+                        weight: 400;
+                        family: $font-family;
+                    }
+
                     margin: 10px 0 20px;
                     padding: 14px 35px;
                     color: $color-white;
-                    border-radius: 0;
                     background: $color-brightturquoise;
                     display: inline-block;
-                    margin-bottom: 0;
-                    font-size: 14px;
-                    font-weight: 400;
                     line-height: 1.42857143;
                     text-align: center;
                     white-space: nowrap;
@@ -84,6 +100,18 @@ main {
 
                 &:hover::after {
                     transform: rotateZ(0) translateX(0);
+                }
+
+                &:hover {
+                    h2,
+                    p {
+                        color: $color-white;
+                    }
+                    
+                    a {
+                        color: $color-brightturquoise;
+                        background-color: $color-white;
+                    }
                 }
             }
 
@@ -97,23 +125,8 @@ main {
                 content: '';
                 transform: rotateZ(90deg) translateX(100%);
                 transition: all .4s ease;
-                background: #12daee;
+                background: $color-brightturquoise;
             }
         }
     }
 }
-
-// i {
-//     color: $color-white;
-//     border: 3px solid $color-white;
-// }
-
-// h2,
-// p {
-//     color: $color-white;
-// }
-
-// a {
-//     color: $color-brightturquoise;
-//     background-color: $color-white;
-// }

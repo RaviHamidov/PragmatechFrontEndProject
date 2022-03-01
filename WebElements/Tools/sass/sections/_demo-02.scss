@@ -53,13 +53,14 @@ main {
                 }
 
                 h2 {
-                    margin-top: 0;
+                    font: {
+                        size: 30px;
+                        weight: 700;
+                        family: $font-family;
+                    }
                     margin-bottom: 15px;
                     padding: 13px 0;
                     color: $color-white;
-                    font-family: 'Droid Sans', sans-serif;
-                    font-weight: 700;
-                    font-size: 30px;
                 }
 
                 p {
