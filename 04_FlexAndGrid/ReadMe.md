@@ -9,7 +9,7 @@
             > align-items
             > ul>li
             > section>div
-            > img
+            > img 
             > border
             > border-radius
             > margin
