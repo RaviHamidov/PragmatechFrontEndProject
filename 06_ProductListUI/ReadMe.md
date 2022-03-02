@@ -6,7 +6,7 @@
         > CSS
             > Position
                 > Absolute
-                > Relative
+                > Relative 
                 > Fixed
                 > Static
             > Utility Classess
