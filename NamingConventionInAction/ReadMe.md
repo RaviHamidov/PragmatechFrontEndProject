@@ -37,4 +37,4 @@
     <img src="../Storage/Screenshot_4.png">
     <img src="../Storage/Screenshot_5.png">
     <img src="../Storage/Screenshot_6.png">
-    <img src="../Storage/Screenshot_7.png"> 
+    <img src="../Storage/Screenshot_7.png">  
