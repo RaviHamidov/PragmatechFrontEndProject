@@ -26,4 +26,4 @@
     ```
         01) Try to prepare as much as you can by looking at the given Figma design
     ```
-    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)  
+    - [Solution](https://github.com/RaviHamidov/PragmatechFrontEndProject/tree/main/Works)   
