@@ -8,7 +8,7 @@
         > Using CSS variables
         > Points to consider when using Flex
         > Using CSS background 
-        > reset.css logic
+        > reset.css logic 
     ```
     - [My Documentation](https://github.com/RaviHamidov/PragmatechFrontEndProject/blob/main/ReSearch.md)
 
