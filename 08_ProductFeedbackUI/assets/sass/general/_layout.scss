@@ -1,0 +1,191 @@
+/*==========================================================
+                        Layout Start
+==========================================================*/
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+}
+
+.row {
+    @include flex;
+    @include justify-content-between;
+    @include flex-wrap
+}
+
+/*==========================================================
+                        Layout End
+==========================================================*/
+
+/*==========================================================
+                12 Column Grid System Start
+==========================================================*/
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        position: relative;
+        width: calc((100%/12)*#{$i}) !important;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        width: 100%;
+    }
+
+    @for $i from 1 through 12 {
+        .col-xs-#{$i} {
+            position: relative;
+            width: calc((100%/12)*#{$i}) !important;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    @for $i from 1 through 12 {
+        .col-sm-#{$i} {
+            position: relative;
+            width: calc((100%/12)*#{$i}) !important;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    @for $i from 1 through 12 {
+        .col-md-#{$i} {
+            position: relative;
+            width: calc((100%/12)*#{$i}) !important;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+
+    @for $i from 1 through 12 {
+        .col-lg-#{$i} {
+            position: relative;
+            width: calc((100%/12)*#{$i}) !important;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+    }
+}
+
+/*==========================================================
+                12 Column Grid System End
+==========================================================*/
+
+/*==========================================================
+                    Padding Start
+==========================================================*/
+@for $i from 1 through 7 {
+    .p-#{$i} {
+        padding: calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .px-#{$i} {
+        padding:0px calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .py-#{$i} {
+        padding:calc(#{$space-x} * #{$i}) 0px !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .pt-#{$i} {
+        padding-top:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .pb-#{$i} {
+        padding-bottom:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .p-#{$i} {
+        padding: calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .px-#{$i} {
+        padding:0px calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .py-#{$i} {
+        padding:calc(#{$space-x} * #{$i}) 0px !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .pt-#{$i} {
+        padding-top:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+/*==========================================================
+                    Padding End
+==========================================================*/
+
+/*==========================================================
+                    Margin Start
+==========================================================*/
+@for $i from 1 through 7 {
+    .m-#{$i} {
+        margin: calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .mx-#{$i} {
+        margin:0px calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .my-#{$i} {
+        margin:calc(#{$space-x} * #{$i}) 0px !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .mt-#{$i} {
+        margin-top:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 7 {
+    .mb-#{$i} {
+        margin-bottom:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+/*==========================================================
+                    Margin End
+==========================================================*/

@@ -1,0 +1,51 @@
+body {
+    background: $color_graylight;
+
+    .suggestions {
+        &__board {
+            position: absolute;
+            background: $color_mix;
+            border-radius: 10px;
+            padding: 62px 77px 24px 24px;
+            z-index: -1;
+
+            h2 {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h2;
+                    weight: $font-weight-h2;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h2;
+                letter-spacing: $letter-spacing-h2;
+                color: $color-white;
+            }
+
+            span {
+                font: {
+                    family: $font-family;
+                    size: $font-size-body2;
+                    weight: $font-weight-500;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-body2;
+                color: $color-white;
+            }
+        }
+
+        &__board::before {
+            position: absolute;
+            content: '';
+            z-index: -1;
+            width: 192px;
+            height: 192px;
+            left: 373.5px;
+            top: 135.5px;
+
+            background: #FBB57A;
+            filter: blur(89.7033px);
+        }
+    }
+}

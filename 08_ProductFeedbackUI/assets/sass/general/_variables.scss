@@ -1,0 +1,30 @@
+$container-width:1200px;
+
+$space-x:5px;
+$space-2x:$space-x*2;
+$space-3x:$space-x*3;
+$space-4x:$space-x*4;
+$space-5x:$space-x*5;
+$space-6x:$space-x*6;
+$space-7x:$space-x*7;
+$space-8x:$space-x*8;
+
+@mixin border {
+    border: 1px solid red;
+}
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin justify-content-between {
+    justify-content: space-between;
+}
+
+@mixin justify-content-center {
+    justify-content: center;
+}
+
+@mixin flex-wrap {
+    flex-wrap: wrap;
+}

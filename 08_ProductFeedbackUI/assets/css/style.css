@@ -1,1 +1,986 @@
-/* No CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*==========================================================
+                        Layout Start
+==========================================================*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/*==========================================================
+                        Layout End
+==========================================================*/
+/*==========================================================
+                12 Column Grid System Start
+==========================================================*/
+.col-1 {
+  position: relative;
+  width: calc((100%/12)*1) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-2 {
+  position: relative;
+  width: calc((100%/12)*2) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-3 {
+  position: relative;
+  width: calc((100%/12)*3) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-4 {
+  position: relative;
+  width: calc((100%/12)*4) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-5 {
+  position: relative;
+  width: calc((100%/12)*5) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-6 {
+  position: relative;
+  width: calc((100%/12)*6) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-7 {
+  position: relative;
+  width: calc((100%/12)*7) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-8 {
+  position: relative;
+  width: calc((100%/12)*8) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-9 {
+  position: relative;
+  width: calc((100%/12)*9) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-10 {
+  position: relative;
+  width: calc((100%/12)*10) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-11 {
+  position: relative;
+  width: calc((100%/12)*11) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-12 {
+  position: relative;
+  width: calc((100%/12)*12) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .col-xs-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .col-sm-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .col-md-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+  .col-lg-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+/*==========================================================
+                12 Column Grid System End
+==========================================================*/
+/*==========================================================
+                    Padding Start
+==========================================================*/
+.p-1 {
+  padding: calc(5px * 1) !important;
+}
+
+.p-2 {
+  padding: calc(5px * 2) !important;
+}
+
+.p-3 {
+  padding: calc(5px * 3) !important;
+}
+
+.p-4 {
+  padding: calc(5px * 4) !important;
+}
+
+.p-5 {
+  padding: calc(5px * 5) !important;
+}
+
+.p-6 {
+  padding: calc(5px * 6) !important;
+}
+
+.p-7 {
+  padding: calc(5px * 7) !important;
+}
+
+.px-1 {
+  padding: 0px calc(5px * 1) !important;
+}
+
+.px-2 {
+  padding: 0px calc(5px * 2) !important;
+}
+
+.px-3 {
+  padding: 0px calc(5px * 3) !important;
+}
+
+.px-4 {
+  padding: 0px calc(5px * 4) !important;
+}
+
+.px-5 {
+  padding: 0px calc(5px * 5) !important;
+}
+
+.px-6 {
+  padding: 0px calc(5px * 6) !important;
+}
+
+.px-7 {
+  padding: 0px calc(5px * 7) !important;
+}
+
+.py-1 {
+  padding: calc(5px * 1) 0px !important;
+}
+
+.py-2 {
+  padding: calc(5px * 2) 0px !important;
+}
+
+.py-3 {
+  padding: calc(5px * 3) 0px !important;
+}
+
+.py-4 {
+  padding: calc(5px * 4) 0px !important;
+}
+
+.py-5 {
+  padding: calc(5px * 5) 0px !important;
+}
+
+.py-6 {
+  padding: calc(5px * 6) 0px !important;
+}
+
+.py-7 {
+  padding: calc(5px * 7) 0px !important;
+}
+
+.pt-1 {
+  padding-top: calc(5px * 1) !important;
+}
+
+.pt-2 {
+  padding-top: calc(5px * 2) !important;
+}
+
+.pt-3 {
+  padding-top: calc(5px * 3) !important;
+}
+
+.pt-4 {
+  padding-top: calc(5px * 4) !important;
+}
+
+.pt-5 {
+  padding-top: calc(5px * 5) !important;
+}
+
+.pt-6 {
+  padding-top: calc(5px * 6) !important;
+}
+
+.pt-7 {
+  padding-top: calc(5px * 7) !important;
+}
+
+.pb-1 {
+  padding-bottom: calc(5px * 1) !important;
+}
+
+.pb-2 {
+  padding-bottom: calc(5px * 2) !important;
+}
+
+.pb-3 {
+  padding-bottom: calc(5px * 3) !important;
+}
+
+.pb-4 {
+  padding-bottom: calc(5px * 4) !important;
+}
+
+.pb-5 {
+  padding-bottom: calc(5px * 5) !important;
+}
+
+.pb-6 {
+  padding-bottom: calc(5px * 6) !important;
+}
+
+.pb-7 {
+  padding-bottom: calc(5px * 7) !important;
+}
+
+.p-1 {
+  padding: calc(5px * 1) !important;
+}
+
+.p-2 {
+  padding: calc(5px * 2) !important;
+}
+
+.p-3 {
+  padding: calc(5px * 3) !important;
+}
+
+.p-4 {
+  padding: calc(5px * 4) !important;
+}
+
+.p-5 {
+  padding: calc(5px * 5) !important;
+}
+
+.p-6 {
+  padding: calc(5px * 6) !important;
+}
+
+.p-7 {
+  padding: calc(5px * 7) !important;
+}
+
+.px-1 {
+  padding: 0px calc(5px * 1) !important;
+}
+
+.px-2 {
+  padding: 0px calc(5px * 2) !important;
+}
+
+.px-3 {
+  padding: 0px calc(5px * 3) !important;
+}
+
+.px-4 {
+  padding: 0px calc(5px * 4) !important;
+}
+
+.px-5 {
+  padding: 0px calc(5px * 5) !important;
+}
+
+.px-6 {
+  padding: 0px calc(5px * 6) !important;
+}
+
+.px-7 {
+  padding: 0px calc(5px * 7) !important;
+}
+
+.py-1 {
+  padding: calc(5px * 1) 0px !important;
+}
+
+.py-2 {
+  padding: calc(5px * 2) 0px !important;
+}
+
+.py-3 {
+  padding: calc(5px * 3) 0px !important;
+}
+
+.py-4 {
+  padding: calc(5px * 4) 0px !important;
+}
+
+.py-5 {
+  padding: calc(5px * 5) 0px !important;
+}
+
+.py-6 {
+  padding: calc(5px * 6) 0px !important;
+}
+
+.py-7 {
+  padding: calc(5px * 7) 0px !important;
+}
+
+.pt-1 {
+  padding-top: calc(5px * 1) !important;
+}
+
+.pt-2 {
+  padding-top: calc(5px * 2) !important;
+}
+
+.pt-3 {
+  padding-top: calc(5px * 3) !important;
+}
+
+.pt-4 {
+  padding-top: calc(5px * 4) !important;
+}
+
+.pt-5 {
+  padding-top: calc(5px * 5) !important;
+}
+
+.pt-6 {
+  padding-top: calc(5px * 6) !important;
+}
+
+.pt-7 {
+  padding-top: calc(5px * 7) !important;
+}
+
+/*==========================================================
+                    Padding End
+==========================================================*/
+/*==========================================================
+                    Margin Start
+==========================================================*/
+.m-1 {
+  margin: calc(5px * 1) !important;
+}
+
+.m-2 {
+  margin: calc(5px * 2) !important;
+}
+
+.m-3 {
+  margin: calc(5px * 3) !important;
+}
+
+.m-4 {
+  margin: calc(5px * 4) !important;
+}
+
+.m-5 {
+  margin: calc(5px * 5) !important;
+}
+
+.m-6 {
+  margin: calc(5px * 6) !important;
+}
+
+.m-7 {
+  margin: calc(5px * 7) !important;
+}
+
+.mx-1 {
+  margin: 0px calc(5px * 1) !important;
+}
+
+.mx-2 {
+  margin: 0px calc(5px * 2) !important;
+}
+
+.mx-3 {
+  margin: 0px calc(5px * 3) !important;
+}
+
+.mx-4 {
+  margin: 0px calc(5px * 4) !important;
+}
+
+.mx-5 {
+  margin: 0px calc(5px * 5) !important;
+}
+
+.mx-6 {
+  margin: 0px calc(5px * 6) !important;
+}
+
+.mx-7 {
+  margin: 0px calc(5px * 7) !important;
+}
+
+.my-1 {
+  margin: calc(5px * 1) 0px !important;
+}
+
+.my-2 {
+  margin: calc(5px * 2) 0px !important;
+}
+
+.my-3 {
+  margin: calc(5px * 3) 0px !important;
+}
+
+.my-4 {
+  margin: calc(5px * 4) 0px !important;
+}
+
+.my-5 {
+  margin: calc(5px * 5) 0px !important;
+}
+
+.my-6 {
+  margin: calc(5px * 6) 0px !important;
+}
+
+.my-7 {
+  margin: calc(5px * 7) 0px !important;
+}
+
+.mt-1 {
+  margin-top: calc(5px * 1) !important;
+}
+
+.mt-2 {
+  margin-top: calc(5px * 2) !important;
+}
+
+.mt-3 {
+  margin-top: calc(5px * 3) !important;
+}
+
+.mt-4 {
+  margin-top: calc(5px * 4) !important;
+}
+
+.mt-5 {
+  margin-top: calc(5px * 5) !important;
+}
+
+.mt-6 {
+  margin-top: calc(5px * 6) !important;
+}
+
+.mt-7 {
+  margin-top: calc(5px * 7) !important;
+}
+
+.mb-1 {
+  margin-bottom: calc(5px * 1) !important;
+}
+
+.mb-2 {
+  margin-bottom: calc(5px * 2) !important;
+}
+
+.mb-3 {
+  margin-bottom: calc(5px * 3) !important;
+}
+
+.mb-4 {
+  margin-bottom: calc(5px * 4) !important;
+}
+
+.mb-5 {
+  margin-bottom: calc(5px * 5) !important;
+}
+
+.mb-6 {
+  margin-bottom: calc(5px * 6) !important;
+}
+
+.mb-7 {
+  margin-bottom: calc(5px * 7) !important;
+}
+
+/*==========================================================
+                    Margin End
+==========================================================*/
+body {
+  background: #F2F2F2;
+}
+
+body .suggestions__board {
+  position: absolute;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  border-radius: 10px;
+  padding: 62px 77px 24px 24px;
+  z-index: -1;
+}
+
+body .suggestions__board h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 29px;
+  letter-spacing: -0.25px;
+  color: #FFFFFF;
+}
+
+body .suggestions__board span {
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+body .suggestions__board::before {
+  position: absolute;
+  content: '';
+  z-index: -1;
+  width: 192px;
+  height: 192px;
+  left: 373.5px;
+  top: 135.5px;
+  background: #FBB57A;
+  -webkit-filter: blur(89.7033px);
+          filter: blur(89.7033px);
+}
