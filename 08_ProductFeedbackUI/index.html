@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Css Link -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
     <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -15,24 +17,35 @@
 </head>
 
 <body>
-    <!-- suggestions-section-start -->
+
+    <!-- suggestions-start -->
     <section class="suggestions">
         <div class="container">
             <div class="row">
                 <div class="col-3">
+
+                    <!-- suggestions-header-start -->
                     <div class="suggestions__header">
+
+                        <!-- board-component-start -->
                         <div class="suggestions__board">
                             <h2>Frontend Mentor</h2>
                             <span>Feedback Board</span>
                         </div>
-                        <div class="suggestions__menu">
-                            <span>All</span>
-                            <span>UI</span>
-                            <span>UX</span>
-                            <span>Enhancement</span>
-                            <span>Bug</span>
-                            <span>Feature</span>
+                        <!-- board-component-end -->
+
+                        <!-- categories-component-start -->
+                        <div class="suggestions__categories">
+                            <div><a href="#">All</a></div>
+                            <div><a href="#">UI</a></div>
+                            <div><a href="#">UX</a></div>
+                            <div><a href="#">Enhancement</a></div>
+                            <div><a href="#">Bug</a></div>
+                            <div><a href="#">Feature</a></div>
                         </div>
+                        <!-- categories-component-end -->
+
+                        <!-- roadmap-component-start -->
                         <div class="suggestions__roadmap">
                             <div class="suggestions__title">
                                 <h3>Roadmap</h3>
@@ -53,10 +66,18 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- roadmap-component-end -->
+
                     </div>
+                    <!-- suggestions-header-end -->
+
                 </div>
                 <div class="col-8">
+
+                    <!-- suggestions-main-start -->
                     <div class="suggestions__main">
+
+                        <!-- suggestions-top-start -->
                         <div class="suggestions__top">
                             <div class="row">
                                 <div class="suggestions__primary">
@@ -74,6 +95,9 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- suggestions-top-end -->
+
+                        <!-- suggestions-cards-start -->
                         <div class="suggestions__card">
                             <div class="row">
                                 <div class="col-1">
@@ -143,12 +167,17 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- suggestions-cards-end -->
+
                     </div>
+                    <!-- suggestions-main-end -->
+
                 </div>
             </div>
         </div>
     </section>
-    <!-- suggestions-section-end -->
+    <!-- suggestions-end -->
+
 </body>
 
 </html>

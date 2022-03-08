@@ -3,67 +3,72 @@ body {
     padding: 94px 165px;
 
     .suggestions {
-        &__board {
-            position: relative;
-            background: $color_mix;
-            border-radius: 10px;
-            padding: 62px 77px 24px 24px;
-            overflow: hidden;
-
-            h2 {
-                font: {
-                    family: $font-family;
-                    size: $font-size-h2;
-                    weight: $font-weight-h2;
-                    style: $font-style-normal;
-                }
-
-                line-height: $line-height-h2;
-                letter-spacing: $letter-spacing-h2;
-                color: $color-white;
-                position: relative;
-                z-index: 2;
+        &__header {
+            div {
+                margin: 0 0 24px 0;
             }
-
-            span {
-                font: {
-                    family: $font-family;
-                    size: $font-size-body2;
-                    weight: $font-weight-500;
-                    style: $font-style-normal;
-                }
-
-                line-height: $line-height-body2;
-                color: $color-white;
+            .suggestions__board {
                 position: relative;
-                z-index: 2;
+                background: $color_mix;
+                border-radius: 10px;
+                padding: 62px 77px 24px 24px;
+                overflow: hidden;
+    
+                h2 {
+                    font: {
+                        family: $font-family;
+                        size: $font-size-h2;
+                        weight: $font-weight-h2;
+                        style: $font-style-normal;
+                    }
+    
+                    line-height: $line-height-h2;
+                    letter-spacing: $letter-spacing-h2;
+                    color: $color-white;
+                    position: relative;
+                    z-index: 2;
+                }
+    
+                span {
+                    font: {
+                        family: $font-family;
+                        size: $font-size-body2;
+                        weight: $font-weight-500;
+                        style: $font-style-normal;
+                    }
+    
+                    line-height: $line-height-body2;
+                    color: $color-white;
+                    position: relative;
+                    z-index: 2;
+                }
             }
-        }
-
-        &__board::after {
-            position: absolute;
-            content: '';
-            z-index: 1;
-            width: 192px;
-            height: 192px;
-            left: -97.5px;
-            top: -130.5px;
-            background: $color_bluesoftvol;
-            mix-blend-mode: normal;
-            opacity: 0.77;
-            filter: blur(89.7033px);
-        }
-
-        &__board::before {
-            position: absolute;
-            content: '';
-            z-index: 1;
-            width: 192px;
-            height: 192px;
-            left: 165.5px;
-            top: 79.5px;
-            background: $color_redsoftvol;
-            filter: blur(31.7033px);
+    
+            .suggestions__board::after {
+                position: absolute;
+                content: '';
+                z-index: 1;
+                width: 192px;
+                height: 192px;
+                left: -97.5px;
+                top: -130.5px;
+                background: $color_bluesoftvol;
+                mix-blend-mode: normal;
+                opacity: 0.77;
+                filter: blur(89.7033px);
+            }
+    
+            .suggestions__board::before {
+                position: absolute;
+                content: '';
+                z-index: 1;
+                width: 192px;
+                height: 192px;
+                left: 165.5px;
+                top: 79.5px;
+                background: $color_redsoftvol;
+                filter: blur(31.7033px);
+            }
         }
     }
 }
