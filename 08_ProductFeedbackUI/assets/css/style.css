@@ -1040,3 +1040,74 @@ body .suggestions__header .suggestions__board::before {
   color: #4661E6;
   text-decoration: none;
 }
+
+.suggestions__header .suggestions__roadmap {
+  background: #FFFFFF;
+  padding: 24px;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__title h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__title a {
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 19px;
+  color: #4661E6;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__cards .suggestions__card span:nth-child(1) {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 23px;
+  color: #647196;
+  position: relative;
+  padding: 0 0 0 20px;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__cards .suggestions__card span:nth-child(1)::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  left: 0px;
+  top: 7px;
+  border-radius: 50%;
+  background-color: #F49F85;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__cards .suggestions__card span:nth-child(2) {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 23px;
+  color: #647196;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__cards .suggestions__card:nth-child(1) span:nth-child(1)::before {
+  background-color: #F49F85;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__cards .suggestions__card:nth-child(2) span:nth-child(1)::before {
+  background-color: #AD1FEA;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__cards .suggestions__card:nth-child(3) span:nth-child(1)::before {
+  background-color: #7AD8FB;
+}
+
+.suggestions__header .suggestions__roadmap .suggestions__cards .suggestions__card:nth-child(4) span:nth-child(1)::before {
+  background-color: #4661E6;
+}
