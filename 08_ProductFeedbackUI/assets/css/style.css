@@ -942,15 +942,16 @@ table {
                     Margin End
 ==========================================================*/
 body {
-  background: #F2F2F2;
+  background: #F7F8FD;
+  padding: 94px 165px;
 }
 
 body .suggestions__board {
-  position: absolute;
-  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  position: relative;
+  background: radial-gradient(128.88% 128.88% at 103.9% 20.61%, #E84D70 0%, #A337F6 53.09%, #28A7ED 102%);
   border-radius: 10px;
   padding: 62px 77px 24px 24px;
-  z-index: -1;
+  overflow: hidden;
 }
 
 body .suggestions__board h2 {
@@ -961,6 +962,8 @@ body .suggestions__board h2 {
   line-height: 29px;
   letter-spacing: -0.25px;
   color: #FFFFFF;
+  position: relative;
+  z-index: 2;
 }
 
 body .suggestions__board span {
@@ -970,17 +973,34 @@ body .suggestions__board span {
   font-style: normal;
   line-height: 22px;
   color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+
+body .suggestions__board::after {
+  position: absolute;
+  content: '';
+  z-index: 1;
+  width: 192px;
+  height: 192px;
+  left: -97.5px;
+  top: -130.5px;
+  background: #7AD8FB;
+  mix-blend-mode: normal;
+  opacity: 0.77;
+  -webkit-filter: blur(89.7033px);
+          filter: blur(89.7033px);
 }
 
 body .suggestions__board::before {
   position: absolute;
   content: '';
-  z-index: -1;
+  z-index: 1;
   width: 192px;
   height: 192px;
-  left: 373.5px;
-  top: 135.5px;
+  left: 165.5px;
+  top: 79.5px;
   background: #FBB57A;
-  -webkit-filter: blur(89.7033px);
-          filter: blur(89.7033px);
+  -webkit-filter: blur(31.7033px);
+          filter: blur(31.7033px);
 }
