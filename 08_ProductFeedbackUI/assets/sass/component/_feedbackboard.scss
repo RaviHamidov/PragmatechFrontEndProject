@@ -7,7 +7,7 @@ body {
             div {
                 margin: 0 0 24px 0;
             }
-            .suggestions__board {
+            &__board {
                 position: relative;
                 background: $color_mix;
                 border-radius: 10px;
@@ -44,7 +44,7 @@ body {
                 }
             }
     
-            .suggestions__board::after {
+            &__board::after {
                 position: absolute;
                 content: '';
                 z-index: 1;
@@ -58,7 +58,7 @@ body {
                 filter: blur(89.7033px);
             }
     
-            .suggestions__board::before {
+            &__board::before {
                 position: absolute;
                 content: '';
                 z-index: 1;

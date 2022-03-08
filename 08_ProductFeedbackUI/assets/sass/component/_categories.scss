@@ -1,35 +1,37 @@
-.suggestions {
-    &__header {
-        .suggestions__categories {
-            background: $color_white;
-            border-radius: 10px;
-            padding: 24px;
-
-            div:nth-child(1) {
-                background: $color_bluemagentasoft;
-                a {
-                    color: $color_whitepale;
-                }
-            }
-
-            div {
-                display: inline-block;
-                background: $color_whitepale;
-                padding: 5px 15px;
-                margin: 14px 14px 0 0;
+body {
+    .suggestions {
+        &__header {
+            &__categories {
+                background: $color_white;
                 border-radius: 10px;
-
-                a {
-                    font: {
-                        family: $font-family;
-                        size: $font-size-body3;
-                        weight: $font-weight-body3;
-                        style: $font-style-normal;
+                padding: 24px;
+    
+                div:nth-child(1) {
+                    background: $color_bluemagentasoft;
+                    a {
+                        color: $color_whitepale;
                     }
-
-                    line-height: $line-height-body3;
-                    color: $color_bluemagentasoft;
-                    text-decoration: none;
+                }
+    
+                div {
+                    display: inline-block;
+                    background: $color_whitepale;
+                    padding: 5px 15px;
+                    margin: 14px 14px 0 0;
+                    border-radius: 10px;
+    
+                    a {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-body3;
+                            weight: $font-weight-body3;
+                            style: $font-style-normal;
+                        }
+    
+                        line-height: $line-height-body3;
+                        color: $color_bluemagentasoft;
+                        text-decoration: none;
+                    }
                 }
             }
         }
