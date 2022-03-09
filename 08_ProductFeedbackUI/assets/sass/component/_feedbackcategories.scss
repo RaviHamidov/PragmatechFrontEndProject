@@ -1,7 +1,11 @@
+/*==========================================================
+                Feedback Categories Start
+==========================================================*/
+
 body {
-    .suggestions {
-        &__header {
-            &__categories {
+    .feedback {
+        &_header {
+            &_categories {
                 background: $color_white;
                 border-radius: 10px;
                 padding: 24px;
@@ -37,3 +41,7 @@ body {
         }
     }
 }
+
+/*==========================================================
+                Feedback Categories End
+==========================================================*/

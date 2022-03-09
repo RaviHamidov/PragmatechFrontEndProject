@@ -941,16 +941,19 @@ table {
 /*==========================================================
                     Margin End
 ==========================================================*/
+/*==========================================================
+                Feedback Board Start
+==========================================================*/
 body {
   background: #F7F8FD;
   padding: 94px 165px;
 }
 
-body .suggestions__header div {
+body .feedback_header div {
   margin: 0 0 24px 0;
 }
 
-body .suggestions__header__board {
+body .feedback_header_board {
   position: relative;
   background: radial-gradient(128.88% 128.88% at 103.9% 20.61%, #E84D70 0%, #A337F6 53.09%, #28A7ED 102%);
   border-radius: 10px;
@@ -958,7 +961,7 @@ body .suggestions__header__board {
   overflow: hidden;
 }
 
-body .suggestions__header__board h2 {
+body .feedback_header_board h2 {
   font-family: "Jost", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -970,7 +973,7 @@ body .suggestions__header__board h2 {
   z-index: 2;
 }
 
-body .suggestions__header__board span {
+body .feedback_header_board span {
   font-family: "Jost", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -981,7 +984,7 @@ body .suggestions__header__board span {
   z-index: 2;
 }
 
-body .suggestions__header__board::after {
+body .feedback_header_board::after {
   position: absolute;
   content: '';
   z-index: 1;
@@ -996,7 +999,7 @@ body .suggestions__header__board::after {
           filter: blur(89.7033px);
 }
 
-body .suggestions__header__board::before {
+body .feedback_header_board::before {
   position: absolute;
   content: '';
   z-index: 1;
@@ -1009,21 +1012,27 @@ body .suggestions__header__board::before {
           filter: blur(31.7033px);
 }
 
-body .suggestions__header__categories {
+/*==========================================================
+                Feedback Board End
+==========================================================*/
+/*==========================================================
+                Feedback Categories Start
+==========================================================*/
+body .feedback_header_categories {
   background: #FFFFFF;
   border-radius: 10px;
   padding: 24px;
 }
 
-body .suggestions__header__categories div:nth-child(1) {
+body .feedback_header_categories div:nth-child(1) {
   background: #4661E6;
 }
 
-body .suggestions__header__categories div:nth-child(1) a {
+body .feedback_header_categories div:nth-child(1) a {
   color: #F2F4FF;
 }
 
-body .suggestions__header__categories div {
+body .feedback_header_categories div {
   display: inline-block;
   background: #F2F4FF;
   padding: 5px 15px;
@@ -1031,7 +1040,7 @@ body .suggestions__header__categories div {
   border-radius: 10px;
 }
 
-body .suggestions__header__categories div a {
+body .feedback_header_categories div a {
   font-family: "Jost", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -1041,12 +1050,18 @@ body .suggestions__header__categories div a {
   text-decoration: none;
 }
 
-body .suggestions__header__roadmap {
+/*==========================================================
+                Feedback Categories End
+==========================================================*/
+/*==========================================================
+                Feedback Roadmap Start
+==========================================================*/
+body .feedback_header_roadmap {
   background: #FFFFFF;
   padding: 24px;
 }
 
-body .suggestions__header__roadmap--title h3 {
+body .feedback_header_roadmap-title h3 {
   font-family: "Jost", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -1056,7 +1071,7 @@ body .suggestions__header__roadmap--title h3 {
   color: #3A4374;
 }
 
-body .suggestions__header__roadmap--title a {
+body .feedback_header_roadmap-title a {
   font-family: "Jost", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -1065,7 +1080,7 @@ body .suggestions__header__roadmap--title a {
   color: #4661E6;
 }
 
-body .suggestions__header__roadmap__cardcover--card span:nth-child(1) {
+body .feedback_header_roadmap_cardcover-card span:nth-child(1) {
   font-family: "Jost", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -1076,7 +1091,7 @@ body .suggestions__header__roadmap__cardcover--card span:nth-child(1) {
   padding: 0 0 0 20px;
 }
 
-body .suggestions__header__roadmap__cardcover--card span:nth-child(1)::before {
+body .feedback_header_roadmap_cardcover-card span:nth-child(1)::before {
   position: absolute;
   content: "";
   width: 8px;
@@ -1087,7 +1102,7 @@ body .suggestions__header__roadmap__cardcover--card span:nth-child(1)::before {
   background-color: #F49F85;
 }
 
-body .suggestions__header__roadmap__cardcover--card span:nth-child(2) {
+body .feedback_header_roadmap_cardcover-card span:nth-child(2) {
   font-family: "Jost", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -1096,22 +1111,52 @@ body .suggestions__header__roadmap__cardcover--card span:nth-child(2) {
   color: #647196;
 }
 
-body .suggestions__header__roadmap__cardcover--card--card:nth-child(1) span:nth-child(1)::before {
+body .feedback_header_roadmap_cardcover-card-card:nth-child(1) span:nth-child(1)::before {
   background-color: #F49F85;
 }
 
-body .suggestions__header__roadmap__cardcover--card--card:nth-child(2) span:nth-child(1)::before {
+body .feedback_header_roadmap_cardcover-card-card:nth-child(2) span:nth-child(1)::before {
   background-color: #AD1FEA;
 }
 
-body .suggestions__header__roadmap__cardcover--card--card:nth-child(3) span:nth-child(1)::before {
+body .feedback_header_roadmap_cardcover-card-card:nth-child(3) span:nth-child(1)::before {
   background-color: #7AD8FB;
 }
 
-body .suggestions__header__roadmap__cardcover--card--card:nth-child(4) span:nth-child(1)::before {
+body .feedback_header_roadmap_cardcover-card-card:nth-child(4) span:nth-child(1)::before {
   background-color: #4661E6;
 }
 
-body {
+/*==========================================================
+                Feedback Roadmap End
+==========================================================*/
+/*==========================================================
+                Feedback Feautures Start
+==========================================================*/
+body .feedback_feautures {
+  background: #373F68;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+body .feedback_feautures-primary {
   display: block;
 }
+
+body .feedback_feautures-primary-cta {
+  display: block;
+}
+
+body .feedback_feautures-secondary {
+  display: block;
+}
+
+/*==========================================================
+                Feedback Feautures Start
+==========================================================*/
+/*==========================================================
+                Feedback Card Start
+==========================================================*/
+/*==========================================================
+                Feedback Card End
+==========================================================*/

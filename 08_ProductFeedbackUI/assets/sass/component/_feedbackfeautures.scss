@@ -1,0 +1,29 @@
+/*==========================================================
+                Feedback Feautures Start
+==========================================================*/
+
+body {
+    .feedback {
+        &_feautures {
+            background: $color_bluedark;
+            border-radius: 10px;
+            padding: 24px;
+
+            &-primary {
+                display: block;
+
+                &-cta {
+                    display: block;
+                }
+            }
+
+            &-secondary {
+                display: block;
+            }
+        }
+    }
+}
+
+/*==========================================================
+                Feedback Feautures Start
+==========================================================*/
