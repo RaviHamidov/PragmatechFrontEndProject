@@ -4,12 +4,12 @@
 
 body {
     background: $color_whitegrayish;
-    padding: 94px 165px;
+    padding: 94px 165px !important;
 
     .feedback {
         &_header {
             div {
-                margin: 0 0 24px 0;
+                margin: 0 0 24px 0; 
             }
 
             &_board {

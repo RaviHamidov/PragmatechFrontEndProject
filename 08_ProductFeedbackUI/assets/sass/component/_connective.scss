@@ -1,0 +1,17 @@
+// Feedback's Common Tools
+@import "../common/reset";
+@import "../common/layout";
+
+// Feedback's General Tools
+@import "../general/variables";
+@import "../general/typography";
+@import "../general/colors"; 
+
+// Feedback's Header Part
+@import "./feedbackboard";
+@import "./feedbackcategories"; 
+@import "./feedbackroadmap"; 
+
+// Feedback's Main Part 
+@import "./feedbackfeautures"; 
+@import "./feedbackcard"; 

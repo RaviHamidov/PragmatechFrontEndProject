@@ -4,21 +4,88 @@
 
 body {
     .feedback {
-        &_feautures {
-            background: $color_bluedark;
-            border-radius: 10px;
-            padding: 24px;
+        &_main {
+            &_feautures {
+                background: $color_bluedark;
+                border-radius: 10px;
+                padding: 9px 15px;
 
-            &-primary {
-                display: block;
+                &-primary {
+                    @include flex-center-between;
 
-                &-cta {
-                    display: block;
+                    .row {
+                        @include align-items-center;
+                    }
+
+                    i {
+                        font-size: 14px;
+                        color: $color_white;
+                    }
+
+                    h3 {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-h3;
+                            weight: $font-weight-h3;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-h3;
+                        letter-spacing: $letter-spacing-h3;
+                        color: $color-white;
+                    }
+
+                    &-cta {
+                        span:nth-child(1) {
+                            font: {
+                                family: $font-family;
+                                size: $font-size-h4;
+                                weight: $font-weight-400;
+                                style: $font-style-normal;
+                            }
+
+                            line-height: $line-height-h4;
+                            letter-spacing: $letter-spacing-h4;
+                            color: $color-white;
+                        }
+
+                        span:nth-child(2) {
+                            font: {
+                                family: $font-family;
+                                size: $font-size-h4;
+                                weight: $font-weight-h4;
+                                style: $font-style-normal;
+                            }
+
+                            line-height: $line-height-h4;
+                            letter-spacing: $letter-spacing-h4;
+                            color: $color-white;
+                        }
+                    }
                 }
-            }
 
-            &-secondary {
-                display: block;
+                &-secondary {
+                    a {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-h4;
+                            weight: $font-weight-h4;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-h4;
+                        letter-spacing: $letter-spacing-h4;
+                        color: $color-white;
+                        text-decoration: none;
+                        background: $color_violet;
+                        padding: 12px 24px;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                    }
+                }
             }
         }
     }

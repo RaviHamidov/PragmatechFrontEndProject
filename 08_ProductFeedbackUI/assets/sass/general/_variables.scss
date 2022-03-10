@@ -1,5 +1,7 @@
+// Main Containers Variable
 $container-width:1200px;
 
+// Fixed Variables for Layout
 $space-x:5px;
 $space-2x:$space-x*2;
 $space-3x:$space-x*3;
@@ -8,24 +10,38 @@ $space-5x:$space-x*5;
 $space-6x:$space-x*6;
 $space-7x:$space-x*7;
 $space-8x:$space-x*8;
+$space-9x:$space-x*9;
+$space-10x:$space-x*10;
 
-
-@mixin border {
-    border: 1px solid red;
-}
-
+// Fixed Variables for Style
 @mixin flex {
     display: flex;
 }
 
-@mixin justify-content-between {
+@mixin flex-wrap {
+    flex-wrap: wrap;
+}
+
+@mixin flex-center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-center-between {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+@mixin align-items-center {
+    align-items: center;
 }
 
 @mixin justify-content-center {
     justify-content: center;
 }
 
-@mixin flex-wrap {
-    flex-wrap: wrap;
+@mixin justify-content-between {
+    justify-content: space-between;
 }

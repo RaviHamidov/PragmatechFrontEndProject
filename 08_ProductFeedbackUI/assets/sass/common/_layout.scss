@@ -12,6 +12,10 @@
     @include flex-wrap
 }
 
+.align-center {
+    @include align-items-center;
+}
+
 /*==========================================================
                         Layout End
 ==========================================================*/
@@ -28,7 +32,7 @@
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:596px) {
     .container {
         width: 100%;
     }
@@ -43,7 +47,7 @@
     }
 }
 
-@media (min-width:576px) and (max-width:768px) {
+@media (min-width:596px) and (max-width:968px) {
     .container {
         width: 100%;
     }
@@ -58,7 +62,7 @@
     }
 }
 
-@media (min-width:768px) and (max-width:992px) {
+@media (min-width:968px) and (max-width:992px) {
     .container {
         width: 100%;
     }
@@ -95,57 +99,45 @@
 /*==========================================================
                     Padding Start
 ==========================================================*/
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .p-#{$i} {
         padding: calc(#{$space-x} * #{$i}) !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .px-#{$i} {
         padding:0px calc(#{$space-x} * #{$i}) !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .py-#{$i} {
         padding:calc(#{$space-x} * #{$i}) 0px !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .pt-#{$i} {
         padding-top:calc(#{$space-x} * #{$i}) !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
+    .pr-#{$i} {
+        padding-right:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 9 {
     .pb-#{$i} {
         padding-bottom:calc(#{$space-x} * #{$i}) !important;
     }
 }
 
-@for $i from 1 through 7 {
-    .p-#{$i} {
-        padding: calc(#{$space-x} * #{$i}) !important;
-    }
-}
-
-@for $i from 1 through 7 {
-    .px-#{$i} {
-        padding:0px calc(#{$space-x} * #{$i}) !important;
-    }
-}
-
-@for $i from 1 through 7 {
-    .py-#{$i} {
-        padding:calc(#{$space-x} * #{$i}) 0px !important;
-    }
-}
-
-@for $i from 1 through 7 {
-    .pt-#{$i} {
-        padding-top:calc(#{$space-x} * #{$i}) !important;
+@for $i from 1 through 9 {
+    .pl-#{$i} {
+        padding-left:calc(#{$space-x} * #{$i}) !important;
     }
 }
 
@@ -156,33 +148,45 @@
 /*==========================================================
                     Margin Start
 ==========================================================*/
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .m-#{$i} {
         margin: calc(#{$space-x} * #{$i}) !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .mx-#{$i} {
         margin:0px calc(#{$space-x} * #{$i}) !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .my-#{$i} {
         margin:calc(#{$space-x} * #{$i}) 0px !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
     .mt-#{$i} {
         margin-top:calc(#{$space-x} * #{$i}) !important;
     }
 }
 
-@for $i from 1 through 7 {
+@for $i from 1 through 9 {
+    .mr-#{$i} {
+        margin-right:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 9 {
     .mb-#{$i} {
         margin-bottom:calc(#{$space-x} * #{$i}) !important;
+    }
+}
+
+@for $i from 1 through 9 {
+    .ml-#{$i} {
+        margin-left:calc(#{$space-x} * #{$i}) !important;
     }
 }
 

@@ -59,7 +59,6 @@ body {
                                 left: 0px;
                                 top: 7px;
                                 border-radius: 50%;
-                                background-color: $color_redsoft;
                             }
                         }
 
@@ -74,22 +73,22 @@ body {
                             line-height: $line-height-body1;
                             color: $color_bluejackdark;
                         }
+                    }
 
-                        &-card:nth-child(1) span:nth-child(1)::before {
-                            background-color: $color_redsoft;
-                        }
+                    &-card:nth-child(1) span:nth-child(1)::before {
+                        background-color: $color_redsoft;
+                    }
 
-                        &-card:nth-child(2) span:nth-child(1)::before {
-                            background-color: $color_violet;
-                        }
+                    &-card:nth-child(2) span:nth-child(1)::before {
+                        background-color: $color_violet;
+                    }
 
-                        &-card:nth-child(3) span:nth-child(1)::before {
-                            background-color: $color_bluesoftvol;
-                        }
+                    &-card:nth-child(3) span:nth-child(1)::before {
+                        background-color: $color_bluesoftvol;
+                    }
 
-                        &-card:nth-child(4) span:nth-child(1)::before {
-                            background-color: $color_bluemagentasoft;
-                        }
+                    &-card:nth-child(4) span:nth-child(1)::before {
+                        background-color: $color_bluemagentasoft;
                     }
                 }
             }
