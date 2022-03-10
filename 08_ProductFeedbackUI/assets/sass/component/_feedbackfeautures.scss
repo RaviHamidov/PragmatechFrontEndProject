@@ -36,6 +36,10 @@ body {
                     }
 
                     &-cta {
+                        position: relative;
+                        cursor: pointer;
+                        transition: all .4s ease;
+
                         span:nth-child(1) {
                             font: {
                                 family: $font-family;
@@ -61,6 +65,38 @@ body {
                             letter-spacing: $letter-spacing-h4;
                             color: $color-white;
                         }
+
+                        &:hover {
+                            span {
+                                color: $color_whitepale;
+                                transition: all .4s ease;
+                            }
+                        }
+
+                        &-active {
+                            display: none;
+
+                            ul {
+                                @include flex;
+                                list-style: none;
+
+                                li {
+                                    padding: 10px 30px;
+                                    position: relative;
+
+                                    a {
+                                        font-size: 20px;
+                                        color: $color_white;
+                                        text-decoration: none;
+                                        transition: all 0.3s;
+
+                                        &:hover {
+                                            color: red;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -84,6 +120,14 @@ body {
                         -moz-border-radius: 10px;
                         -ms-border-radius: 10px;
                         -o-border-radius: 10px;
+                        transition: all .4s ease;
+                    }
+
+                    &:hover {
+                        a {
+                            background: lighten($color: $color_violet, $amount: 10%);
+                            transition: all .4s ease;
+                        }
                     }
                 }
             }

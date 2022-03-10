@@ -12,9 +12,22 @@
     @include flex-wrap
 }
 
+.flex {
+    @include flex;
+}
+
+.flex-center-end {
+    @include flex-center-end;
+}
+
 .align-center {
     @include align-items-center;
 }
+
+.justify-content-between {
+    @include justify-content-between;
+}
+
 
 /*==========================================================
                         Layout End

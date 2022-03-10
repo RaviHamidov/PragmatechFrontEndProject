@@ -2,6 +2,108 @@
                 Feedback Card Start
 ==========================================================*/
 
+body {
+    .feedback {
+        &_main {
+            &_card {
+                background: $color_white;
+                border-radius: 10px;
+                padding: 28px 32px;
+
+                &-counter {
+                    @include flex;
+                    @include flex-direction-column;
+                    @include align-items-center;
+                    @include justify-content-center;
+                    background: $color_whitepale;
+                    border-radius: 10px;
+                    padding: 10px 22px;
+
+                    i {
+                        color: $color_bluemagentasoft;
+                        font-size: 15px;
+                    }
+
+                    span {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-h4;
+                            weight: $font-weight-h4;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-h4;
+                        letter-spacing: $letter-spacing-h4;
+                        color: $color_bluedark;
+                    }
+                }
+
+                &-content {
+                    h3 {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-h3;
+                            weight: $font-weight-h3;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-h3;
+                        letter-spacing: $letter-spacing-h3;
+                        color: $color_bluemoderate;
+                    }
+
+                    p {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-body1;
+                            weight: $font-weight-body1;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-body1;
+                        color: $color_bluejackdark;
+                    }
+
+                    a {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-body3;
+                            weight: $font-weight-body3;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-body3;
+                        text-decoration: none;
+                        color: $color_bluemagentasoft;
+                        background: $color_whitepale;
+                        border-radius: 10px;
+                        padding: 6px 16px;
+                    }
+                }
+
+                &-comment {
+                    i {
+                        color: $color_grayjack;
+                        font-size: 18px;
+                    }
+
+                    span {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-body1;
+                            weight: $font-weight-700;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-body1;
+                        color: $color_bluemoderate;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /*==========================================================
                 Feedback Card End
 ==========================================================*/

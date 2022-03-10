@@ -73,10 +73,34 @@ table {
       flex-wrap: wrap;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .align-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 /*==========================================================
@@ -1133,10 +1157,34 @@ table {
       flex-wrap: wrap;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .align-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 /*==========================================================
@@ -2350,6 +2398,13 @@ body .feedback_main_feautures-primary h3 {
   color: #FFFFFF;
 }
 
+body .feedback_main_feautures-primary-cta {
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
 body .feedback_main_feautures-primary-cta span:nth-child(1) {
   font-family: "Jost", sans-serif;
   font-size: 14px;
@@ -2370,6 +2425,40 @@ body .feedback_main_feautures-primary-cta span:nth-child(2) {
   color: #FFFFFF;
 }
 
+body .feedback_main_feautures-primary-cta:hover span {
+  color: #F2F4FF;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body .feedback_main_feautures-primary-cta-active {
+  display: none;
+}
+
+body .feedback_main_feautures-primary-cta-active ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+body .feedback_main_feautures-primary-cta-active ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+
+body .feedback_main_feautures-primary-cta-active ul li a {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body .feedback_main_feautures-primary-cta-active ul li a:hover {
+  color: red;
+}
+
 body .feedback_main_feautures-secondary a {
   font-family: "Jost", sans-serif;
   font-size: 14px;
@@ -2386,6 +2475,14 @@ body .feedback_main_feautures-secondary a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body .feedback_main_feautures-secondary:hover a {
+  background: #be4eee;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 /*==========================================================
@@ -2394,6 +2491,92 @@ body .feedback_main_feautures-secondary a {
 /*==========================================================
                 Feedback Card Start
 ==========================================================*/
+body .feedback_main_card {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 28px 32px;
+}
+
+body .feedback_main_card-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F2F4FF;
+  border-radius: 10px;
+  padding: 10px 22px;
+}
+
+body .feedback_main_card-counter i {
+  color: #4661E6;
+  font-size: 15px;
+}
+
+body .feedback_main_card-counter span {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  color: #373F68;
+}
+
+body .feedback_main_card-content h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+body .feedback_main_card-content p {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 23px;
+  color: #647196;
+}
+
+body .feedback_main_card-content a {
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 19px;
+  text-decoration: none;
+  color: #4661E6;
+  background: #F2F4FF;
+  border-radius: 10px;
+  padding: 6px 16px;
+}
+
+body .feedback_main_card-comment i {
+  color: #CDD2EE;
+  font-size: 18px;
+}
+
+body .feedback_main_card-comment span {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 23px;
+  color: #3A4374;
+}
+
 /*==========================================================
                 Feedback Card End
 ==========================================================*/
