@@ -2169,6 +2169,30 @@ table {
                     Margin End
 ==========================================================*/
 /*==========================================================
+                Nav Bar Start
+==========================================================*/
+body {
+  background: #F7F8FD;
+  padding: 94px 165px !important;
+}
+
+body nav .navbar .row a {
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 19px;
+  color: #4661E6;
+  text-decoration: none;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/*==========================================================
+                Nav Bar End
+==========================================================*/
+/*==========================================================
                 Feedback Board Start
 ==========================================================*/
 body {
