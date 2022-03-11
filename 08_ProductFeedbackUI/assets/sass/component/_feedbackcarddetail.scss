@@ -1,0 +1,67 @@
+/*==========================================================
+                Feedback Card Detail Start
+==========================================================*/
+
+body {
+    .feedback {
+        &_main {
+            &_card_detail-top {
+
+                a:nth-child(1) {
+                    font: {
+                        family: $font-family;
+                        size: $font-size-h4;
+                        weight: $font-weight-h4;
+                        style: $font-style-normal;
+                    }
+                
+                    line-height: $line-height-h4;
+                    letter-spacing: $letter-spacing-h4;
+                    color: $color_bluejackdark;
+                    text-decoration: none;
+                    padding: 12px 0px;
+                    border-radius: 10px;
+                    transition: all .4s ease;
+                
+                    i {
+                        color: $color_bluemagentasoft;
+                        font-size: 15px;
+                        height: 13px !important;
+                    }
+                }
+
+                a:nth-child(2) {
+                    font: {
+                        family: $font-family;
+                        size: $font-size-h4;
+                        weight: $font-weight-h4;
+                        style: $font-style-normal;
+                    }
+                
+                    line-height: $line-height-h4;
+                    letter-spacing: $letter-spacing-h4;
+                    color: $color-white;
+                    text-decoration: none;
+                    background: $color_bluemagentasoft;
+                    padding: 12px 24px;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    transition: all .4s ease;
+                
+                    &:hover {
+                        background: lighten($color: $color_bluemagentasoft, $amount: 10%);
+                            transition: all .4s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*==========================================================
+                Feedback Card Detail End
+==========================================================*/
+

@@ -2786,3 +2786,56 @@ body .feedback_main_empty_cards-content a:hover {
 /*==========================================================
                 Feedback Card End "When Empty"
 ==========================================================*/
+/*==========================================================
+                Feedback Card Detail Start
+==========================================================*/
+body .feedback_main_card_detail-top a:nth-child(1) {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  color: #647196;
+  text-decoration: none;
+  padding: 12px 0px;
+  border-radius: 10px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body .feedback_main_card_detail-top a:nth-child(1) i {
+  color: #4661E6;
+  font-size: 15px;
+  height: 13px !important;
+}
+
+body .feedback_main_card_detail-top a:nth-child(2) {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #4661E6;
+  padding: 12px 24px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body .feedback_main_card_detail-top a:nth-child(2):hover {
+  background: #7387ec;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+/*==========================================================
+                Feedback Card Detail End
+==========================================================*/
