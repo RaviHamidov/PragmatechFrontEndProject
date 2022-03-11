@@ -43,7 +43,7 @@ body {
 
                     &:active {
                         background: $color_bluemagentasoft;
-                        
+
                         i {
                             color: $color_white;
                         }
@@ -130,4 +130,80 @@ body {
 
 /*==========================================================
                 Feedback Card End
+==========================================================*/
+
+/*==========================================================
+                Feedback Card Start "When Empty"
+==========================================================*/
+body {
+    .feedback {
+        &_main {
+            &_empty_cards {
+                &-content {
+                    width: 100%;
+                    height: 600px;
+                    background: $color_white;
+                    border-radius: 10px;
+
+                    h1 {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-h1;
+                            weight: $font-weight-h1;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-h1;
+                        letter-spacing: $letter-spacing-h1;
+                        color: $color_bluemoderate;
+                        padding: 58px 0 16px;
+                    }
+
+                    p {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-body1;
+                            weight: $font-weight-body1;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-body1;
+                        color: $color_bluejackdark;
+                        padding: 0 206px 48px;
+                    }
+
+                    a {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-h4;
+                            weight: $font-weight-h4;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-h4;
+                        letter-spacing: $letter-spacing-h4;
+                        color: $color-white;
+                        text-decoration: none;
+                        background: $color_violet;
+                        padding: 12px 24px;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                        transition: all .4s ease;
+
+                        &:hover {
+                            background: lighten($color: $color_violet, $amount: 10%);
+                                transition: all .4s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*==========================================================
+                Feedback Card End "When Empty"
 ==========================================================*/

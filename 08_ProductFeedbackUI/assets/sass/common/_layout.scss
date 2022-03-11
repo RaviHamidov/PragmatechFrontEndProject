@@ -16,8 +16,16 @@
     @include flex;
 }
 
+.flex-column {
+    @include flex-direction-column;
+}
+
 .flex-center-end {
     @include flex-center-end;
+}
+
+.flex-center-center {
+    @include flex-center-center;
 }
 
 .align-center {
