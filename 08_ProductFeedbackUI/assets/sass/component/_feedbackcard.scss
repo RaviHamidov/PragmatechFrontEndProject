@@ -36,6 +36,22 @@ body {
                         letter-spacing: $letter-spacing-h4;
                         color: $color_bluedark;
                     }
+
+                    &:hover {
+                        background: darken($color: $color_whitepale, $amount: 5%);
+                    }
+
+                    &:active {
+                        background: $color_bluemagentasoft;
+                        
+                        i {
+                            color: $color_white;
+                        }
+
+                        span {
+                            color: $color_white;
+                        }
+                    }
                 }
 
                 &-content {
@@ -78,6 +94,14 @@ body {
                         background: $color_whitepale;
                         border-radius: 10px;
                         padding: 6px 16px;
+                    }
+                }
+
+                &:hover {
+                    .feedback_main_card-content {
+                        h3 {
+                            color: $color_bluemagentasoft;
+                        }
                     }
                 }
 

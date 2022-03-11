@@ -11,7 +11,7 @@ body {
                 padding: 24px;
     
                 div:nth-child(1) {
-                    background: $color_bluemagentasoft;
+                    background: $color_bluemagentasoft !important;
                     a {
                         color: $color_whitepale;
                     }
@@ -35,6 +35,10 @@ body {
                         line-height: $line-height-body3;
                         color: $color_bluemagentasoft;
                         text-decoration: none;
+                    }
+
+                    &:hover {
+                        background: darken($color: $color_whitepale, $amount: 5%);
                     }
                 }
             }

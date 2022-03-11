@@ -33,6 +33,10 @@ body {
 
                         line-height: $line-height-body3;
                         color: $color_bluemagentasoft;
+
+                        &:hover {
+                            color: lighten($color: $color_bluemagentasoft, $amount: 15%);
+                        }
                     }
                 }
 

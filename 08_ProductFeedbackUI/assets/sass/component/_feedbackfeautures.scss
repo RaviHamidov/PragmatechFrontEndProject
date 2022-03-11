@@ -74,9 +74,9 @@ body {
                                 list-style: none;
 
                                 li {
+                                    position: relative;
                                     padding: 10px 30px;
                                     position: relative;
-                                    border-bottom: 1px solid $color_grayjack;
 
                                     a {
                                         font: {
@@ -90,10 +90,31 @@ body {
                                         color: $color_bluejackdark;
                                         text-decoration: none;
                                         transition: all 0.3s;
+                                        @include flex-center-between;
 
                                         &:hover {
                                             color: $color_violet;
                                         }
+
+                                        i {
+                                            color: $color_violet;
+                                        }
+                                    }
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        z-index: 1;
+                                        width: 295px !important;
+                                        height: 1px;
+                                        left: -10px;
+                                        top: 45px;
+                                        background: lighten($color: $color_bluejackdark, $amount: 20%);
+                                        mix-blend-mode: normal;
+                                    }
+
+                                    &:last-child::after {
+                                        display: none;
                                     }
                                 }
                             }
@@ -120,7 +141,7 @@ body {
                                     margin: 10px;
 
                                     li {
-                                        width: 130px;
+                                        width: 255px;
                                         padding: 10px;
                                     }
                                 }
