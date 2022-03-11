@@ -14,7 +14,7 @@ body {
                         weight: $font-weight-h4;
                         style: $font-style-normal;
                     }
-                
+
                     line-height: $line-height-h4;
                     letter-spacing: $letter-spacing-h4;
                     color: $color_bluejackdark;
@@ -22,7 +22,7 @@ body {
                     padding: 12px 0px;
                     border-radius: 10px;
                     transition: all .4s ease;
-                
+
                     i {
                         color: $color_bluemagentasoft;
                         font-size: 15px;
@@ -37,7 +37,7 @@ body {
                         weight: $font-weight-h4;
                         style: $font-style-normal;
                     }
-                
+
                     line-height: $line-height-h4;
                     letter-spacing: $letter-spacing-h4;
                     color: $color-white;
@@ -50,11 +50,123 @@ body {
                     -ms-border-radius: 10px;
                     -o-border-radius: 10px;
                     transition: all .4s ease;
-                
+
                     &:hover {
                         background: lighten($color: $color_bluemagentasoft, $amount: 10%);
-                            transition: all .4s ease;
+                        transition: all .4s ease;
                     }
+                }
+            }
+
+            &_card-detail-hero {
+                background: $color_white;
+                border-radius: 10px;
+                padding: 24px 34px;
+
+                h3 {
+                    font: {
+                        family: $font-family;
+                        size: $font-size-h3;
+                        weight: $font-weight-h3;
+                        style: $font-style-normal;
+                    }
+
+                    line-height: $line-height-h3;
+                    letter-spacing: $letter-spacing-h3;
+                    color: $color_bluemoderate;
+                }
+
+                &-comment {
+                    position: relative;
+
+                    .col-1 {
+                        padding: 0 !important;
+                    }
+
+                    &-author {
+                        h4:nth-child(1) {
+                            font: {
+                                family: $font-family;
+                                size: $font-size-h4;
+                                weight: $font-weight-h4;
+                                style: $font-style-normal;
+                            }
+
+                            line-height: $line-height-h4;
+                            letter-spacing: $letter-spacing-h4;
+                            color: $color_bluemoderate;
+                        }
+
+                        h4:nth-child(2) {
+                            font: {
+                                family: $font-family;
+                                size: $font-size-h4;
+                                weight: $font-weight-400;
+                                style: $font-style-normal;
+                            }
+
+                            line-height: $line-height-h4;
+                            letter-spacing: $letter-spacing-h4;
+                            color: $color_bluejackdark;
+                        }
+                    }
+
+                    &-reply {
+                        a {
+                            font: {
+                                family: $font-family;
+                                size: $font-size-body3;
+                                weight: $font-weight-body3;
+                                style: $font-style-normal;
+                            }
+
+                            line-height: $line-height-body3;
+                            color: $color_bluemagentasoft;
+                            text-decoration: none;
+                        }
+                    }
+
+                    p {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-body2;
+                            weight: $font-weight-body2;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-body2;
+                        color: $color_bluejackdark;
+                        padding-top: 17px;
+
+                        span {
+                            color: $color_violet;
+                            font-weight: $font-weight-700;
+                        }
+                    }
+                }
+
+                .bottom::before {
+                    position: absolute;
+                    content: '';
+                    z-index: 3;
+                    left: 0;
+                    top: 100%;
+                    width: 100%;
+                    height: 1px;
+                    background: $color_bluejackdark;
+                    opacity: 0.25;
+                }
+
+                .left::before {
+                    position: absolute;
+                    content: '';
+                    z-index: 3;
+                    left: 20px;
+                    top: -55%;
+                    width: 1px;
+                    height: 100%;
+                    background: $color_bluejackdark;
+                    opacity: 0.25;
                 }
             }
         }
@@ -64,4 +176,3 @@ body {
 /*==========================================================
                 Feedback Card Detail End
 ==========================================================*/
-
