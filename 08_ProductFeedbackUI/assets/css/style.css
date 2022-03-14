@@ -2932,3 +2932,52 @@ body .feedback_main_card-detail-hero .left::before {
 /*==========================================================
                 Feedback Card Detail End
 ==========================================================*/
+.feedback_footer-content {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 24px 32px 32px 34px;
+}
+
+.feedback_footer-content h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.feedback_footer-content form textarea {
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+  padding: 16px 24px;
+  border-radius: 5px;
+  background: #F7F8FD;
+  border: none;
+}
+
+.feedback_footer-content form span {
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+  color: #647196;
+}
+
+.feedback_footer-content form input {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #AD1FEA;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
