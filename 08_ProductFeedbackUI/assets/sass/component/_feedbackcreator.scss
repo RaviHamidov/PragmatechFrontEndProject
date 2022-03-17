@@ -1,0 +1,226 @@
+.feedback_creator {
+
+    &-top {
+        a {
+            font: {
+                family: $font-family;
+                size: $font-size-h4;
+                weight: $font-weight-h4;
+                style: $font-style-normal;
+            }
+
+            line-height: $line-height-h4;
+            letter-spacing: $letter-spacing-h4;
+            color: $color_bluejackdark;
+            text-decoration: none;
+            padding: 12px 0px;
+            border-radius: 10px;
+            transition: all .4s ease;
+        }
+
+        i {
+            color: $color_bluemagentasoft;
+            font-size: 15px;
+            height: 13px !important;
+        }
+    }
+
+    &_content {
+        position: relative;
+        background: $color_white;
+        border-radius: 10px;
+        padding: 52px 42px;
+
+        &::before {
+            position: absolute;
+            content: '';
+            z-index: 3;
+            left: 42px;
+            top: -28px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: $color_mix;
+        }
+
+        .fa-plus {
+            position: absolute;
+            z-index: 3;
+            left: 59px;
+            top: -12px;
+            font-size: 25px;
+            border-radius: 50%;
+            color: $color_white;
+        }
+
+        h1 {
+            font: {
+                family: $font-family;
+                size: $font-size-h1;
+                weight: $font-weight-h1;
+                style: $font-style-normal;
+            }
+
+            line-height: $line-height-h1;
+            letter-spacing: $letter-spacing-h1;
+            color: $color_bluemoderate;
+            margin-bottom: 40px;
+        }
+
+        &-creator {
+            margin: 0 0 24px 0;
+
+            h4 {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h4;
+                    weight: $font-weight-h4;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h4;
+                letter-spacing: $letter-spacing-h4;
+                color: $color_bluemoderate;
+            }
+
+            p {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h4;
+                    weight: $font-weight-400;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h4;
+                letter-spacing: $letter-spacing-h4;
+                color: $color_bluejackdark;
+                margin-bottom: 16px;
+            }
+
+            input {
+                border: none;
+                background: $color_whitegrayish;
+                border-radius: 5px;
+                padding: 13px 24px;
+                width: 456px;
+            }
+        }
+
+        &-category {
+            padding: 0 0 24px 0;
+
+            h4 {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h4;
+                    weight: $font-weight-h4;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h4;
+                letter-spacing: $letter-spacing-h4;
+                color: $color_bluemoderate;
+            }
+
+            p {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h4;
+                    weight: $font-weight-400;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h4;
+                letter-spacing: $letter-spacing-h4;
+                color: $color_bluejackdark;
+                padding: 0 0 16px 0;
+            }
+
+            &-cta {
+                width: 456px;
+                background: $color_whitegrayish;
+                padding: 13px 24px;
+                border-radius: 5px;
+
+                span {
+                    font: {
+                        family: $font-family;
+                        size: $font-size-body2;
+                        weight: $font-weight-body2;
+                        style: $font-style-normal;
+                    }
+
+                    line-height: $line-height-h4;
+                    color: $color_bluemoderate;
+                }
+            }
+        }
+
+        &-detail {
+            margin: 0 0 32px 0;
+
+            h4 {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h4;
+                    weight: $font-weight-h4;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h4;
+                letter-spacing: $letter-spacing-h4;
+                color: $color_bluemoderate;
+            }
+
+            p {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h4;
+                    weight: $font-weight-400;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h4;
+                letter-spacing: $letter-spacing-h4;
+                color: $color_bluejackdark;
+                padding: 0 0 16px 0;
+            }
+
+            textarea {
+                border: none;
+                background: $color_whitegrayish;
+                padding: 13px 24px;
+                margin-bottom: 16px;
+            }
+        }
+
+        &-buttons {
+            a {
+                font: {
+                    family: $font-family;
+                    size: $font-size-h4;
+                    weight: $font-weight-h4;
+                    style: $font-style-normal;
+                }
+
+                line-height: $line-height-h4;
+                letter-spacing: $letter-spacing-h4;
+                color: $color_bluemoderate;
+                text-decoration: none;
+                padding: 12px 24px;
+                border-radius: 10px;
+                margin-left: 16px;
+            }
+
+            a:nth-child(1) {
+                background: $color_bluemoderate;
+                color: $color_white;
+            }
+
+            a:nth-child(2) {
+                background: $color_violet;
+                color: $color_white;
+            }
+        }
+    }
+}

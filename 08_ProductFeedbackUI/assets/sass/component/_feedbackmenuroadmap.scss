@@ -1,0 +1,105 @@
+/*==========================================================
+                Feedback Roadmap Start
+==========================================================*/
+
+body {
+    .feedback {
+        &_header {
+            &_roadmap {
+                background: $color_white;
+                padding: 24px;
+
+                &-title {
+                    h3 {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-h3;
+                            weight: $font-weight-h3;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-h3;
+                        letter-spacing: $letter-spacing-h3;
+                        color: $color_bluemoderate;
+                    }
+
+                    a {
+                        font: {
+                            family: $font-family;
+                            size: $font-size-body3;
+                            weight: $font-weight-body3;
+                            style: $font-style-normal;
+                        }
+
+                        line-height: $line-height-body3;
+                        color: $color_bluemagentasoft;
+
+                        &:hover {
+                            color: lighten($color: $color_bluemagentasoft, $amount: 15%);
+                        }
+                    }
+                }
+
+                &_cardcover {
+                    &-card {
+                        span:nth-child(1) {
+                            font: {
+                                family: $font-family;
+                                size: $font-size-body1;
+                                weight: $font-weight-body1;
+                                style: $font-style-normal;
+                            }
+
+                            line-height: $line-height-body1;
+                            color: $color_bluejackdark;
+                            position: relative;
+                            padding: 0 0 0 20px;
+
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                width: 8px;
+                                height: 8px;
+                                left: 0px;
+                                top: 7px;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        span:nth-child(2) {
+                            font: {
+                                family: $font-family;
+                                size: $font-size-body1;
+                                weight: $font-weight-700;
+                                style: $font-style-normal;
+                            }
+
+                            line-height: $line-height-body1;
+                            color: $color_bluejackdark;
+                        }
+                    }
+
+                    &-card:nth-child(1) span:nth-child(1)::before {
+                        background-color: $color_redsoft;
+                    }
+
+                    &-card:nth-child(2) span:nth-child(1)::before {
+                        background-color: $color_violet;
+                    }
+
+                    &-card:nth-child(3) span:nth-child(1)::before {
+                        background-color: $color_bluesoftvol;
+                    }
+
+                    &-card:nth-child(4) span:nth-child(1)::before {
+                        background-color: $color_bluemagentasoft;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*==========================================================
+                Feedback Roadmap End
+==========================================================*/

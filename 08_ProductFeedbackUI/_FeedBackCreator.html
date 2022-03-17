@@ -41,13 +41,39 @@
 
     <!-- feedback-creator-start -->
     <section class="feedback_creator">
-        <div class="container">
-            <div class="col-7">
+        <div class="container flex-center-center">
+            <div class="col-6">
+                <div class="feedback_creator-top mb-9">
+                    <div class="container">
+                        <a href="#"><i class="fa-solid fa-angle-left mr-2"></i>Go back</a>
+                    </div>
+                </div>
                 <div class="feedback_creator_content">
-                    <h1></h1>
-                    <div class="feedback_creator_content-creator"></div>
-                    <div class="feedback_creator_content-category"></div>
-                    <div class="feedback_creator_content-detail"></div>
+                    <i class="fa-solid fa-plus "></i>
+                    <h1>Create New Feedback</h1>
+                    <div class="feedback_creator_content-creator">
+                        <h4>Feedback Title</h4>
+                        <p>Add a short, descriptive headline</p>
+                        <input type="text">
+                    </div>
+                    <div class="feedback_creator_content-category">
+                        <h4>Category</h4>
+                        <p>Choose a category for your feedback</p>
+                        <div class="feedback_creator_content-category-cta">
+                            <div class="row">
+                                <span>Feature</span><i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback_creator_content-detail">
+                        <h4>Feedback Title</h4>
+                        <p>Include any specific comments on what should be improved, added, etc.</p>
+                        <textarea name="content-detail" id="content-detail" cols="62" rows="5"></textarea>
+                    </div>
+                    <div class="feedback_creator_content-buttons flex-center-end">
+                        <a href="#">Cancel</a>
+                        <a href="#">Add Feedback</a>
+                    </div>
                 </div>
             </div>
         </div>
