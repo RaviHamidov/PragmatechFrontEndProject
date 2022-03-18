@@ -1,39 +1,110 @@
 ## Lesson-01 [08/01/2022] & Lesson-02 [09/01/2022]
 
-- Lesson
-    - [Content](https://github.com/PragmatechEducation/FrontEnd03#day01-day02--8-9-january-2022)
+- Question: Basic Git Commands and meanings.
 
     ```
-        01) Basic Git Commands
-            > git init => Create an empty Git repository or reinitialize an existing one
+        > git init => Create an empty Git repository or reinitialize an existing one
 
-            > git status => Show the working tree status 
+        > git status => Show the working tree status
 
-            > git add . => Add file contents to the index
+        > git add . => Add file contents to the index
  
-            > git commit -m "Comment" => Record changes to the repository
+        > git commit -m "Comment" => Record changes to the repository
 
-            > git branch -M main => List, create, or delete branches
+        > git branch -M main => List, create, or delete branches
 
-            > git log => Show commit logs   
+        > git log => Show commit logs
 
-            > git remote => Manage set of tracked repositories
+        > git remote => Manage set of tracked repositories
 
-            > git push -u origin main/master => Update remote refs along with associated objects 
+        > git push -u origin main/master => Update remote refs along with associated objects
     ```
+
+## Lesson-03 [15/01/2022] & SelfReSearch
+
+- Question: CSS Naming Convention 
+
+    ```CSS
+    > Most commonly used naming styles :
+
+        > BEM
+            .menu {
+                /*
+                    Some styles for 
+                    menu here 
+                */ ( <= Block )                                          
+
+                &__item {
+                    /* 
+                        Some tyles for 
+                        .menu__item here 
+                    */ ( <= Element ) 
+
+                    &--active {
+                        /* 
+                            Specific styles to the active 
+                            .menu__item--active status 
+                        */ ( <= Modifiers ) 
+                    }
+
+                    &--disable {
+                        /*
+                            Specific styles to the active 
+                            .menu__item--disabled status 
+                        */ ( <= Modifiers ) 
+                    }
+                }
+            }
+
+        > Camel Case
+            => fuzzyLogic
+
+        > Pascal Case
+            => FuzzyLogic
+
+        > Kebab Case
+            => fuzzy-logic
+
+    > Other naming styles :
+
+        > Flat Case
+            => fuzzylogic
+
+        > UpperFlat Case
+            => FUZZYLOGIC
+
+        > Snake Case
+            => fuzzy_logic
+
+        > Macro Case
+            => FUZZY_LOGIC
+
+        > Camel Snake Case
+            => fuzzy_Logic
+
+        > Pascal Snake Case
+            => Fuzzy_Logic
+
+        > Train Case
+            => Fuzzy-Logic
+
+        > Cobol Case
+            => FUZZY-LOGIC
+
+    ```
+## Lesson-04 [22/01/2022] & Lesson-05 [23/01/2022]
+
+## Lesson-06 [29/01/2022] & Lesson-07 [30/01/2022]
+
+## Lesson-08 [05/02/2022] & Lesson-09 [06/02/2022]
 
 ## Lesson-09 [12/02/2022] & Lesson-10 [13/02/2022]
 
-- Lesson  
-    - [Content](https://github.com/PragmatechEducation/FrontEnd03#day09-10--12-13-february-2022)
-    
-    <br>
-    
-    ### Question 01: In what areas is the Javascript programming language used ?
-
-    <br>
+- JavaScript Fundamental Questions
 
     ```
+    > In what areas is the Javascript programming language used ?
+
         JavaScript is mainly used for web-based applications and web browsers. But JavaScript is 
         also used beyond the Web in software, servers and embedded hardware controls. Here are 
         some basic things JavaScript is used for:
@@ -68,14 +139,9 @@
         4. Game development
         Of course, you can also use JavaScript to create browser games. These are a great way for
         beginning developers to practice their JavaScript skills. 
-    ```
-    <br>
-
-    ### Question 02: Write a brief explanation of the following programming terms
-
-    <br>
-
-    ``` 
+    
+    > Write a brief explanation of the following programming terms
+    
         > Compilers
             Answer -> The compiler is software that converts a program written in a high-level
             language (Source Language) to low-level language (Object/Target/Machine Language). 
@@ -128,10 +194,9 @@
         Java, Python, etc.
         
         > Markup language 
-    ```
+    
+    > To understand the working principle of a website, research and write the following concepts
 
-    ### Question 03: To understand the working principle of a website, research and write the following concepts
-    ```
         > What are the differences between the Internet and an intranet?
         > What do the terms server-side and client-side mean?
         > What is a server and how does it work?
@@ -140,5 +205,13 @@
         > Explain the differences between URL and URI expressions.
     ```
 
+## Lesson-11 [19/02/2022] & Lesson-12 [20/02/2022]
 
-    ReSearch task progress . .  . .
+## Lesson-13 [26/02/2022] & Lesson-14 [27/02/2022]
+
+- JavaScript Fundamental Questions
+
+    ```
+    
+    ```
+
