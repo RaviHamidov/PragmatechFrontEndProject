@@ -16,20 +16,17 @@ let c_x = 210;
 let c_y = 345;
 
 // Hypotenus
-let a = Math.sqrt((a_x)**2+(a_y)**2);
-let b = Math.sqrt((b_x)**2+(b_y)**2);
-let c = Math.sqrt((c_x)**2+(c_y)**2);
-
+let b_a = Math.trunc(Math.sqrt((b_x - a_x)**2 + (b_y - a_y)**2));
+let c_a = Math.trunc(Math.sqrt((c_x - a_x)**2 + (c_y - a_y)**2)); 
 
 // Method
-function solution(a, b, c) {
-    if (Math.abs(a - c) < Math.abs(a - b)) {
+function solution(c_a, b_a) {
+
+    if (c_a < b_a) {
         console.log(" c is closer to the number a than b ");
-    } else if (Math.abs(a - c) == Math.abs(a - b)) {
-        console.log(" a and b are equal to each other, so they are both equidistant from c ")
     } else {
-        console.log(" b is closer to the number a than c ")
+        console.log(" b is closer to the number a than c ");
     }
 }
 
-solution();
+solution(c_a, b_a);
