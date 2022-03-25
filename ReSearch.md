@@ -235,6 +235,71 @@
 
 ## Lesson-17 [12/03/2022] & Lesson-18 [13/03/2022]  
 
-    19 mart axsamina qeder (maybe 22 00) yazilacaq
+## Lesson-19 [19/03/2022] 
+
+> translate elemeye axot olmadi 1 gun sonra flan eng'e translate edecem
+
+- Imperative and Declarative Approach in programming
+
+    - Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?
+
+        - Answer -> Programlama dili dizayn edilelerken oncelikle Hansi Programlasdrma paradigm'lerinden istifade etmek isteyirik ? ( impreative'mi yoxsa functional'mi olacaq ), statik'mi yoxsa dinamik'mi yazimi olmalidir?, Bu dizayn edeceyimiz dil neyi develop etmek ucun en yaxsi olmalidir?, Ve bu dil'de performance'sa mi daha cox ustunluk verilecek yoxsa meselen python kimi oxuna biliriye mi? ve ya movcud olan bir programlama diline oxsatmaq isteyerikmi'ki meselen: c#'lara mi yonelik olacaq yoxsa pythonist'leremi? spesifik bir platformada islemesini isteyirikmi mesesen: JVM , CLR ?
+    ___________________________________________________________________________________________________________
+
+    - Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın
+
+        - Answer -> Imperativ yanasma bir isi nece etdiyimize, amma deklarativ yanasma ise daha cox ne etdiyimize oxsuyur, heyatdan numune getirsek eger 
+        
+        - 1 ci numune -> Men ve bir Qiz qostum meselen deyrem JS de maraqli bir movzunun muzakiresini etdikden sonra onun gozel bir randevu haqq elediyini qerar verdim, indi oda deyek Zeynep Bastik'in bestesini beyenir, bir kafe ye gedib 
+
+            - Imperativ yanasma / oradaki Ofisanta Sehnenin duz qarsisindaki 2 neferlik yeri ver'de deye bilerem
+            
+            - Declarativ yanasma /  mene sadece 2 kisilik yer ver'de deye bilerem 
+
+        - 2 ci numune -> Meselen deyrem kursun teze filiali acilib babatda serait flan fesmekan ve telebe derki men gelib kursda kod yazmaq isteyireme qaqas ne var e evde ? ve zeng edir Cordinator'a der meselen men kursa nece gele bilerem ?
+
+            - Imperativ yanasma / Cordinator: bax demeli Evden cxandan sonra sag'a donursen, sonra 200 metr gedib sola donursen ve 400 metr duz gedrsen ve orda 145° donursen ve goressen ki kurs ( bu formada cavab verib nece geleceyini'de deye bilerem amma) 
+            
+            - Declarativ yanasma / Cordinator: bax indi adresi yaziram bura gelersen : 44 C.Cabbarli kuc.6'ci blok 17'ci mertebe ( ve ya bu formada sadece adresi vermekle de kifayetlene bilerem cunki men deklarativem neyime lazim nece gelir adresi verrem fso ) 
+    __________________________________________________________________________________________________________
+
+    - Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?
+        - Answer -> Maraqli goren nece? ( heqqi aqlima maraqli cavab gelmedi ) 
+    __________________________________________________________________________________________________________
+
+    - imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin
+        - Answer -> imperative və deklarative yanaşmaya aid kod numuneleri yazdim ve yoldaslarimla muzakire eledim
+    __________________________________________________________________________________________________________
+
+    <br>
+    <br>
+    <br>
+
+- Function in Javascript
+
+    - Function necə formada təyin olunur?
+        - Answer ->  
+            - 1 .) Function Declaration / function Foo() { }
+            - 2 .) Function Assignment / let Foo = function() { }
+                - burada adi olmayan functiona biz Anonymous Function deyirik.
+            - 3 .) Arrow Function / let Foo = () => { }
+    __________________________________________________________________________________________________________
+
+    - Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?
+        - 1 cisi function declaration standart istifade etdiyimizdi , 2 cisi yeni function assignment obyektden asili olaraq funksiya ucun obyekt cagirmaq ve ya temin etmek ucun istifade olunur , amma 3 cu Arrow function ise qisa sintaksisine gore istifade oluna biler 
+    __________________________________________________________________________________________________________
+
+    - function scope və global scope arasında fərqlər nədir?
+        - bu suala etrafli, numunelerle cavab yazmisam [click et]() 
+    __________________________________________________________________________________________________________
+    
+    - function ramdə necə yer tutur?
+- Növbəti dərsin mövzuları üçün araşdırma sualları
+    - Javascript kodlarının arxa planda işləmə prinsipi necədir?
+    - Allocate memory-use memory- release memory ifadələri nə deməkdir?
+    - Static allocation vs dynamic allocation
+    - garbage collection nədir?
+    - hoisting nədir?
+    - scope və hoisting ifadələri arasında fərq nədir?
 
         
