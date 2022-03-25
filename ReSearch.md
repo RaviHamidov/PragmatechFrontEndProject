@@ -290,10 +290,13 @@
     __________________________________________________________________________________________________________
 
     - function scope və global scope arasında fərqlər nədir?
-        - bu suala etrafli, numunelerle cavab yazmisam [click et]() 
+        - bu suala etrafli, numunelerle cavab yazmisam [Click Pls](https://github.com/RaviHamidov/JavaScript/blob/main/04_Scopes/01_Scopes.js)
     __________________________________________________________________________________________________________
     
     - function ramdə necə yer tutur?
+        - <img src="././Storage/FunctionRam.png">
+    __________________________________________________________________________________________________________
+
 - Növbəti dərsin mövzuları üçün araşdırma sualları
     - Javascript kodlarının arxa planda işləmə prinsipi necədir?
     - Allocate memory-use memory- release memory ifadələri nə deməkdir?
