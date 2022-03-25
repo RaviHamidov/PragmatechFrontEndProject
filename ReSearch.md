@@ -237,7 +237,7 @@
 
 ## Lesson-19 [19/03/2022] 
 
-> translate elemeye axot olmadi 1 gun sonra flan eng'e translate edecem
+> Not : translate elemeye axot olmadi 1 gun sonra flan eng'e translate edecem, Task teleb olunduqu kimi GENIS formada cavablandirib, NOVBETI DERSIN arasdirma suallarini novbeti derse saxladim menbemi tapmadim ? sebeb: beli tapdiqim menbeler var amma kifayet elemedi, menbe gondersez sevirem, ve movzunu hemen arasdirma suallarini tam anlamadiqim ucun Yazmadim birazda arasdrma edib NOVBETI DERSIN ARASDIRMA SUALLARINI novbeti derse qeder yetisdirecem
 
 - Imperative and Declarative Approach in programming
 
@@ -296,13 +296,3 @@
     - function ramdə necə yer tutur?
         - <img src="././Storage/FunctionRam.png">
     __________________________________________________________________________________________________________
-
-- Növbəti dərsin mövzuları üçün araşdırma sualları
-    - Javascript kodlarının arxa planda işləmə prinsipi necədir?
-    - Allocate memory-use memory- release memory ifadələri nə deməkdir?
-    - Static allocation vs dynamic allocation
-    - garbage collection nədir?
-    - hoisting nədir?
-    - scope və hoisting ifadələri arasında fərq nədir?
-
-        
