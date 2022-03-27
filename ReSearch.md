@@ -1,23 +1,23 @@
-## Lesson-01 [08/01/2022] & Lesson-02 [09/01/2022]
+## :heavy_check_mark: Question 01
 
 - Question: Basic Git Commands and meanings.
 
     ```
-        > git init => Create an empty Git repository or reinitialize an existing one
+        git init => Create an empty Git repository or reinitialize an existing one
 
-        > git status => Show the working tree status
+        git status => Show the working tree status
 
-        > git add . => Add file contents to the index
+        git add . => Add file contents to the index
  
-        > git commit -m "Comment" => Record changes to the repository
+        git commit -m "Comment" => Record changes to the repository
 
-        > git branch -M main => List, create, or delete branches
+        git branch -M main => List, create, or delete branches
 
-        > git log => Show commit logs
+        git log => Show commit logs
 
-        > git remote => Manage set of tracked repositories
+        git remote => Manage set of tracked repositories
 
-        > git push -u origin main/master => Update remote refs along with associated objects
+        git push -u origin main/master => Update remote refs along with associated objects
     ```
 
 ## Lesson-03 [15/01/2022] & SelfReSearch
