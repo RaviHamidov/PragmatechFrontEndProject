@@ -1,3 +1,52 @@
+Sual 01
+JavaScript nədir və necə işləyir?
+```
+Cavab: 
+
+- JavaScript – internet səhifələrin yaradılmasında geniş istifadə olunan proqramlaşdırma dilidir. JavaScript müxtəlif dilllərdən ilhamlanaraq yaradılmışdır. 1995-ci ilə Brendan Eyx tərəfindən yazılmışdır. JavaScript Obyekt Yönümlü Proqramlaşdırma (OYP) dilidir. Obyektə Yönümlü Proqramlaşdırma mövzusu kifayət qədər mürəkkəb proqramlaşdırmadır. JavaScript Netscape Navigator 2.0 ilə birlikdə Brendan Eich tərəfindən inkişaf etdirilən və əvvəllər Mocha sonralar LiveScript olaraq adlandırılan və sonda bu anki adını alan JavaScript dili başlanğıcda sadəcə müştəri tərəfindən (client-side) şərh edilən bir proqramlaşdırma dilidir.
+Günümüzdə NodeJS texnologiyası ilə server tərəfli də (server-side) şərh edilən proqramlama dili halına gəldi.
+
+- Javascript kodları JS mühərriki dediyimiz şeylə işlədilir. JS Mühərriklərinin ən məşhuru Google Chrome üçün hazırlanmış V8 mühərrikidir. Javascript mühərriki təkbaşına icra edilə bilən proqram deyil, daha çox kitabxana kimi istifadə olunur və olduğu mühitlə inteqrasiya olunur.
+```  
+-----------------------------------------------------------------
+
+Sual 02
+DOM Traversing nədir? Nümunələr ilə izah edin.
+
+<img src="./Storage/Traversing.png">
+
+Sual 03
+DOM Element və DOM Node arasındakı fərq nədir?
+
+bu suali arasdirarken bu [Menbe](https://dmitripavlutin.com/dom-node-element/
+) -den istifade eledim
+
+Sual 04
+HTML daxilində var olan hər hansı elementi silmək üçün nə etmək lazımdır? 
+
+Cavab: element.remove() metodundan istifade etmek 
+
+Sual 05
+HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır?
+
+Cavab: innerHTML() metodundan istifade oluna biler, Nece? Demeli JavaScript istifade ederek bir elemente ulasha bilmek ucun "document.getElementById(id)" ifadesinden istifade olunur, "id" ifadesine ulasmaq istediyimiz HTML elementinin "id" deyeri yazilir, innerHTML istifade ederek bir elementin daxilini deyisdirmek ucun ilk olaraq elementin mezmununa ulasilir ardindan ise innerHTML ifadesi ile elementin mezmunu deyistirilir 
+
+<p id="demo"></p>
+<script>
+    document.getElemntById("demo").innerHTML = "innerHTML istifade demosu example kimi yazdim";
+</script>
+
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
 ## :heavy_check_mark: Question 01
 
 - Question: Basic Git Commands and meanings.
@@ -296,4 +345,3 @@
     - function ramdə necə yer tutur?
         - <img src="././Storage/FunctionRam.png">
     __________________________________________________________________________________________________________
- 
