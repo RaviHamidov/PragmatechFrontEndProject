@@ -1,0 +1,27 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: calc((100%/12)*#{$i})
+    }
+}
